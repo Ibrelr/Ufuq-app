@@ -1,0 +1,62 @@
+[
+  {
+    "id": "a1",
+    "code": "A1",
+    "name": {
+      "ar": "مبتدئ",
+      "en": "Beginner"
+    },
+    "description": {
+      "ar": "أول الكلمات: تحيات، أرقام، ألوان، فواكه وحيوانات.",
+      "en": "First words: greetings, numbers, colours, fruit and animals."
+    }
+  },
+  {
+    "id": "a2",
+    "code": "A2",
+    "name": {
+      "ar": "أساسي",
+      "en": "Elementary"
+    },
+    "description": {
+      "ar": "كلمات الحياة اليومية: البيت، المدرسة، الملابس والطقس.",
+      "en": "Everyday words: home, school, clothes and weather."
+    }
+  },
+  {
+    "id": "b1",
+    "code": "B1",
+    "name": {
+      "ar": "متوسط",
+      "en": "Intermediate"
+    },
+    "description": {
+      "ar": "جمل مفيدة: يومي، في السوق، عند الطبيب.",
+      "en": "Useful sentences: my day, at the market, at the doctor."
+    }
+  },
+  {
+    "id": "b2",
+    "code": "B2",
+    "name": {
+      "ar": "فوق المتوسط",
+      "en": "Upper-intermediate"
+    },
+    "description": {
+      "ar": "العمل والدراسة وتعابير شائعة.",
+      "en": "Work, study and common expressions."
+    }
+  },
+  {
+    "id": "c1",
+    "code": "C1",
+    "name": {
+      "ar": "متقدم",
+      "en": "Advanced"
+    },
+    "description": {
+      "ar": "التعبير عن الرأي والنقاش ومفردات متقدمة.",
+      "en": "Giving opinions, debating and advanced vocabulary."
+    }
+  }
+]

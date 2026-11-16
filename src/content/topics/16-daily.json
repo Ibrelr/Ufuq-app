@@ -1,0 +1,60 @@
+{
+  "id": "daily",
+  "level": "b1",
+  "type": "phrases",
+  "icon": "⏰",
+  "name": {
+    "ar": "يومي",
+    "en": "My day"
+  },
+  "items": [
+    {
+      "id": "i-wake-up-at-seven-oclock",
+      "pic": "⏰",
+      "en": "I wake up at seven o’clock.",
+      "ar": "أستيقظ في الساعة السابعة."
+    },
+    {
+      "id": "i-brush-my-teeth",
+      "pic": "🦷",
+      "en": "I brush my teeth.",
+      "ar": "أنظّف أسناني."
+    },
+    {
+      "id": "i-have-breakfast-with-my-family",
+      "pic": "🍳",
+      "en": "I have breakfast with my family.",
+      "ar": "أتناول الفطور مع عائلتي."
+    },
+    {
+      "id": "i-go-to-school-by-bus",
+      "pic": "🚌",
+      "en": "I go to school by bus.",
+      "ar": "أذهب إلى المدرسة بالحافلة."
+    },
+    {
+      "id": "i-do-my-homework-after-school",
+      "pic": "📚",
+      "en": "I do my homework after school.",
+      "ar": "أحلّ واجباتي بعد المدرسة."
+    },
+    {
+      "id": "i-help-my-mother-at-home",
+      "pic": "🤲",
+      "en": "I help my mother at home.",
+      "ar": "أساعد أمي في البيت."
+    },
+    {
+      "id": "i-play-football-with-my-friends",
+      "pic": "⚽",
+      "en": "I play football with my friends.",
+      "ar": "ألعب كرة القدم مع أصدقائي."
+    },
+    {
+      "id": "i-go-to-bed-at-nine-oclock",
+      "pic": "🛏️",
+      "en": "I go to bed at nine o’clock.",
+      "ar": "أذهب إلى النوم في الساعة التاسعة."
+    }
+  ]
+}

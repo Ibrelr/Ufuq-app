@@ -1,0 +1,60 @@
+{
+  "id": "health",
+  "level": "b1",
+  "type": "phrases",
+  "icon": "🏥",
+  "name": {
+    "ar": "الصحة",
+    "en": "Health"
+  },
+  "items": [
+    {
+      "id": "i-feel-sick",
+      "pic": "🤒",
+      "en": "I feel sick.",
+      "ar": "أشعر بالمرض."
+    },
+    {
+      "id": "my-head-hurts",
+      "pic": "🤕",
+      "en": "My head hurts.",
+      "ar": "رأسي يؤلمني."
+    },
+    {
+      "id": "i-need-a-doctor",
+      "pic": "🩺",
+      "en": "I need a doctor.",
+      "ar": "أحتاج إلى طبيب."
+    },
+    {
+      "id": "where-is-the-hospital",
+      "pic": "🏥",
+      "en": "Where is the hospital?",
+      "ar": "أين المستشفى؟"
+    },
+    {
+      "id": "take-this-medicine-twice-a-day",
+      "pic": "💊",
+      "en": "Take this medicine twice a day.",
+      "ar": "خذ هذا الدواء مرتين في اليوم."
+    },
+    {
+      "id": "call-an-ambulance",
+      "pic": "🚑",
+      "en": "Call an ambulance!",
+      "ar": "اتصل بالإسعاف!"
+    },
+    {
+      "id": "drink-a-lot-of-water",
+      "pic": "💧",
+      "en": "Drink a lot of water.",
+      "ar": "اشرب الكثير من الماء."
+    },
+    {
+      "id": "get-well-soon",
+      "pic": "💐",
+      "en": "Get well soon!",
+      "ar": "أتمنى لك الشفاء العاجل!"
+    }
+  ]
+}

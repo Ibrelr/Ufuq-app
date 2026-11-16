@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* Design tokens from the Engelsktrappa / Ufuq design (see claude/designvalg.md) */
+@theme {
+  --color-ink: #1B2340;
+  --color-muted: #4A5470;
+  --color-bg: #F4F7FB;
+  --color-surface: #FFFFFF;
+  --color-line: #DDE3EE;
+  --color-track: #E6EBF3;
+  --color-tint: #EEF2FF;
+
+  --color-primary: #2F5BEA;
+  --color-primary-dark: #1F3FB0;
+  --color-sun: #FFC93C;
+  --color-sun-dark: #D9A21A;
+  --color-sun-tint: #FFF3CC;
+  --color-sun-ink: #6B4A00;
+
+  --color-ok: #157347;
+  --color-ok-tint: #DDF4E8;
+  --color-ok-ink: #0F5534;
+  --color-bad: #B42318;
+  --color-bad-tint: #FDECEA;
+  --color-bad-ink: #8A1A12;
+
+  --color-a1: #157347;
+  --color-a2: #0E7C86;
+  --color-b1: #2F5BEA;
+  --color-b2: #5B3FD6;
+  --color-c1: #9C2C8C;
+
+  --font-ar: "Baloo Bhaijaan 2", "Segoe UI", Tahoma, sans-serif;
+  --font-en: Nunito, system-ui, sans-serif;
+  --font-display-en: Fredoka, Nunito, sans-serif;
+}
+
+@layer base {
+  html { background: var(--color-bg); color: var(--color-ink); }
+  body { margin: 0; font-family: var(--font-ar); font-size: 18px; line-height: 1.6; }
+  html[lang="en"] body { font-family: var(--font-en); }
+  [lang="en"] { font-family: var(--font-en); }
+  [lang="ar"] { font-family: var(--font-ar); }
+  :focus-visible { outline: 3px solid var(--color-sun); outline-offset: 3px; }
+}
+
+/* Headings: Fredoka for English, Baloo Bhaijaan for Arabic */
+@layer components {
+  .font-display { font-family: var(--font-ar); font-weight: 700; }
+  html[lang="en"] .font-display,
+  .font-display[lang="en"] { font-family: var(--font-display-en); font-weight: 600; }
+  html[lang="en"] .font-display[lang="ar"] { font-family: var(--font-ar); font-weight: 700; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "food",
+  "level": "a1",
+  "type": "words",
+  "icon": "🍞",
+  "name": {
+    "ar": "الطعام والشراب",
+    "en": "Food and drink"
+  },
+  "items": [
+    {
+      "id": "bread",
+      "pic": "🍞",
+      "en": "Bread",
+      "ar": "خبز"
+    },
+    {
+      "id": "water",
+      "pic": "💧",
+      "en": "Water",
+      "ar": "ماء"
+    },
+    {
+      "id": "milk",
+      "pic": "🥛",
+      "en": "Milk",
+      "ar": "حليب"
+    },
+    {
+      "id": "egg",
+      "pic": "🥚",
+      "en": "Egg",
+      "ar": "بيضة"
+    },
+    {
+      "id": "cheese",
+      "pic": "🧀",
+      "en": "Cheese",
+      "ar": "جبنة"
+    },
+    {
+      "id": "rice",
+      "pic": "🍚",
+      "en": "Rice",
+      "ar": "رز"
+    },
+    {
+      "id": "meat",
+      "pic": "🥩",
+      "en": "Meat",
+      "ar": "لحم"
+    },
+    {
+      "id": "tea",
+      "pic": "🍵",
+      "en": "Tea",
+      "ar": "شاي"
+    },
+    {
+      "id": "coffee",
+      "pic": "☕",
+      "en": "Coffee",
+      "ar": "قهوة"
+    },
+    {
+      "id": "soup",
+      "pic": "🍲",
+      "en": "Soup",
+      "ar": "شوربة"
+    },
+    {
+      "id": "salad",
+      "pic": "🥗",
+      "en": "Salad",
+      "ar": "سلطة"
+    },
+    {
+      "id": "cake",
+      "pic": "🍰",
+      "en": "Cake",
+      "ar": "كعكة"
+    }
+  ]
+}

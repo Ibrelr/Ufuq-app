@@ -1,0 +1,78 @@
+{
+  "id": "body",
+  "level": "a1",
+  "type": "words",
+  "icon": "✋",
+  "name": {
+    "ar": "جسم الإنسان",
+    "en": "The body"
+  },
+  "items": [
+    {
+      "id": "face",
+      "pic": "🙂",
+      "en": "Face",
+      "ar": "وجه"
+    },
+    {
+      "id": "eye",
+      "pic": "👁️",
+      "en": "Eye",
+      "ar": "عين"
+    },
+    {
+      "id": "ear",
+      "pic": "👂",
+      "en": "Ear",
+      "ar": "أذن"
+    },
+    {
+      "id": "nose",
+      "pic": "👃",
+      "en": "Nose",
+      "ar": "أنف"
+    },
+    {
+      "id": "mouth",
+      "pic": "👄",
+      "en": "Mouth",
+      "ar": "فم"
+    },
+    {
+      "id": "tooth",
+      "pic": "🦷",
+      "en": "Tooth",
+      "ar": "سن"
+    },
+    {
+      "id": "hand",
+      "pic": "✋",
+      "en": "Hand",
+      "ar": "يد"
+    },
+    {
+      "id": "foot",
+      "pic": "🦶",
+      "en": "Foot",
+      "ar": "قدم"
+    },
+    {
+      "id": "leg",
+      "pic": "🦵",
+      "en": "Leg",
+      "ar": "ساق"
+    },
+    {
+      "id": "hair",
+      "pic": "💇",
+      "en": "Hair",
+      "ar": "شعر"
+    },
+    {
+      "id": "heart",
+      "pic": "❤️",
+      "en": "Heart",
+      "ar": "قلب"
+    }
+  ]
+}

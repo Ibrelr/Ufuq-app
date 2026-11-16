@@ -1,0 +1,84 @@
+{
+  "id": "school",
+  "level": "a2",
+  "type": "words",
+  "icon": "🏫",
+  "name": {
+    "ar": "المدرسة",
+    "en": "School"
+  },
+  "items": [
+    {
+      "id": "school",
+      "pic": "🏫",
+      "en": "School",
+      "ar": "مدرسة"
+    },
+    {
+      "id": "teacher",
+      "pic": "🧑‍🏫",
+      "en": "Teacher",
+      "ar": "معلم"
+    },
+    {
+      "id": "student",
+      "pic": "🧑‍🎓",
+      "en": "Student",
+      "ar": "طالب"
+    },
+    {
+      "id": "book",
+      "pic": "📖",
+      "en": "Book",
+      "ar": "كتاب"
+    },
+    {
+      "id": "pen",
+      "pic": "🖊️",
+      "en": "Pen",
+      "ar": "قلم"
+    },
+    {
+      "id": "pencil",
+      "pic": "✏️",
+      "en": "Pencil",
+      "ar": "قلم رصاص"
+    },
+    {
+      "id": "bag",
+      "pic": "🎒",
+      "en": "Bag",
+      "ar": "حقيبة"
+    },
+    {
+      "id": "notebook",
+      "pic": "📓",
+      "en": "Notebook",
+      "ar": "دفتر"
+    },
+    {
+      "id": "ruler",
+      "pic": "📏",
+      "en": "Ruler",
+      "ar": "مسطرة"
+    },
+    {
+      "id": "scissors",
+      "pic": "✂️",
+      "en": "Scissors",
+      "ar": "مقص"
+    },
+    {
+      "id": "computer",
+      "pic": "💻",
+      "en": "Computer",
+      "ar": "حاسوب"
+    },
+    {
+      "id": "lesson",
+      "pic": "📝",
+      "en": "Lesson",
+      "ar": "درس"
+    }
+  ]
+}

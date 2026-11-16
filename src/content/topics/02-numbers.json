@@ -1,0 +1,72 @@
+{
+  "id": "numbers",
+  "level": "a1",
+  "type": "words",
+  "icon": "🔢",
+  "name": {
+    "ar": "الأرقام",
+    "en": "Numbers"
+  },
+  "items": [
+    {
+      "id": "one",
+      "pic": "1️⃣",
+      "en": "One",
+      "ar": "واحد"
+    },
+    {
+      "id": "two",
+      "pic": "2️⃣",
+      "en": "Two",
+      "ar": "اثنان"
+    },
+    {
+      "id": "three",
+      "pic": "3️⃣",
+      "en": "Three",
+      "ar": "ثلاثة"
+    },
+    {
+      "id": "four",
+      "pic": "4️⃣",
+      "en": "Four",
+      "ar": "أربعة"
+    },
+    {
+      "id": "five",
+      "pic": "5️⃣",
+      "en": "Five",
+      "ar": "خمسة"
+    },
+    {
+      "id": "six",
+      "pic": "6️⃣",
+      "en": "Six",
+      "ar": "ستة"
+    },
+    {
+      "id": "seven",
+      "pic": "7️⃣",
+      "en": "Seven",
+      "ar": "سبعة"
+    },
+    {
+      "id": "eight",
+      "pic": "8️⃣",
+      "en": "Eight",
+      "ar": "ثمانية"
+    },
+    {
+      "id": "nine",
+      "pic": "9️⃣",
+      "en": "Nine",
+      "ar": "تسعة"
+    },
+    {
+      "id": "ten",
+      "pic": "🔟",
+      "en": "Ten",
+      "ar": "عشرة"
+    }
+  ]
+}
