@@ -2,7 +2,8 @@ import levelsJson from './levels.json'
 import topicsJson from './generated/topics.json'
 import conversationsJson from './generated/conversations.json'
 import readingsJson from './generated/readings.json'
-import type { Conversation, Level, LevelId, Reading, Topic } from './types'
+import grammarJson from './generated/grammar.json'
+import type { Conversation, GrammarLesson, Level, LevelId, Reading, Topic } from './types'
 
 export * from './types'
 
@@ -17,6 +18,10 @@ export const getConversation = (id: string) => CONVERSATIONS.find((c) => c.id ==
 export const getReading = (id: string) => READINGS.find((r) => r.id === id)
 export const conversationsForLevel = (id: LevelId) => CONVERSATIONS.filter((c) => c.level === id)
 export const readingsForLevel = (id: LevelId) => READINGS.filter((r) => r.level === id)
+
+export const GRAMMAR = grammarJson as GrammarLesson[]
+export const getGrammar = (id: string) => GRAMMAR.find((g) => g.id === id)
+export const grammarForLevel = (id: LevelId) => GRAMMAR.filter((g) => g.level === id)
 
 export const getLevel = (id: string) => LEVELS.find((l) => l.id === id)
 export const getTopic = (id: string) => TOPICS.find((t) => t.id === id)

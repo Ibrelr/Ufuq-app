@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
-import { conversationsForLevel, getLevel, LEVEL_STYLE, readingsForLevel, topicsForLevel } from '../content'
+import { conversationsForLevel, getLevel, grammarForLevel, LEVEL_STYLE, readingsForLevel, topicsForLevel } from '../content'
+import { GrammarCard } from '../components/GrammarCard'
 import { ConversationCard, ReadingCard } from '../components/LessonCards'
 import { useLanguage } from '../i18n/LanguageProvider'
 import { useProgress } from '../lib/progress'
@@ -10,7 +11,7 @@ import { NotFound } from './NotFound'
 
 export function LevelPage() {
   const { levelId = '' } = useParams()
-  const { t, ui, name, altName } = useLanguage()
+  const { t, ui, target, name, altName } = useLanguage()
   const { stars } = useProgress()
   const level = getLevel(levelId)
   if (!level) return <NotFound />
@@ -24,6 +25,21 @@ export function LevelPage() {
         <p className="m-0 basis-full text-muted">{level.description[ui]}</p>
       </div>
 
+      <Link to={`/course?level=${level.id}`} className="mb-6 flex items-center justify-between gap-3 rounded-3xl bg-primary p-4 font-extrabold text-white no-underline">
+        <span>🗺️ {t.courseTitle}</span>
+        <span className="rounded-xl bg-sun px-3 py-1.5 text-ink">{t.startStep}</span>
+      </Link>
+
+      {target === 'en' && grammarForLevel(level.id).length > 0 && (
+        <section className="pb-8">
+          <h2 className="font-display mt-0 mb-3 text-2xl">{t.grammarTitle}</h2>
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {grammarForLevel(level.id).map((g) => (
+              <GrammarCard key={g.id} lesson={g} />
+            ))}
+          </div>
+        </section>
+      )}
       {conversationsForLevel(level.id).length > 0 && (
         <section className="pb-8">
           <h2 className="font-display mt-0 mb-3 text-2xl">{t.talkTitle}</h2>

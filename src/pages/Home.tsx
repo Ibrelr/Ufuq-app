@@ -6,6 +6,7 @@ import { Mascot, StarIcon } from '../components/Icons'
 import { btn, card } from '../components/ui'
 import { TodayPanel } from '../components/TodayPanel'
 import { HomeLessons } from '../components/HomeLessons'
+import { NextStepCard } from '../components/NextStepCard'
 import { useStats } from '../lib/stats'
 
 const STAIR_HEIGHTS = ['h-[60px]', 'h-[108px]', 'h-[156px]', 'h-[204px]', 'h-[252px]']
@@ -30,6 +31,7 @@ export function Home() {
 
   return (
     <>
+      {returning && <NextStepCard />}
       {returning && <TodayPanel />}
       <section className="flex flex-wrap items-center gap-10 pt-12 pb-8">
         <div className="flex min-w-0 flex-[1_1_420px] flex-col gap-4.5">
@@ -73,6 +75,7 @@ export function Home() {
         </div>
       </section>
 
+      {!returning && <NextStepCard />}
       {!returning && <TodayPanel />}
 
       <section className="py-7">

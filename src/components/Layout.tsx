@@ -3,7 +3,7 @@ import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useLanguage } from '../i18n/LanguageProvider'
 import { useStats } from '../lib/stats'
 import { useSpeak } from '../lib/useSpeak'
-import { ChatIcon, FlameIcon, HeartIcon, HomeIcon, Logo, SearchIcon } from './Icons'
+import { ChatIcon, FlameIcon, HeartIcon, HomeIcon, Logo, MapIcon, SearchIcon } from './Icons'
 import { pill } from './ui'
 
 const iconLink =
@@ -37,7 +37,13 @@ export function Layout() {
           </Link>
           <nav aria-label={t.home} className="ms-auto flex items-center gap-1.5 sm:gap-2.5">
             {/* On phones these move to the tab bar at the bottom */}
+            <NavLink to="/search" aria-label={t.search} title={t.search} className={`${iconLink} sm:hidden`}>
+              <SearchIcon size={22} />
+            </NavLink>
             <span className="hidden items-center gap-2.5 sm:flex">
+              <NavLink to="/course" aria-label={t.course} title={t.course} className={iconLink}>
+                <MapIcon size={24} />
+              </NavLink>
               <NavLink to="/talk" aria-label={t.conversations} title={t.conversations} className={iconLink}>
                 <ChatIcon size={24} />
               </NavLink>
@@ -83,7 +89,7 @@ export function Layout() {
         {[
           { to: '/', label: t.home, icon: <HomeIcon size={24} /> },
           { to: '/talk', label: t.conversations, icon: <ChatIcon size={24} /> },
-          { to: '/search', label: t.search, icon: <SearchIcon size={24} /> },
+          { to: '/course', label: t.course, icon: <MapIcon size={24} /> },
           { to: '/saved', label: t.saved, icon: <HeartIcon size={24} /> },
           { to: '/progress', label: t.progress, icon: <FlameIcon size={24} lit={streak > 0} /> },
         ].map((tab) => (

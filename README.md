@@ -9,6 +9,8 @@ Built for learners in Syria and anywhere else: it works on cheap Android phones,
 - **77 topics, ~1 240 words and sentences**, A1 to C1, Arabic ⇄ English
 - **22 conversations** (A2–C1) with two voices: Listen (chat bubbles, translation, tap any line), Role play (you speak one part, the app plays the other, with speech check) and Practise
 - **14 reading texts** (A2–C1): tap a sentence to hear it and see its translation, read the whole text aloud, key words
+- **24 English grammar lessons** (A1–C1): the rule explained in Arabic (with the English summary), examples with audio, and 8 gap-fill exercises each — from *to be* and *a/an* to conditionals, the passive and reported speech
+- **Learning path** per level: words, grammar, sentences, conversations and reading in a sensible order, with the next step on the home page
 - **Sentence exercises** for conversations, texts and sentence topics: put the words in order, fill the gap, choose the meaning, who said it
 - **Activities per topic:** Learn (picture cards with audio), Quiz, Match (pictures ↔ words), Spell (letter tiles, also in Arabic), Build (word order, for sentence topics), Speak (pronunciation check with the browser's speech recognition, where supported)
 - **Motivation:** XP, a daily goal (50 XP), day streak, 1–3 stars per topic, badges, confetti
@@ -45,6 +47,7 @@ content/
   topics.csv               # one row per topic: order, level, type, icon, names
   conversations.json       # dialogues with two speakers
   readings.json            # short reading texts with key words
+  grammar.json             # grammar lessons: rule (en/ar), examples, gap-fill exercises
   words.csv                # one row per word or sentence (the main spreadsheet)
 scripts/
   build-content.mjs        # CSV → src/content/generated/topics.json + public/pics/*.svg
@@ -100,6 +103,7 @@ All words live in two spreadsheets. Open them in Google Sheets or Excel, edit, a
 `content/conversations.json` holds the dialogues: two `speakers` (with `gender` for the voice) and `lines` as `["speakerId", "English", "Arabic"]`.
 `content/readings.json` holds the texts: `sentences` as `["English", "Arabic"]` and `vocab` as `["word", "كلمة"]`.
 Exercises for both are generated from the sentences, so nothing else needs writing.
+`content/grammar.json` holds the grammar lessons: `rule` in English and Arabic, `examples` as `["English", "Arabic"]`, and `exercises` as `["sentence with ___", "answer", ["wrong", "options"], "Arabic translation"]`.
 
 `content/topics.csv` sets each topic's order, level (`a1`–`c1`), type (`words` or `phrases`), icon and names.
 
