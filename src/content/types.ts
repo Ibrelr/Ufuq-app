@@ -33,3 +33,38 @@ export interface Topic {
   name: Localized
   items: Item[]
 }
+
+export interface Sentence {
+  en: string
+  ar: string
+}
+
+export interface Speaker {
+  id: string
+  name: Localized
+  role: Localized
+  gender: 'm' | 'f'
+  icon: string
+  iconImg?: string
+}
+
+export interface Conversation {
+  id: string
+  level: LevelId
+  icon: string
+  iconImg?: string
+  title: Localized
+  setting: Localized
+  speakers: [Speaker, Speaker]
+  lines: (Sentence & { speaker: string })[]
+}
+
+export interface Reading {
+  id: string
+  level: LevelId
+  icon: string
+  iconImg?: string
+  title: Localized
+  sentences: Sentence[]
+  vocab: Sentence[]
+}

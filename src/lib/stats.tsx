@@ -14,9 +14,11 @@ interface StatsData {
   learned: string[]
   lastTopic?: string
   activities: number
+  /** Conversations and reading texts finished at least once ("talk:id", "read:id") */
+  done: string[]
 }
 
-const EMPTY: StatsData = { xpByDay: {}, saved: [], review: {}, learned: [], activities: 0 }
+const EMPTY: StatsData = { xpByDay: {}, saved: [], review: {}, learned: [], activities: 0, done: [] }
 const KEY = 'ufuq-stats'
 export const DAILY_GOAL = 50
 export const XP_PER_CORRECT = 10
@@ -48,9 +50,14 @@ interface StatsValue {
   activities: number
   isSaved: (key: string) => boolean
   toggleSaved: (key: string) => void
-  /** Records one answer in any exercise: XP, learned words and the review list */
-  answer: (key: string, correct: boolean) => void
+  /**
+   * Records one answer in any exercise: XP, learned words and the review list.
+   * Sentences from conversations and texts pass `track: false` (XP only).
+   */
+  answer: (key: string, correct: boolean, opts?: { track?: boolean }) => void
   finishActivity: () => void
+  isDone: (id: string) => boolean
+  markDone: (id: string) => void
   visitTopic: (topicId: string) => void
 }
 
@@ -74,8 +81,13 @@ export function StatsProvider({ children }: { children: ReactNode }) {
   )
 
   const answer = useCallback(
-    (key: string, correct: boolean) =>
+    (key: string, correct: boolean, opts?: { track?: boolean }) =>
       update((d) => {
+        if (opts?.track === false) {
+          if (!correct) return d
+          const today = dayKey()
+          return { ...d, xpByDay: { ...d.xpByDay, [today]: (d.xpByDay[today] ?? 0) + XP_PER_CORRECT } }
+        }
         const review = { ...d.review }
         if (correct) {
           if (review[key] !== undefined) {
@@ -97,6 +109,7 @@ export function StatsProvider({ children }: { children: ReactNode }) {
   )
 
   const finishActivity = useCallback(() => update((d) => ({ ...d, activities: d.activities + 1 })), [update])
+  const markDone = useCallback((id: string) => update((d) => (d.done.includes(id) ? d : { ...d, done: [...d.done, id] })), [update])
   const visitTopic = useCallback((topicId: string) => update((d) => (d.lastTopic === topicId ? d : { ...d, lastTopic: topicId })), [update])
 
   const value = useMemo<StatsValue>(() => {
@@ -122,8 +135,10 @@ export function StatsProvider({ children }: { children: ReactNode }) {
       answer,
       finishActivity,
       visitTopic,
+      isDone: (id) => data.done.includes(id),
+      markDone,
     }
-  }, [data, toggleSaved, answer, finishActivity, visitTopic])
+  }, [data, toggleSaved, answer, finishActivity, visitTopic, markDone])
 
   return <StatsContext.Provider value={value}>{children}</StatsContext.Provider>
 }

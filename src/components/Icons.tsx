@@ -97,3 +97,17 @@ export const RepeatIcon = ({ size = 22 }: P) => (
     <path d="M20 13v2a4 4 0 0 1-4 4H4" />
   </svg>
 )
+
+export const ChatIcon = ({ size = 22 }: P) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" {...stroke} aria-hidden="true">
+    <path d="M4 5h11a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H9l-4 3v-3H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" />
+    <path d="M17 9h3a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-1v3l-4-3h-3" />
+  </svg>
+)
+
+export const HomeIcon = ({ size = 22 }: P) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" {...stroke} aria-hidden="true">
+    <path d="M3 10.5 12 3l9 7.5" />
+    <path d="M5 9.5V20h5v-6h4v6h5V9.5" />
+  </svg>
+)

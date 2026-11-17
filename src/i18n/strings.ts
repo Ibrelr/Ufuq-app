@@ -60,7 +60,7 @@ export interface Strings {
   match: string
   spell: string
   speak: string
-  activityHint: Record<'learn' | 'quiz' | 'match' | 'spell' | 'speak', string>
+  activityHint: Record<'learn' | 'quiz' | 'match' | 'spell' | 'speak' | 'build', string>
   check: string
   clear: string
   skip: string
@@ -122,6 +122,41 @@ export interface Strings {
   weekdays: string[]
   achievements: string
   badges: Record<BadgeId, [string, string]>
+  // conversations and reading
+  conversations: string
+  reading: string
+  talkTitle: string
+  talkText: string
+  readTitle: string
+  readText: string
+  topicsHeading: string
+  linesN: (n: number) => string
+  sentencesN: (n: number) => string
+  listen: string
+  roleplay: string
+  practise: string
+  listenHint: string
+  showTranslation: string
+  playConversation: string
+  chooseRole: string
+  roleplayHint: string
+  yourTurn: string
+  sayIt: string
+  showLine: string
+  continue: string
+  roleplayDone: string
+  buildHint: string
+  gapHint: string
+  meaningHint: string
+  whoSaid: string
+  readAloud: string
+  tapSentence: string
+  vocabulary: string
+  finished: string
+  build: string
+  read: string
+  practiseDone: (score: number, total: number) => string
+  seeAll: string
 }
 
 export type BadgeId = 'first' | 'streak3' | 'streak7' | 'words50' | 'words200' | 'stars30' | 'saved10' | 'xp1000'
@@ -213,6 +248,7 @@ const ar: Strings = {
     match: 'صِل الصورة بالكلمة',
     spell: 'رتّب الحروف',
     speak: 'قل الكلمة بصوتك',
+    build: 'رتّب كلمات الجملة',
   },
   check: 'تحقّق',
   clear: 'امسح',
@@ -267,6 +303,40 @@ const ar: Strings = {
   weekTitle: 'آخر 7 أيام',
   weekdays: ['أحد', 'اثنين', 'ثلاثاء', 'أربعاء', 'خميس', 'جمعة', 'سبت'],
   achievements: 'الأوسمة',
+  conversations: 'المحادثات',
+  reading: 'القراءة',
+  talkTitle: 'تحدّث في مواقف حقيقية',
+  talkText: 'استمع إلى محادثات من الحياة اليومية، ثم مثّل أحد الدورين بصوتك.',
+  readTitle: 'اقرأ نصوصاً قصيرة',
+  readText: 'نصوص سهلة ومتوسطة مع صوت وترجمة لكل جملة.',
+  topicsHeading: 'كلمات وجمل',
+  linesN: (n) => arCount(n, SENTENCE),
+  sentencesN: (n) => arCount(n, SENTENCE),
+  listen: 'استمع',
+  roleplay: 'مثّل الدور',
+  practise: 'تدرّب',
+  listenHint: 'استمع إلى المحادثة كاملة، أو اضغط على أي جملة لتسمعها.',
+  showTranslation: 'أظهر الترجمة',
+  playConversation: 'شغّل المحادثة',
+  chooseRole: 'اختر دورك',
+  roleplayHint: 'سيقول التطبيق جمل الشخص الآخر. عندما يأتي دورك، قل جملتك بالإنجليزية.',
+  yourTurn: 'دورك! قل هذه الجملة بالإنجليزية:',
+  sayIt: 'قلها',
+  showLine: 'أظهر الجملة',
+  continue: 'تابع',
+  roleplayDone: 'أنهيت المحادثة! أنت تتكلم الإنجليزية الآن.',
+  buildHint: 'رتّب الكلمات لتكوّن الجملة الصحيحة.',
+  gapHint: 'اختر الكلمة الناقصة.',
+  meaningHint: 'ما معنى هذه الجملة؟',
+  whoSaid: 'من قال هذا؟',
+  readAloud: 'اقرأ النص بصوت عالٍ',
+  tapSentence: 'اضغط على أي جملة لتسمعها وترى ترجمتها.',
+  vocabulary: 'كلمات مهمة',
+  finished: 'مكتمل',
+  build: 'ابنِ الجملة',
+  read: 'اقرأ',
+  practiseDone: (s, t) => `أجبت عن ${s} من ${t} بشكل صحيح.`,
+  seeAll: 'عرض الكل',
   badges: {
     first: ['البداية', 'أنهِ أول نشاط'],
     streak3: ['3 أيام', 'تعلّم 3 أيام متتالية'],
@@ -350,6 +420,7 @@ const en: Strings = {
     match: 'Match pictures and words',
     spell: 'Build the word',
     speak: 'Say it out loud',
+    build: 'Put words in order',
   },
   check: 'Check',
   clear: 'Clear',
@@ -404,6 +475,40 @@ const en: Strings = {
   weekTitle: 'Last 7 days',
   weekdays: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
   achievements: 'Badges',
+  conversations: 'Conversations',
+  reading: 'Reading',
+  talkTitle: 'Speak in real situations',
+  talkText: 'Listen to everyday conversations, then play one of the roles with your own voice.',
+  readTitle: 'Read short texts',
+  readText: 'Easy and intermediate texts with audio and a translation for every sentence.',
+  topicsHeading: 'Words and sentences',
+  linesN: (n) => (n === 1 ? '1 line' : `${n} lines`),
+  sentencesN: (n) => (n === 1 ? '1 sentence' : `${n} sentences`),
+  listen: 'Listen',
+  roleplay: 'Role play',
+  practise: 'Practise',
+  listenHint: 'Listen to the whole conversation, or tap any line to hear it.',
+  showTranslation: 'Show translation',
+  playConversation: 'Play conversation',
+  chooseRole: 'Choose your role',
+  roleplayHint: 'The app says the other person’s lines. When it’s your turn, say your line in Arabic.',
+  yourTurn: 'Your turn! Say this line in Arabic:',
+  sayIt: 'Say it',
+  showLine: 'Show the line',
+  continue: 'Continue',
+  roleplayDone: 'You finished the conversation! You’re speaking Arabic now.',
+  buildHint: 'Put the words in order to make the sentence.',
+  gapHint: 'Choose the missing word.',
+  meaningHint: 'What does this sentence mean?',
+  whoSaid: 'Who said this?',
+  readAloud: 'Read the text aloud',
+  tapSentence: 'Tap any sentence to hear it and see the translation.',
+  vocabulary: 'Key words',
+  finished: 'Finished',
+  build: 'Build',
+  read: 'Read',
+  practiseDone: (s, t) => `You got ${s} of ${t} right.`,
+  seeAll: 'See all',
   badges: {
     first: ['First step', 'Finish your first activity'],
     streak3: ['3 days', 'Learn 3 days in a row'],

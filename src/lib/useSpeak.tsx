@@ -6,6 +6,8 @@ import { say, stopSpeaking, type SpeechProblem } from './speech'
 interface SpeakValue {
   /** Play an item in the language being learned (or the learner's own with `lang`) */
   speakItem: (item: Item, topicId: string, opts?: { slow?: boolean; lang?: Lang; onEnd?: () => void }) => void
+  /** Play any text, e.g. a line in a conversation */
+  speakText: (text: string, lang: Lang, opts?: { slow?: boolean; gender?: 'm' | 'f'; onEnd?: () => void }) => void
   stop: () => void
   toast: (msg: string) => void
 }
@@ -43,13 +45,18 @@ export function SpeakProvider({ children }: { children: ReactNode }) {
     [target, onProblem],
   )
 
+  const speakText = useCallback<SpeakValue['speakText']>(
+    (text, lang, opts = {}) => say(text, lang, { slow: opts.slow, gender: opts.gender, onEnd: opts.onEnd, onProblem }),
+    [onProblem],
+  )
+
   return (
-    <SpeakContext.Provider value={{ speakItem, stop: stopSpeaking, toast }}>
+    <SpeakContext.Provider value={{ speakItem, speakText, stop: stopSpeaking, toast }}>
       {children}
       <div
         role="status"
         aria-live="polite"
-        className={`fixed inset-x-4 bottom-5 z-20 mx-auto max-w-lg rounded-2xl bg-ink px-5 py-3.5 text-base font-bold text-white shadow-xl ${message ? '' : 'hidden'}`}
+        className={`fixed inset-x-4 bottom-20 z-20 sm:bottom-5 mx-auto max-w-lg rounded-2xl bg-ink px-5 py-3.5 text-base font-bold text-white shadow-xl ${message ? '' : 'hidden'}`}
       >
         {message}
       </div>

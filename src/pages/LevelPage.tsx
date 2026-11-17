@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
-import { getLevel, LEVEL_STYLE, topicsForLevel } from '../content'
+import { conversationsForLevel, getLevel, LEVEL_STYLE, readingsForLevel, topicsForLevel } from '../content'
+import { ConversationCard, ReadingCard } from '../components/LessonCards'
 import { useLanguage } from '../i18n/LanguageProvider'
 import { useProgress } from '../lib/progress'
 import { Breadcrumbs } from '../components/Breadcrumbs'
@@ -23,6 +24,28 @@ export function LevelPage() {
         <p className="m-0 basis-full text-muted">{level.description[ui]}</p>
       </div>
 
+      {conversationsForLevel(level.id).length > 0 && (
+        <section className="pb-8">
+          <h2 className="font-display mt-0 mb-3 text-2xl">{t.talkTitle}</h2>
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+            {conversationsForLevel(level.id).map((c) => (
+              <ConversationCard key={c.id} convo={c} />
+            ))}
+          </div>
+        </section>
+      )}
+      {readingsForLevel(level.id).length > 0 && (
+        <section className="pb-8">
+          <h2 className="font-display mt-0 mb-3 text-2xl">{t.readTitle}</h2>
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+            {readingsForLevel(level.id).map((r) => (
+              <ReadingCard key={r.id} reading={r} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      <h2 className="font-display mt-0 mb-3 text-2xl">{t.topicsHeading}</h2>
       <div className="grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-4 pb-10">
         {topicsForLevel(level.id).map((tp) => (
           <Link

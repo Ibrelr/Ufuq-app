@@ -30,14 +30,24 @@ order,id,level,type,icon,name_en,name_ar
 29,tools,a2,words,🔨,Tools,الأدوات
 30,technology,a2,words,💻,Technology,التكنولوجيا
 31,doctor,a2,words,🩺,At the doctor,عند الطبيب
-32,daily,b1,phrases,⏰,My day,يومي
-33,meeting,b1,phrases,🤝,Getting to know someone,التعارف
-34,classroom,b1,phrases,✋,In the classroom,في الصف
-35,market,b1,phrases,🛒,At the market,في السوق
-36,travel,b1,phrases,🧭,Travel and directions,السفر والاتجاهات
-37,health,b1,phrases,🏥,Health,الصحة
-38,work,b2,phrases,💼,Work and study,العمل والدراسة
-39,phone,b2,phrases,📞,On the phone,على الهاتف
-40,expressions,b2,phrases,💬,Common expressions,تعابير شائعة
-41,opinions,c1,phrases,🗣️,Opinions and debate,الرأي والنقاش
-42,advanced,c1,words,📚,Advanced vocabulary,مفردات متقدمة
+32,restaurant,a2,phrases,🍽️,At the restaurant,في المطعم
+33,clothes-shop,a2,phrases,🛍️,Shopping for clothes,شراء الملابس
+34,about-me,a2,phrases,🙋,Talking about yourself,الحديث عن نفسك
+35,help,a2,phrases,🆘,Asking for help,طلب المساعدة
+36,yesterday,a2,phrases,⏪,What I did yesterday,ماذا فعلت أمس؟
+37,daily,b1,phrases,⏰,My day,يومي
+38,meeting,b1,phrases,🤝,Getting to know someone,التعارف
+39,classroom,b1,phrases,✋,In the classroom,في الصف
+40,market,b1,phrases,🛒,At the market,في السوق
+41,travel,b1,phrases,🧭,Travel and directions,السفر والاتجاهات
+42,health,b1,phrases,🏥,Health,الصحة
+43,opinions-b1,b1,phrases,💭,Feelings and opinions,المشاعر والآراء
+44,plans,b1,phrases,🗓️,Making plans,وضع الخطط
+45,at-work,b1,phrases,🏢,At work,في العمل
+46,work,b2,phrases,💼,Work and study,العمل والدراسة
+47,phone,b2,phrases,📞,On the phone,على الهاتف
+48,expressions,b2,phrases,💬,Common expressions,تعابير شائعة
+49,bank,b2,phrases,🏦,Bank and money,البنك والمال
+50,problems,b2,phrases,🧩,Discussing problems,مناقشة المشكلات
+51,opinions,c1,phrases,🗣️,Opinions and debate,الرأي والنقاش
+52,advanced,c1,words,📚,Advanced vocabulary,مفردات متقدمة

@@ -1,0 +1,365 @@
+[
+  {
+    "id": "cafe",
+    "level": "a2",
+    "icon": "☕",
+    "title": { "en": "At the café", "ar": "في المقهى" },
+    "setting": { "en": "Lina orders breakfast in a café.", "ar": "لينا تطلب الفطور في مقهى." },
+    "speakers": [
+      { "id": "w", "name": { "en": "Tom", "ar": "توم" }, "role": { "en": "Waiter", "ar": "النادل" }, "gender": "m", "icon": "🧑‍🍳" },
+      { "id": "l", "name": { "en": "Lina", "ar": "لينا" }, "role": { "en": "Customer", "ar": "الزبونة" }, "gender": "f", "icon": "👩" }
+    ],
+    "lines": [
+      ["w", "Good morning! What would you like?", "صباح الخير! ماذا تريدين؟"],
+      ["l", "Good morning. Can I have a cup of tea, please?", "صباح النور. هل يمكنني أن أطلب كوباً من الشاي، من فضلك؟"],
+      ["w", "Of course. With milk or sugar?", "طبعاً. مع حليب أم سكر؟"],
+      ["l", "With a little sugar, please.", "مع قليل من السكر، من فضلك."],
+      ["w", "Would you like something to eat?", "هل تريدين شيئاً لتأكليه؟"],
+      ["l", "Yes, I’d like a cheese sandwich.", "نعم، أريد شطيرة جبنة."],
+      ["w", "Anything else?", "هل تريدين شيئاً آخر؟"],
+      ["l", "No, thank you. How much is it?", "لا، شكراً. كم الحساب؟"],
+      ["w", "That’s six pounds, please.", "ستة جنيهات من فضلك."],
+      ["l", "Here you are. Thank you!", "تفضّل. شكراً!"]
+    ]
+  },
+  {
+    "id": "neighbour",
+    "level": "a2",
+    "icon": "🏠",
+    "title": { "en": "A new neighbour", "ar": "جار جديد" },
+    "setting": { "en": "Sami meets his neighbour Emma for the first time.", "ar": "سامي يلتقي بجارته إيما لأول مرة." },
+    "speakers": [
+      { "id": "e", "name": { "en": "Emma", "ar": "إيما" }, "role": { "en": "Neighbour", "ar": "الجارة" }, "gender": "f", "icon": "👩‍🦰" },
+      { "id": "s", "name": { "en": "Sami", "ar": "سامي" }, "role": { "en": "New neighbour", "ar": "الجار الجديد" }, "gender": "m", "icon": "👨" }
+    ],
+    "lines": [
+      ["e", "Hi! Are you new here?", "مرحباً! هل أنت جديد هنا؟"],
+      ["s", "Yes, I moved in last week. My name is Sami.", "نعم، انتقلت إلى هنا الأسبوع الماضي. اسمي سامي."],
+      ["e", "Nice to meet you, Sami. I’m Emma. I live next door.", "تشرّفت بمعرفتك يا سامي. أنا إيما. أسكن في البيت المجاور."],
+      ["s", "Nice to meet you too. Where are you from?", "وأنا أيضاً تشرّفت. من أين أنتِ؟"],
+      ["e", "I’m from London. And you?", "أنا من لندن. وأنت؟"],
+      ["s", "I’m from Syria, from Homs.", "أنا من سوريا، من حمص."],
+      ["e", "Welcome! Do you have any children?", "أهلاً بك! هل لديك أطفال؟"],
+      ["s", "Yes, two daughters. They are seven and nine.", "نعم، ابنتان. عمرهما سبع وتسع سنوات."],
+      ["e", "My son is eight. Maybe they can play together.", "ابني عمره ثماني سنوات. ربما يستطيعون اللعب معاً."],
+      ["s", "That’s a great idea!", "هذه فكرة رائعة!"]
+    ]
+  },
+  {
+    "id": "supermarket",
+    "level": "a2",
+    "icon": "🛒",
+    "title": { "en": "In the supermarket", "ar": "في السوبرماركت" },
+    "setting": { "en": "Omar asks a shop assistant where to find things.", "ar": "عمر يسأل موظفة المتجر عن أماكن الأغراض." },
+    "speakers": [
+      { "id": "o", "name": { "en": "Omar", "ar": "عمر" }, "role": { "en": "Customer", "ar": "الزبون" }, "gender": "m", "icon": "👨" },
+      { "id": "a", "name": { "en": "Sara", "ar": "سارة" }, "role": { "en": "Shop assistant", "ar": "موظفة المتجر" }, "gender": "f", "icon": "👩‍💼" }
+    ],
+    "lines": [
+      ["o", "Excuse me, where can I find rice?", "عذراً، أين أجد الرز؟"],
+      ["a", "Rice is in aisle four, next to the pasta.", "الرز في الممر الرابع، بجانب المعكرونة."],
+      ["o", "Thank you. Do you sell fresh bread?", "شكراً. هل تبيعون خبزاً طازجاً؟"],
+      ["a", "Yes, the bakery is at the back of the shop.", "نعم، المخبز في آخر المتجر."],
+      ["o", "And where are the eggs?", "وأين البيض؟"],
+      ["a", "They are near the milk, on the left.", "إنه قرب الحليب، على اليسار."],
+      ["o", "Great. Can I pay by card?", "ممتاز. هل يمكنني الدفع بالبطاقة؟"],
+      ["a", "Yes, you can pay by card or in cash.", "نعم، يمكنك الدفع بالبطاقة أو نقداً."],
+      ["o", "Thanks for your help.", "شكراً لمساعدتك."],
+      ["a", "You’re welcome. Have a nice day!", "عفواً. نهارك سعيد!"]
+    ]
+  },
+  {
+    "id": "appointment",
+    "level": "a2",
+    "icon": "📞",
+    "title": { "en": "Booking a doctor’s appointment", "ar": "حجز موعد عند الطبيب" },
+    "setting": { "en": "Khaled phones the clinic because his son is ill.", "ar": "خالد يتصل بالعيادة لأن ابنه مريض." },
+    "speakers": [
+      { "id": "r", "name": { "en": "Anna", "ar": "آنا" }, "role": { "en": "Receptionist", "ar": "موظفة الاستقبال" }, "gender": "f", "icon": "👩‍💼" },
+      { "id": "k", "name": { "en": "Khaled", "ar": "خالد" }, "role": { "en": "Father", "ar": "الأب" }, "gender": "m", "icon": "🧔" }
+    ],
+    "lines": [
+      ["r", "Good morning, Green Street Clinic. How can I help you?", "صباح الخير، عيادة شارع غرين. كيف يمكنني مساعدتك؟"],
+      ["k", "Hello. I’d like to make an appointment with a doctor.", "مرحباً. أريد أن أحجز موعداً عند الطبيب."],
+      ["r", "Of course. What’s the problem?", "طبعاً. ما المشكلة؟"],
+      ["k", "My son has a fever and a sore throat.", "ابني عنده حرارة وألم في الحلق."],
+      ["r", "I’m sorry to hear that. Can you come today at three o’clock?", "آسفة لسماع ذلك. هل يمكنك الحضور اليوم في الساعة الثالثة؟"],
+      ["k", "Yes, three o’clock is fine.", "نعم، الساعة الثالثة مناسبة."],
+      ["r", "What is your son’s name?", "ما اسم ابنك؟"],
+      ["k", "His name is Adam Hassan.", "اسمه آدم حسن."],
+      ["r", "Thank you. See you at three.", "شكراً. نراكم في الساعة الثالثة."],
+      ["k", "Thank you very much. Goodbye.", "شكراً جزيلاً. مع السلامة."]
+    ]
+  },
+  {
+    "id": "weekend",
+    "level": "a2",
+    "icon": "🎉",
+    "title": { "en": "Weekend plans", "ar": "خطط عطلة نهاية الأسبوع" },
+    "setting": { "en": "Two friends talk about the weekend.", "ar": "صديقان يتحدثان عن عطلة نهاية الأسبوع." },
+    "speakers": [
+      { "id": "j", "name": { "en": "Jack", "ar": "جاك" }, "role": { "en": "Friend", "ar": "صديق" }, "gender": "m", "icon": "👨‍🦱" },
+      { "id": "m", "name": { "en": "Maya", "ar": "مايا" }, "role": { "en": "Friend", "ar": "صديقة" }, "gender": "f", "icon": "👩" }
+    ],
+    "lines": [
+      ["j", "What are you doing this weekend?", "ماذا ستفعلين في عطلة نهاية الأسبوع؟"],
+      ["m", "On Saturday I’m visiting my grandmother.", "يوم السبت سأزور جدتي."],
+      ["j", "That’s nice. Where does she live?", "هذا جميل. أين تسكن؟"],
+      ["m", "She lives in a small village near the sea.", "تسكن في قرية صغيرة قرب البحر."],
+      ["j", "Lucky you! I’m staying at home.", "محظوظة! أنا سأبقى في البيت."],
+      ["m", "Why don’t we go to the cinema on Sunday?", "لماذا لا نذهب إلى السينما يوم الأحد؟"],
+      ["j", "Good idea! What time?", "فكرة جيدة! في أي ساعة؟"],
+      ["m", "How about five o’clock?", "ما رأيك بالساعة الخامسة؟"],
+      ["j", "Perfect. See you on Sunday!", "ممتاز. أراكِ يوم الأحد!"]
+    ]
+  },
+  {
+    "id": "job-centre",
+    "level": "b1",
+    "icon": "💼",
+    "title": { "en": "At the job centre", "ar": "في مكتب العمل" },
+    "setting": { "en": "Rania was a teacher in Syria. Now she is looking for work.", "ar": "كانت رانيا معلمة في سوريا. والآن تبحث عن عمل." },
+    "speakers": [
+      { "id": "a", "name": { "en": "Mr Brown", "ar": "السيد براون" }, "role": { "en": "Adviser", "ar": "المستشار" }, "gender": "m", "icon": "🧑‍💼" },
+      { "id": "r", "name": { "en": "Rania", "ar": "رانيا" }, "role": { "en": "Job seeker", "ar": "باحثة عن عمل" }, "gender": "f", "icon": "🧕" }
+    ],
+    "lines": [
+      ["a", "Hello, please take a seat. How can I help you today?", "مرحباً، تفضلي بالجلوس. كيف يمكنني مساعدتك اليوم؟"],
+      ["r", "I’m looking for work. I was a teacher in Syria.", "أبحث عن عمل. كنت معلمة في سوريا."],
+      ["a", "That’s great experience. What subject did you teach?", "هذه خبرة رائعة. ما المادة التي كنتِ تدرّسينها؟"],
+      ["r", "I taught maths for eight years.", "درّست الرياضيات لمدة ثماني سنوات."],
+      ["a", "Have you got your certificates with you?", "هل شهاداتك معك؟"],
+      ["r", "Yes, here they are. They are translated into English.", "نعم، ها هي. إنها مترجمة إلى الإنجليزية."],
+      ["a", "Excellent. You could work as a teaching assistant while your qualifications are recognised.", "ممتاز. يمكنك العمل كمساعدة معلم بينما يتم الاعتراف بمؤهلاتك."],
+      ["r", "That sounds good. Do I need to improve my English first?", "يبدو هذا جيداً. هل أحتاج إلى تحسين لغتي الإنجليزية أولاً؟"],
+      ["a", "Your English is good, but a course could help. There’s a free one on Tuesday evenings.", "لغتك الإنجليزية جيدة، لكن دورة قد تساعدك. هناك دورة مجانية مساء كل ثلاثاء."],
+      ["r", "I’d love to join. Thank you for your help.", "يسعدني أن أنضم. شكراً لمساعدتك."]
+    ]
+  },
+  {
+    "id": "renting",
+    "level": "b1",
+    "icon": "🏢",
+    "title": { "en": "Renting a flat", "ar": "استئجار شقة" },
+    "setting": { "en": "Yusuf calls about a flat for his family.", "ar": "يوسف يتصل بخصوص شقة لعائلته." },
+    "speakers": [
+      { "id": "y", "name": { "en": "Yusuf", "ar": "يوسف" }, "role": { "en": "Tenant", "ar": "المستأجر" }, "gender": "m", "icon": "👨" },
+      { "id": "c", "name": { "en": "Mrs Clark", "ar": "السيدة كلارك" }, "role": { "en": "Landlady", "ar": "صاحبة الشقة" }, "gender": "f", "icon": "👵" }
+    ],
+    "lines": [
+      ["y", "Hello, I’m calling about the flat on Park Road. Is it still available?", "مرحباً، أتصل بخصوص الشقة في شارع بارك. هل ما زالت متاحة؟"],
+      ["c", "Yes, it is. It has two bedrooms and a small garden.", "نعم. فيها غرفتا نوم وحديقة صغيرة."],
+      ["y", "How much is the rent?", "كم الإيجار؟"],
+      ["c", "It’s nine hundred pounds a month, including water.", "تسعمئة جنيه في الشهر، مع الماء."],
+      ["y", "Are electricity and heating included too?", "هل الكهرباء والتدفئة مشمولتان أيضاً؟"],
+      ["c", "No, you pay for those separately.", "لا، تدفع ثمنهما بشكل منفصل."],
+      ["y", "Is it close to a school? I have two children.", "هل هي قريبة من مدرسة؟ لديّ طفلان."],
+      ["c", "Yes, there’s a primary school five minutes away.", "نعم، هناك مدرسة ابتدائية على بُعد خمس دقائق."],
+      ["y", "That’s perfect. Could I come and see it tomorrow?", "هذا ممتاز. هل يمكنني أن آتي لرؤيتها غداً؟"],
+      ["c", "Of course. Is ten o’clock OK for you?", "طبعاً. هل الساعة العاشرة مناسبة لك؟"],
+      ["y", "Yes, see you then.", "نعم، أراكِ حينها."]
+    ]
+  },
+  {
+    "id": "pharmacy",
+    "level": "b1",
+    "icon": "💊",
+    "title": { "en": "At the pharmacy", "ar": "في الصيدلية" },
+    "setting": { "en": "Nour asks the pharmacist about her cough.", "ar": "نور تسأل الصيدلي عن سعالها." },
+    "speakers": [
+      { "id": "n", "name": { "en": "Nour", "ar": "نور" }, "role": { "en": "Customer", "ar": "الزبونة" }, "gender": "f", "icon": "👩" },
+      { "id": "p", "name": { "en": "David", "ar": "ديفيد" }, "role": { "en": "Pharmacist", "ar": "الصيدلي" }, "gender": "m", "icon": "🧑‍⚕️" }
+    ],
+    "lines": [
+      ["n", "Hello. I have a bad cough and I can’t sleep at night.", "مرحباً. عندي سعال شديد ولا أستطيع النوم في الليل."],
+      ["p", "How long have you had it?", "منذ متى وأنتِ تعانين منه؟"],
+      ["n", "For about five days.", "منذ حوالي خمسة أيام."],
+      ["p", "Do you have a temperature?", "هل عندك حرارة؟"],
+      ["n", "No, I don’t think so.", "لا، لا أظن ذلك."],
+      ["p", "I can give you this cough syrup. Take two spoons three times a day.", "يمكنني أن أعطيك شراب السعال هذا. خذي ملعقتين ثلاث مرات في اليوم."],
+      ["n", "Can I take it with other medicine?", "هل يمكنني أن آخذه مع دواء آخر؟"],
+      ["p", "What else are you taking?", "ماذا تأخذين أيضاً؟"],
+      ["n", "Only vitamins.", "الفيتامينات فقط."],
+      ["p", "That’s fine. If you don’t feel better in a week, please see a doctor.", "لا بأس. إذا لم تتحسّني خلال أسبوع، من فضلك راجعي الطبيب."]
+    ]
+  },
+  {
+    "id": "parents-evening",
+    "level": "b1",
+    "icon": "🏫",
+    "title": { "en": "Parents’ evening", "ar": "اجتماع أولياء الأمور" },
+    "setting": { "en": "Ahmad talks to his son’s teacher.", "ar": "أحمد يتحدث مع معلمة ابنه." },
+    "speakers": [
+      { "id": "t", "name": { "en": "Ms Taylor", "ar": "الآنسة تايلور" }, "role": { "en": "Teacher", "ar": "المعلمة" }, "gender": "f", "icon": "🧑‍🏫" },
+      { "id": "a", "name": { "en": "Ahmad", "ar": "أحمد" }, "role": { "en": "Father", "ar": "الأب" }, "gender": "m", "icon": "👨" }
+    ],
+    "lines": [
+      ["t", "Thank you for coming, Mr Ahmad. Adam is doing very well.", "شكراً لحضورك يا سيد أحمد. آدم يتقدّم بشكل جيد جداً."],
+      ["a", "I’m glad to hear that. How is his English?", "يسعدني سماع ذلك. كيف لغته الإنجليزية؟"],
+      ["t", "It’s improving quickly. He reads every day and he loves stories.", "إنها تتحسّن بسرعة. يقرأ كل يوم ويحب القصص."],
+      ["a", "Is there anything he finds difficult?", "هل هناك شيء يجده صعباً؟"],
+      ["t", "Sometimes he’s shy and doesn’t ask questions in class.", "أحياناً يكون خجولاً ولا يطرح أسئلة في الصف."],
+      ["a", "How can we help him at home?", "كيف يمكننا مساعدته في البيت؟"],
+      ["t", "Ask him about his day and let him explain things in English.", "اسألوه عن يومه ودعوه يشرح الأشياء بالإنجليزية."],
+      ["a", "We will. Does he have many friends?", "سنفعل. هل لديه أصدقاء كثيرون؟"],
+      ["t", "Yes, he plays football with the other boys every break.", "نعم، يلعب كرة القدم مع الأولاد الآخرين في كل استراحة."],
+      ["a", "That’s wonderful. Thank you so much.", "هذا رائع. شكراً جزيلاً."]
+    ]
+  },
+  {
+    "id": "lost",
+    "level": "b1",
+    "icon": "🗺️",
+    "title": { "en": "Lost in the city", "ar": "تائهة في المدينة" },
+    "setting": { "en": "Layla asks a man for directions to the library.", "ar": "ليلى تسأل رجلاً عن الطريق إلى المكتبة." },
+    "speakers": [
+      { "id": "l", "name": { "en": "Layla", "ar": "ليلى" }, "role": { "en": "Visitor", "ar": "زائرة" }, "gender": "f", "icon": "👩" },
+      { "id": "p", "name": { "en": "Peter", "ar": "بيتر" }, "role": { "en": "Passer-by", "ar": "أحد المارة" }, "gender": "m", "icon": "👨‍🦳" }
+    ],
+    "lines": [
+      ["l", "Excuse me, could you help me? I’m looking for the central library.", "عذراً، هل يمكنك مساعدتي؟ أبحث عن المكتبة المركزية."],
+      ["p", "Sure. Go straight down this street until you reach the traffic lights.", "بالتأكيد. امشي مباشرة في هذا الشارع حتى تصلي إلى إشارة المرور."],
+      ["l", "OK, and then?", "حسناً، ثم؟"],
+      ["p", "Turn right and walk past the post office.", "انعطفي يميناً وامشي بجانب مكتب البريد."],
+      ["l", "Is it far from here?", "هل هي بعيدة من هنا؟"],
+      ["p", "No, it’s about a ten-minute walk.", "لا، حوالي عشر دقائق مشياً."],
+      ["l", "Is there a bus I can take?", "هل هناك حافلة يمكنني أن أركبها؟"],
+      ["p", "Yes, the number 12 stops right outside the library.", "نعم، الحافلة رقم 12 تقف أمام المكتبة مباشرة."],
+      ["l", "Thank you so much!", "شكراً جزيلاً!"],
+      ["p", "No problem. Enjoy your day.", "لا مشكلة. استمتعي بيومك."]
+    ]
+  },
+  {
+    "id": "interview",
+    "level": "b2",
+    "icon": "🤝",
+    "title": { "en": "A job interview", "ar": "مقابلة عمل" },
+    "setting": { "en": "Karim has an interview for a job as a software developer.", "ar": "كريم لديه مقابلة لوظيفة مطوّر برمجيات." },
+    "speakers": [
+      { "id": "i", "name": { "en": "Ms Evans", "ar": "السيدة إيفانز" }, "role": { "en": "Interviewer", "ar": "المحاوِرة" }, "gender": "f", "icon": "👩‍💼" },
+      { "id": "k", "name": { "en": "Karim", "ar": "كريم" }, "role": { "en": "Candidate", "ar": "المتقدّم" }, "gender": "m", "icon": "🧑‍💻" }
+    ],
+    "lines": [
+      ["i", "Thank you for coming in today. Could you tell me a little about yourself?", "شكراً لحضورك اليوم. هل يمكنك أن تحدّثني قليلاً عن نفسك؟"],
+      ["k", "Of course. I’m a software developer with five years of experience, mostly in web applications.", "بالطبع. أنا مطوّر برمجيات لديّ خبرة خمس سنوات، معظمها في تطبيقات الويب."],
+      ["i", "Why are you interested in this position?", "لماذا أنت مهتم بهذه الوظيفة؟"],
+      ["k", "I’ve followed your company’s work in education, and I’d like to build products that really help people.", "تابعت عمل شركتكم في مجال التعليم، وأودّ أن أبني منتجات تساعد الناس فعلاً."],
+      ["i", "What would you say is your greatest strength?", "ما الذي تعتبره أكبر نقاط قوتك؟"],
+      ["k", "I’m good at solving problems, and I stay calm under pressure.", "أجيد حلّ المشكلات، وأبقى هادئاً تحت الضغط."],
+      ["i", "And a weakness?", "ونقطة ضعف؟"],
+      ["k", "I used to find it hard to delegate, but I’ve learned to trust my team more.", "كنت أجد صعوبة في توزيع المهام، لكنني تعلّمت أن أثق بفريقي أكثر."],
+      ["i", "Where do you see yourself in five years?", "أين ترى نفسك بعد خمس سنوات؟"],
+      ["k", "Leading a small team and mentoring junior developers.", "أقود فريقاً صغيراً وأوجّه المطوّرين المبتدئين."],
+      ["i", "Thank you. Do you have any questions for us?", "شكراً. هل لديك أي أسئلة لنا؟"],
+      ["k", "Yes. What does a typical day look like in this role?", "نعم. كيف يبدو يوم العمل المعتاد في هذه الوظيفة؟"]
+    ]
+  },
+  {
+    "id": "complaint",
+    "level": "b2",
+    "icon": "📦",
+    "title": { "en": "Making a complaint", "ar": "تقديم شكوى" },
+    "setting": { "en": "Hala’s washing machine hasn’t arrived.", "ar": "غسالة هالة لم تصل." },
+    "speakers": [
+      { "id": "m", "name": { "en": "Mark", "ar": "مارك" }, "role": { "en": "Customer service", "ar": "خدمة العملاء" }, "gender": "m", "icon": "🧑‍💼" },
+      { "id": "h", "name": { "en": "Hala", "ar": "هالة" }, "role": { "en": "Customer", "ar": "الزبونة" }, "gender": "f", "icon": "👩" }
+    ],
+    "lines": [
+      ["m", "Customer service, Mark speaking. How can I help?", "خدمة العملاء، معك مارك. كيف يمكنني المساعدة؟"],
+      ["h", "Hello. I ordered a washing machine two weeks ago, but it still hasn’t arrived.", "مرحباً. طلبت غسالة قبل أسبوعين، لكنها لم تصل حتى الآن."],
+      ["m", "I’m sorry about that. Could you give me your order number?", "أعتذر عن ذلك. هل يمكنك أن تعطيني رقم الطلب؟"],
+      ["h", "Yes, it’s four, seven, two, nine, one.", "نعم، إنه أربعة، سبعة، اثنان، تسعة، واحد."],
+      ["m", "Thank you. I can see there was a problem with the delivery company.", "شكراً. أرى أنه كانت هناك مشكلة مع شركة التوصيل."],
+      ["h", "Nobody told me. I took a day off work to wait for it.", "لم يخبرني أحد. أخذت يوم إجازة من العمل لأنتظرها."],
+      ["m", "I completely understand your frustration. I can arrange delivery for tomorrow morning.", "أتفهّم انزعاجك تماماً. يمكنني ترتيب التوصيل صباح الغد."],
+      ["h", "That would be fine, but I’d also like some compensation.", "هذا مناسب، لكنني أودّ أيضاً الحصول على تعويض."],
+      ["m", "Of course. I’ll refund the delivery charge and add a ten percent discount.", "بالطبع. سأعيد لك رسوم التوصيل وأضيف خصماً بنسبة عشرة بالمئة."],
+      ["h", "Thank you. I appreciate your help.", "شكراً. أقدّر مساعدتك."]
+    ]
+  },
+  {
+    "id": "volunteering",
+    "level": "b2",
+    "icon": "🤲",
+    "title": { "en": "Volunteering", "ar": "العمل التطوعي" },
+    "setting": { "en": "Sara wants to help other new families.", "ar": "سارة تريد مساعدة عائلات جديدة أخرى." },
+    "speakers": [
+      { "id": "j", "name": { "en": "James", "ar": "جيمس" }, "role": { "en": "Coordinator", "ar": "المنسّق" }, "gender": "m", "icon": "🧑" },
+      { "id": "s", "name": { "en": "Sara", "ar": "سارة" }, "role": { "en": "Volunteer", "ar": "متطوعة" }, "gender": "f", "icon": "👩" }
+    ],
+    "lines": [
+      ["j", "Thanks for your interest in volunteering with us. What made you want to get involved?", "شكراً لاهتمامك بالتطوع معنا. ما الذي جعلك ترغبين في المشاركة؟"],
+      ["s", "When I arrived here, volunteers helped my family a lot. Now I’d like to give something back.", "عندما وصلت إلى هنا، ساعد المتطوعون عائلتي كثيراً. والآن أودّ أن أردّ الجميل."],
+      ["j", "That’s wonderful. We need people who speak Arabic to help new families.", "هذا رائع. نحتاج إلى أشخاص يتحدثون العربية لمساعدة العائلات الجديدة."],
+      ["s", "I could help with translation at appointments, for example.", "يمكنني المساعدة في الترجمة في المواعيد، مثلاً."],
+      ["j", "Exactly. How much time could you offer each week?", "بالضبط. كم من الوقت يمكنك أن تقدّمي كل أسبوع؟"],
+      ["s", "Probably four hours, on weekday afternoons.", "ربما أربع ساعات، بعد الظهر في أيام الأسبوع."],
+      ["j", "That’s perfect. You’d need to do a short training course first.", "هذا ممتاز. ستحتاجين أولاً إلى دورة تدريبية قصيرة."],
+      ["s", "No problem. When does the next one start?", "لا مشكلة. متى تبدأ الدورة القادمة؟"],
+      ["j", "On the first of next month. I’ll email you the details.", "في الأول من الشهر القادم. سأرسل لك التفاصيل بالبريد الإلكتروني."]
+    ]
+  },
+  {
+    "id": "news",
+    "level": "b2",
+    "icon": "📰",
+    "title": { "en": "Talking about the news", "ar": "الحديث عن الأخبار" },
+    "setting": { "en": "Two colleagues disagree about a new metro line.", "ar": "زميلان يختلفان حول خط مترو جديد." },
+    "speakers": [
+      { "id": "t", "name": { "en": "Tom", "ar": "توم" }, "role": { "en": "Colleague", "ar": "زميل" }, "gender": "m", "icon": "👨" },
+      { "id": "l", "name": { "en": "Lina", "ar": "لينا" }, "role": { "en": "Colleague", "ar": "زميلة" }, "gender": "f", "icon": "👩" }
+    ],
+    "lines": [
+      ["t", "Did you see the news about the new metro line?", "هل رأيتِ الخبر عن خط المترو الجديد؟"],
+      ["l", "Yes, apparently it will open next year. I think it’s a great idea.", "نعم، يبدو أنه سيُفتتح العام القادم. أظن أنها فكرة رائعة."],
+      ["t", "I’m not so sure. It’s costing a fortune.", "لست متأكداً. إنه يكلّف ثروة."],
+      ["l", "That’s true, but it will reduce traffic and pollution.", "هذا صحيح، لكنه سيخفّف الازدحام والتلوث."],
+      ["t", "Maybe, but the money could have been spent on hospitals.", "ربما، لكن كان يمكن إنفاق المال على المستشفيات."],
+      ["l", "I see your point. Still, good transport helps people get to work and school.", "أفهم وجهة نظرك. ومع ذلك، المواصلات الجيدة تساعد الناس على الوصول إلى العمل والمدرسة."],
+      ["t", "Fair enough. I just hope it’s finished on time.", "معكِ حق. أتمنى فقط أن يُنجز في الوقت المحدد."],
+      ["l", "Me too. These projects are often delayed.", "وأنا أيضاً. هذه المشاريع غالباً ما تتأخر."]
+    ]
+  },
+  {
+    "id": "debate",
+    "level": "c1",
+    "icon": "🎓",
+    "title": { "en": "Technology in schools", "ar": "التكنولوجيا في المدارس" },
+    "setting": { "en": "A radio debate about tablets and textbooks.", "ar": "نقاش إذاعي حول الأجهزة اللوحية والكتب المدرسية." },
+    "speakers": [
+      { "id": "h", "name": { "en": "Ms Hughes", "ar": "السيدة هيوز" }, "role": { "en": "Presenter", "ar": "المذيعة" }, "gender": "f", "icon": "👩‍💼" },
+      { "id": "k", "name": { "en": "Dr Karim", "ar": "الدكتور كريم" }, "role": { "en": "Education expert", "ar": "خبير تعليم" }, "gender": "m", "icon": "🧑‍🏫" }
+    ],
+    "lines": [
+      ["h", "Some argue that tablets should replace textbooks entirely. Where do you stand on that?", "يرى البعض أن الأجهزة اللوحية يجب أن تحلّ محلّ الكتب المدرسية تماماً. ما موقفك من ذلك؟"],
+      ["k", "I’m in favour of using technology, but replacing books altogether would be a mistake.", "أنا أؤيد استخدام التكنولوجيا، لكن الاستغناء عن الكتب تماماً سيكون خطأً."],
+      ["h", "Why do you think so?", "لماذا تعتقد ذلك؟"],
+      ["k", "Research suggests that reading on paper improves concentration and memory.", "تشير الأبحاث إلى أن القراءة على الورق تحسّن التركيز والذاكرة."],
+      ["h", "On the other hand, digital tools give children access to far more information.", "من ناحية أخرى، تمنح الأدوات الرقمية الأطفال إمكانية الوصول إلى معلومات أكثر بكثير."],
+      ["k", "Absolutely, provided they’re taught how to evaluate what they find.", "بالتأكيد، بشرط أن يتعلّموا كيف يقيّمون ما يجدونه."],
+      ["h", "So you’d advocate a balanced approach?", "إذن أنت تدعو إلى نهج متوازن؟"],
+      ["k", "Precisely. Technology should support good teaching, not replace it.", "تماماً. يجب أن تدعم التكنولوجيا التعليم الجيد، لا أن تحلّ محلّه."]
+    ]
+  },
+  {
+    "id": "rebuilding",
+    "level": "c1",
+    "icon": "🏗️",
+    "title": { "en": "Rebuilding a community", "ar": "إعادة بناء المجتمع" },
+    "setting": { "en": "A journalist interviews an engineer about rebuilding a city.", "ar": "صحفية تجري مقابلة مع مهندس حول إعادة بناء مدينة." },
+    "speakers": [
+      { "id": "c", "name": { "en": "Claire", "ar": "كلير" }, "role": { "en": "Journalist", "ar": "صحفية" }, "gender": "f", "icon": "👩‍💼" },
+      { "id": "r", "name": { "en": "Rami", "ar": "رامي" }, "role": { "en": "Engineer", "ar": "مهندس" }, "gender": "m", "icon": "👷" }
+    ],
+    "lines": [
+      ["c", "What do you see as the biggest challenge in rebuilding the city?", "ما الذي تراه التحدي الأكبر في إعادة بناء المدينة؟"],
+      ["r", "Beyond the physical damage, the real challenge is restoring people’s trust.", "إلى جانب الأضرار المادية، التحدي الحقيقي هو استعادة ثقة الناس."],
+      ["c", "How do you go about rebuilding trust?", "كيف تعملون على إعادة بناء الثقة؟"],
+      ["r", "By involving residents in every decision, from schools to water supplies.", "من خلال إشراك السكان في كل قرار، من المدارس إلى إمدادات المياه."],
+      ["c", "Isn’t that slower than simply following a plan?", "أليس ذلك أبطأ من مجرد اتباع خطة؟"],
+      ["r", "In the short term, yes. But projects that people feel ownership of tend to last.", "على المدى القصير، نعم. لكن المشاريع التي يشعر الناس بأنها ملكهم تدوم عادةً."],
+      ["c", "What gives you hope?", "ما الذي يمنحك الأمل؟"],
+      ["r", "The young people. They’re determined to build a better future, and they’re incredibly creative.", "الشباب. إنهم مصمّمون على بناء مستقبل أفضل، ومبدعون بشكل مذهل."]
+    ]
+  }
+]
