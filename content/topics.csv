@@ -76,3 +76,17 @@ order,id,level,type,icon,name_en,name_ar
 75,academic-words,c1,words,🔬,Academic words,مفردات أكاديمية
 76,idioms,c1,phrases,🎭,Idioms,تعابير اصطلاحية
 77,academic-phrases,c1,phrases,🎓,Academic phrases,عبارات أكاديمية
+78,emotions-nuance,c1,words,🌗,Nuanced feelings,مشاعر دقيقة
+79,formal-words,c1,words,🎩,Formal vocabulary,المفردات الرسمية
+80,economy,c1,words,💹,Economy and business,الاقتصاد والأعمال
+81,science-tech,c1,words,🧬,Science and technology,العلوم والتكنولوجيا
+82,law-rights,c1,words,⚖️,Law and rights,القانون والحقوق
+83,mental-health,c1,words,🧠,Mental health,الصحة النفسية
+84,environment,c1,words,🌍,The environment,البيئة
+85,phrasal-verbs,c1,phrases,🧷,Phrasal verbs,الأفعال المركّبة
+86,collocations,c1,phrases,🧲,Collocations,التلازمات اللفظية
+87,diplomatic,c1,phrases,🕊️,Being diplomatic,الدبلوماسية في الكلام
+88,formal-letters,c1,phrases,✉️,Formal letters,الرسائل الرسمية
+89,presenting,c1,phrases,🎤,Presenting in public,العروض والخطابة
+90,proverbs,c1,phrases,📜,Proverbs,الأمثال
+91,negotiating,c1,phrases,🤝,Persuading and negotiating,الإقناع والتفاوض

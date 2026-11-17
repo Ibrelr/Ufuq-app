@@ -888,5 +888,265 @@
         "تقدّم"
       ]
     ]
+  },
+  {
+    "id": "resilience",
+    "level": "c1",
+    "icon": "💪",
+    "title": {
+      "en": "The psychology of resilience",
+      "ar": "سيكولوجية الصمود"
+    },
+    "sentences": [
+      [
+        "Resilience is often described as the ability to bounce back from adversity.",
+        "غالباً ما يوصف الصمود بأنه القدرة على النهوض من جديد بعد الشدائد."
+      ],
+      [
+        "Contrary to popular belief, it is not a fixed trait that some people are simply born with.",
+        "على عكس الاعتقاد الشائع، ليس الصمود سمة ثابتة يولد بها بعض الناس فحسب."
+      ],
+      [
+        "Psychologists argue that it can be developed through supportive relationships and a sense of purpose.",
+        "يرى علماء النفس أنه يمكن تنميته من خلال العلاقات الداعمة والإحساس بالهدف."
+      ],
+      [
+        "Small, achievable goals help to restore a feeling of control after a crisis.",
+        "تساعد الأهداف الصغيرة القابلة للتحقيق على استعادة الشعور بالسيطرة بعد الأزمة."
+      ],
+      [
+        "Equally important is the willingness to acknowledge pain rather than suppress it.",
+        "ولا يقلّ أهمية عن ذلك الاستعداد للاعتراف بالألم بدلاً من كبته."
+      ],
+      [
+        "In this sense, resilience is less about being unbreakable and more about learning to heal.",
+        "بهذا المعنى، الصمود لا يعني ألّا تنكسر أبداً، بل أن تتعلّم كيف تُشفى."
+      ]
+    ],
+    "vocab": [
+      [
+        "adversity",
+        "الشدائد"
+      ],
+      [
+        "trait",
+        "سمة"
+      ],
+      [
+        "purpose",
+        "غاية"
+      ],
+      [
+        "achievable",
+        "قابل للتحقيق"
+      ],
+      [
+        "acknowledge",
+        "يعترف بـ"
+      ],
+      [
+        "suppress",
+        "يكبت"
+      ],
+      [
+        "heal",
+        "يُشفى"
+      ]
+    ]
+  },
+  {
+    "id": "ai-work",
+    "level": "c1",
+    "icon": "🤖",
+    "title": {
+      "en": "AI and the future of work",
+      "ar": "الذكاء الاصطناعي ومستقبل العمل"
+    },
+    "sentences": [
+      [
+        "Artificial intelligence is transforming the workplace at a remarkable pace.",
+        "يغيّر الذكاء الاصطناعي بيئة العمل بوتيرة لافتة."
+      ],
+      [
+        "Tasks that once required hours of human effort can now be completed in seconds.",
+        "يمكن الآن إنجاز مهام كانت تتطلّب ساعات من الجهد البشري في ثوانٍ."
+      ],
+      [
+        "While this boosts productivity, it also raises concerns about job security.",
+        "ورغم أن هذا يعزّز الإنتاجية، فإنه يثير أيضاً مخاوف بشأن الأمان الوظيفي."
+      ],
+      [
+        "Economists generally agree that the technology will reshape jobs rather than simply eliminate them.",
+        "يتفق الاقتصاديون عموماً على أن هذه التكنولوجيا ستعيد تشكيل الوظائف بدلاً من أن تلغيها ببساطة."
+      ],
+      [
+        "The most valuable skills will be those that complement machines, such as judgement, creativity and communication.",
+        "وستكون أكثر المهارات قيمة تلك التي تكمّل الآلات، مثل حسن التقدير والإبداع والتواصل."
+      ],
+      [
+        "Lifelong learning, therefore, is no longer optional but essential.",
+        "لذلك، لم يعد التعلّم مدى الحياة خياراً، بل أصبح ضرورة."
+      ]
+    ],
+    "vocab": [
+      [
+        "transform",
+        "يغيّر جذرياً"
+      ],
+      [
+        "remarkable",
+        "لافت"
+      ],
+      [
+        "productivity",
+        "إنتاجية"
+      ],
+      [
+        "job security",
+        "الأمان الوظيفي"
+      ],
+      [
+        "reshape",
+        "يعيد تشكيل"
+      ],
+      [
+        "complement",
+        "يكمّل"
+      ],
+      [
+        "lifelong learning",
+        "التعلّم مدى الحياة"
+      ]
+    ]
+  },
+  {
+    "id": "silk-road",
+    "level": "c1",
+    "icon": "🐫",
+    "title": {
+      "en": "The legacy of the Silk Road",
+      "ar": "إرث طريق الحرير"
+    },
+    "sentences": [
+      [
+        "For more than fifteen centuries, the Silk Road connected China with the Mediterranean.",
+        "لأكثر من خمسة عشر قرناً، ربط طريق الحرير الصين بالبحر الأبيض المتوسط."
+      ],
+      [
+        "Although it is named after silk, merchants traded everything from spices to paper and glass.",
+        "ورغم أنه سُمّي باسم الحرير، تاجر التجّار بكل شيء من التوابل إلى الورق والزجاج."
+      ],
+      [
+        "Cities such as Damascus, Aleppo and Palmyra flourished as centres of commerce and culture.",
+        "ازدهرت مدن مثل دمشق وحلب وتدمر كمراكز للتجارة والثقافة."
+      ],
+      [
+        "Yet the route’s most lasting legacy was the exchange of ideas, religions and scientific knowledge.",
+        "لكن الإرث الأبقى لهذا الطريق كان تبادل الأفكار والأديان والمعرفة العلمية."
+      ],
+      [
+        "Arabic numerals, for instance, reached Europe partly through these networks.",
+        "فالأرقام العربية، على سبيل المثال، وصلت إلى أوروبا جزئياً عبر هذه الشبكات."
+      ],
+      [
+        "Today, historians see the Silk Road as an early example of globalisation.",
+        "اليوم، يرى المؤرخون في طريق الحرير مثالاً مبكراً على العولمة."
+      ]
+    ],
+    "vocab": [
+      [
+        "connect",
+        "يربط"
+      ],
+      [
+        "merchant",
+        "تاجر"
+      ],
+      [
+        "flourish",
+        "يزدهر"
+      ],
+      [
+        "commerce",
+        "تجارة"
+      ],
+      [
+        "legacy",
+        "إرث"
+      ],
+      [
+        "exchange",
+        "تبادل"
+      ],
+      [
+        "globalisation",
+        "العولمة"
+      ]
+    ]
+  },
+  {
+    "id": "success",
+    "level": "c1",
+    "icon": "🏆",
+    "title": {
+      "en": "Rethinking success",
+      "ar": "إعادة التفكير في النجاح"
+    },
+    "sentences": [
+      [
+        "Modern societies often equate success with wealth, status and visible achievement.",
+        "كثيراً ما تساوي المجتمعات الحديثة بين النجاح والثروة والمكانة والإنجاز الظاهر."
+      ],
+      [
+        "However, a growing number of studies suggest that these measures fail to capture what makes life fulfilling.",
+        "لكن عدداً متزايداً من الدراسات يشير إلى أن هذه المقاييس لا تعكس ما يجعل الحياة مُرضية."
+      ],
+      [
+        "One long-term study followed hundreds of people for over eighty years.",
+        "تابعت دراسة طويلة الأمد مئات الأشخاص لأكثر من ثمانين عاماً."
+      ],
+      [
+        "Its conclusion was strikingly simple: the quality of our relationships matters more than anything else.",
+        "وكان استنتاجها بسيطاً بشكل لافت: جودة علاقاتنا أهم من أي شيء آخر."
+      ],
+      [
+        "People with close, supportive bonds were not only happier but also healthier.",
+        "فالأشخاص الذين تربطهم علاقات وثيقة وداعمة لم يكونوا أسعد فحسب، بل أكثر صحة أيضاً."
+      ],
+      [
+        "Perhaps, then, success should be measured less by what we own and more by who we share our lives with.",
+        "ربما ينبغي إذن أن يُقاس النجاح بما نملكه بدرجة أقل، وبمن نشاركهم حياتنا بدرجة أكبر."
+      ]
+    ],
+    "vocab": [
+      [
+        "equate",
+        "يساوي بين"
+      ],
+      [
+        "status",
+        "مكانة"
+      ],
+      [
+        "fulfilling",
+        "مُرضٍ"
+      ],
+      [
+        "long-term",
+        "طويل الأمد"
+      ],
+      [
+        "strikingly",
+        "بشكل لافت"
+      ],
+      [
+        "bond",
+        "رابطة"
+      ],
+      [
+        "measure",
+        "يقيس"
+      ]
+    ]
   }
 ]
