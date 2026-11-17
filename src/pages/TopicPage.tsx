@@ -5,6 +5,7 @@ import { useProgress } from '../lib/progress'
 import { Breadcrumbs } from '../components/Breadcrumbs'
 import { LearnView } from '../components/LearnView'
 import { QuizView } from '../components/QuizView'
+import { TopicIcon } from '../components/Pic'
 import { Stars } from '../components/Stars'
 import { NotFound } from './NotFound'
 
@@ -24,9 +25,7 @@ export function TopicPage({ mode }: { mode: 'learn' | 'quiz' }) {
       <Breadcrumbs items={[{ label: `${level.code} · ${name(level.name)}`, to: `/level/${level.id}` }, { label: name(topic.name) }]} />
 
       <div className="flex flex-wrap items-center gap-4 pt-3 pb-5">
-        <span className="text-[52px] leading-none" aria-hidden="true">
-          {topic.icon}
-        </span>
+        <TopicIcon icon={topic.icon} iconImg={topic.iconImg} className="size-14" />
         <h1 className="font-display m-0 text-[clamp(2rem,4vw,2.8rem)] leading-tight">{name(topic.name)}</h1>
         <span lang={ui === 'ar' ? 'en' : 'ar'} className="text-xl text-muted">
           {altName(topic.name)}

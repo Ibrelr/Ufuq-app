@@ -53,6 +53,7 @@ export function Layout() {
         <div className="mx-auto flex max-w-6xl flex-col gap-1.5 px-5 pt-6 pb-8 text-[15px] text-muted">
           <b>{t.footer}</b>
           <span>{t.tip}</span>
+          <span className="text-sm">{t.credits}</span>
         </div>
       </footer>
     </div>

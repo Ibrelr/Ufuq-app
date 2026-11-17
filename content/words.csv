@@ -1,0 +1,793 @@
+topic,id,pic,en,ar
+greetings,,👋,Hello,مرحبا
+greetings,,🌅,Good morning,صباح الخير
+greetings,,🌆,Good evening,مساء الخير
+greetings,,🌙,Good night,تصبح على خير
+greetings,,🙏,Thank you,شكراً
+greetings,,😊,You’re welcome,عفواً
+greetings,,🤲,Please,من فضلك
+greetings,,✅,Yes,نعم
+greetings,,❌,No,لا
+greetings,,🖐️,Goodbye,مع السلامة
+greetings,,😔,Sorry,آسف
+greetings,,🙋,Excuse me,عذراً
+greetings,,🙂,How are you?,كيف حالك؟
+greetings,,😄,I am fine,أنا بخير
+greetings,,🏷️,My name is …,اسمي …
+greetings,,🤝,Nice to meet you,تشرّفنا
+greetings,,🚪,Welcome,أهلاً وسهلاً
+numbers,,=0,Zero,صفر
+numbers,,=1,One,واحد
+numbers,,=2,Two,اثنان
+numbers,,=3,Three,ثلاثة
+numbers,,=4,Four,أربعة
+numbers,,=5,Five,خمسة
+numbers,,=6,Six,ستة
+numbers,,=7,Seven,سبعة
+numbers,,=8,Eight,ثمانية
+numbers,,=9,Nine,تسعة
+numbers,,=10,Ten,عشرة
+numbers,,=11,Eleven,أحد عشر
+numbers,,=12,Twelve,اثنا عشر
+numbers,,=13,Thirteen,ثلاثة عشر
+numbers,,=14,Fourteen,أربعة عشر
+numbers,,=15,Fifteen,خمسة عشر
+numbers,,=16,Sixteen,ستة عشر
+numbers,,=17,Seventeen,سبعة عشر
+numbers,,=18,Eighteen,ثمانية عشر
+numbers,,=19,Nineteen,تسعة عشر
+numbers,,=20,Twenty,عشرون
+numbers,,=30,Thirty,ثلاثون
+numbers,,=40,Forty,أربعون
+numbers,,=50,Fifty,خمسون
+numbers,,=60,Sixty,ستون
+numbers,,=70,Seventy,سبعون
+numbers,,=80,Eighty,ثمانون
+numbers,,=90,Ninety,تسعون
+numbers,,=100,One hundred,مئة
+numbers,,=1000,One thousand,ألف
+colors,,#E5484D,Red,أحمر
+colors,,#2F5BEA,Blue,أزرق
+colors,,#2E9E5B,Green,أخضر
+colors,,#FFC93C,Yellow,أصفر
+colors,,#F5862E,Orange,برتقالي
+colors,,#7E4BD8,Purple,بنفسجي
+colors,,#F49AC1,Pink,زهري
+colors,,#8B5A2B,Brown,بني
+colors,,#1B2340,Black,أسود
+colors,,#FFFFFF,White,أبيض
+colors,,#9AA3B2,Grey,رمادي
+colors,,#D4AF37,Gold,ذهبي
+family,,👩,Mother,أم
+family,,👨,Father,أب
+family,,👦,Brother,أخ
+family,,👧,Sister,أخت
+family,,👶,Baby,طفل رضيع
+family,,🧒,Child,طفل
+family,,👵,Grandmother,جدة
+family,,👴,Grandfather,جد
+family,,🤵,Husband,زوج
+family,,👰,Wife,زوجة
+family,,👨‍👩‍👧,Family,عائلة
+family,,🤝,Friend,صديق
+family,,👱‍♂️,Man,رجل
+family,,👩‍🦰,Woman,امرأة
+family,,💒,Wedding,عرس
+body,,🙂,Face,وجه
+body,,👤,Head,رأس
+body,,👁️,Eye,عين
+body,,👂,Ear,أذن
+body,,👃,Nose,أنف
+body,,👄,Mouth,فم
+body,,👅,Tongue,لسان
+body,,🦷,Tooth,سن
+body,,💇,Hair,شعر
+body,,🧔,Beard,لحية
+body,,✋,Hand,يد
+body,,👆,Finger,إصبع
+body,,💅,Nail,ظفر
+body,,💪,Arm,ذراع
+body,,🦵,Leg,ساق
+body,,🦶,Foot,قدم
+body,,❤️,Heart,قلب
+body,,🧠,Brain,دماغ
+body,,🫁,Lungs,رئتان
+body,,🦴,Bone,عظم
+fruits,,🍎,Apple,تفاحة
+fruits,,🍏,Green apple,تفاحة خضراء
+fruits,,🍌,Banana,موزة
+fruits,,🍊,Orange,برتقالة
+fruits,,🍇,Grapes,عنب
+fruits,,🍓,Strawberry,فراولة
+fruits,,🍉,Watermelon,بطيخ
+fruits,,🍈,Melon,شمام
+fruits,,🍋,Lemon,ليمونة
+fruits,,🍐,Pear,إجاصة
+fruits,,🍑,Peach,خوخ
+fruits,,🍒,Cherries,كرز
+fruits,,🍍,Pineapple,أناناس
+fruits,,🥭,Mango,مانجو
+fruits,,🥝,Kiwi,كيوي
+fruits,,🥥,Coconut,جوز الهند
+fruits,,🫐,Blueberries,توت أزرق
+fruits,,🫒,Olives,زيتون
+fruits,,🥑,Avocado,أفوكادو
+fruits,,🌰,Chestnut,كستناء
+vegetables,,🍅,Tomato,بندورة
+vegetables,,🥕,Carrot,جزرة
+vegetables,,🥔,Potato,بطاطا
+vegetables,,🥒,Cucumber,خيارة
+vegetables,,🧅,Onion,بصلة
+vegetables,,🧄,Garlic,ثوم
+vegetables,,🌽,Corn,ذرة
+vegetables,,🫑,Pepper,فليفلة
+vegetables,,🌶️,Chilli,فليفلة حارة
+vegetables,,🍆,Aubergine,باذنجان
+vegetables,,🥦,Broccoli,بروكلي
+vegetables,,🥬,Lettuce,خس
+vegetables,,🍄,Mushroom,فطر
+vegetables,,🫛,Peas,بازلاء
+vegetables,,🫘,Beans,فاصولياء
+vegetables,,🍠,Sweet potato,بطاطا حلوة
+vegetables,,🥜,Peanuts,فول سوداني
+food,,🍞,Bread,خبز
+food,,🫓,Flatbread,خبز عربي
+food,,💧,Water,ماء
+food,,🥛,Milk,حليب
+food,,🥚,Egg,بيضة
+food,,🧀,Cheese,جبنة
+food,,🧈,Butter,زبدة
+food,,🍚,Rice,رز
+food,,🥩,Meat,لحم
+food,,🍗,Chicken,دجاج
+food,,🧆,Falafel,فلافل
+food,,🥙,Shawarma,شاورما
+food,,🍲,Soup,شوربة
+food,,🥗,Salad,سلطة
+food,,🥪,Sandwich,شطيرة
+food,,🍕,Pizza,بيتزا
+food,,🍔,Burger,برغر
+food,,🍟,Chips,بطاطا مقلية
+food,,🍝,Pasta,معكرونة
+food,,🍯,Honey,عسل
+food,,🧂,Salt,ملح
+food,,🍰,Cake,كعكة
+food,,🍪,Biscuit,بسكويت
+food,,🍫,Chocolate,شوكولاتة
+food,,🍦,Ice cream,بوظة
+food,,🍬,Sweets,سكاكر
+food,,🍵,Tea,شاي
+food,,☕,Coffee,قهوة
+food,,🧃,Juice,عصير
+food,,🍿,Popcorn,فشار
+pets-farm,,🐱,Cat,قطة
+pets-farm,,🐶,Dog,كلب
+pets-farm,,🐰,Rabbit,أرنب
+pets-farm,,🐹,Hamster,هامستر
+pets-farm,,🐭,Mouse,فأر
+pets-farm,,🐠,Goldfish,سمكة زينة
+pets-farm,,🐴,Horse,حصان
+pets-farm,,🫏,Donkey,حمار
+pets-farm,,🐄,Cow,بقرة
+pets-farm,,🐑,Sheep,خروف
+pets-farm,,🐐,Goat,ماعز
+pets-farm,,🐷,Pig,خنزير
+pets-farm,,🐔,Hen,دجاجة
+pets-farm,,🐓,Rooster,ديك
+pets-farm,,🐤,Chick,كتكوت
+pets-farm,,🦆,Duck,بطة
+pets-farm,,🦃,Turkey,ديك رومي
+pets-farm,,🐪,Camel,جمل
+wild-animals,,🦁,Lion,أسد
+wild-animals,,🐯,Tiger,نمر
+wild-animals,,🐆,Leopard,فهد
+wild-animals,,🐘,Elephant,فيل
+wild-animals,,🦒,Giraffe,زرافة
+wild-animals,,🦓,Zebra,حمار وحشي
+wild-animals,,🐒,Monkey,قرد
+wild-animals,,🦍,Gorilla,غوريلا
+wild-animals,,🐻,Bear,دب
+wild-animals,,🐻‍❄️,Polar bear,دب قطبي
+wild-animals,,🐼,Panda,باندا
+wild-animals,,🐺,Wolf,ذئب
+wild-animals,,🦊,Fox,ثعلب
+wild-animals,,🦌,Deer,أيل
+wild-animals,,🦘,Kangaroo,كنغر
+wild-animals,,🦛,Hippo,فرس النهر
+wild-animals,,🦏,Rhino,وحيد القرن
+wild-animals,,🐊,Crocodile,تمساح
+wild-animals,,🐍,Snake,أفعى
+wild-animals,,🐢,Tortoise,سلحفاة
+wild-animals,,🐿️,Squirrel,سنجاب
+wild-animals,,🦔,Hedgehog,قنفذ
+wild-animals,,🦇,Bat,خفاش
+wild-animals,,🐸,Frog,ضفدع
+wild-animals,,🦎,Lizard,سحلية
+birds,,🐦,Sparrow,عصفور
+birds,,🦅,Eagle,نسر
+birds,,🦉,Owl,بومة
+birds,,🦜,Parrot,ببغاء
+birds,,🐧,Penguin,بطريق
+birds,,🦢,Swan,بجعة
+birds,,🦩,Flamingo,فلامنغو
+birds,,🦚,Peacock,طاووس
+birds,,🕊️,Dove,حمامة
+birds,,🐦‍⬛,Crow,غراب
+birds,,🪶,Feather,ريشة
+birds,,🪹,Nest,عش
+clothes,,👕,Shirt,قميص
+clothes,,👖,Jeans,بنطال جينز
+clothes,,👗,Dress,فستان
+clothes,,🧥,Coat,معطف
+clothes,,🧣,Scarf,وشاح
+clothes,,🧕,Headscarf,حجاب
+clothes,,🧤,Gloves,قفازات
+clothes,,🧦,Socks,جوارب
+clothes,,👟,Trainers,حذاء رياضي
+clothes,,👞,Shoes,حذاء
+clothes,,👢,Boots,جزمة
+clothes,,🩴,Sandals,شبشب
+clothes,,🧢,Cap,قبعة
+clothes,,👒,Sun hat,قبعة شمس
+clothes,,👓,Glasses,نظارة
+clothes,,🕶️,Sunglasses,نظارة شمسية
+clothes,,👜,Handbag,حقيبة يد
+clothes,,👛,Purse,محفظة نقود
+clothes,,👔,Tie,ربطة عنق
+clothes,,🩳,Shorts,شورت
+clothes,,🩱,Swimsuit,لباس سباحة
+clothes,,💍,Ring,خاتم
+school,,🏫,School,مدرسة
+school,,🧑‍🏫,Teacher,معلم
+school,,🧑‍🎓,Student,طالب
+school,,📖,Book,كتاب
+school,,📚,Books,كتب
+school,,📓,Notebook,دفتر
+school,,🖊️,Pen,قلم حبر
+school,,✏️,Pencil,قلم رصاص
+school,,🖍️,Crayon,قلم تلوين
+school,,📏,Ruler,مسطرة
+school,,📐,Set square,مسطرة مثلثة
+school,,✂️,Scissors,مقص
+school,,📎,Paper clip,مشبك ورق
+school,,📌,Pin,دبوس
+school,,🎒,School bag,حقيبة مدرسية
+school,,💻,Computer,حاسوب
+school,,🧮,Abacus,معداد
+school,,🌍,Globe,كرة أرضية
+school,,🗺️,Map,خريطة
+school,,📝,Test,امتحان
+school,,🔔,Bell,جرس
+school,,🔬,Microscope,مجهر
+school,,🔍,Magnifying glass,عدسة مكبّرة
+school,,🎓,Graduation,تخرّج
+school,,📜,Certificate,شهادة
+school,,🔤,Alphabet,الأبجدية
+weather,,☀️,Sun,شمس
+weather,,☁️,Cloud,غيمة
+weather,,⛅,Partly cloudy,غائم جزئياً
+weather,,🌧️,Rain,مطر
+weather,,❄️,Snow,ثلج
+weather,,🌬️,Wind,ريح
+weather,,⛈️,Storm,عاصفة
+weather,,⚡,Lightning,برق
+weather,,🌫️,Fog,ضباب
+weather,,🌈,Rainbow,قوس قزح
+weather,,🌪️,Tornado,إعصار
+weather,,🌡️,Temperature,درجة الحرارة
+weather,,☂️,Umbrella,مظلة
+weather,,🥵,Hot,حار
+weather,,🥶,Cold,بارد
+weather,,🌷,Spring,الربيع
+weather,,🏖️,Summer,الصيف
+weather,,🍂,Autumn,الخريف
+weather,,⛄,Winter,الشتاء
+home,,🏠,House,بيت
+home,,🏡,Garden,حديقة
+home,,🚪,Door,باب
+home,,🪟,Window,نافذة
+home,,🛏️,Bed,سرير
+home,,🪑,Chair,كرسي
+home,,🛋️,Sofa,كنبة
+home,,💡,Lamp,مصباح
+home,,🕯️,Candle,شمعة
+home,,🕰️,Clock,ساعة
+home,,🔑,Key,مفتاح
+home,,🔒,Lock,قفل
+home,,🪞,Mirror,مرآة
+home,,🛁,Bathtub,حوض الاستحمام
+home,,🚿,Shower,دوش
+home,,🚽,Toilet,مرحاض
+home,,🧼,Soap,صابون
+home,,🪥,Toothbrush,فرشاة أسنان
+home,,🧽,Sponge,إسفنجة
+home,,🧹,Broom,مكنسة
+home,,🪣,Bucket,دلو
+home,,🧺,Basket,سلة
+home,,🗑️,Bin,سلة المهملات
+home,,🪴,Plant,نبتة
+home,,🖼️,Picture,لوحة
+home,,📺,Television,تلفاز
+home,,🪜,Ladder,سلّم
+home,,🛎️,Bell,جرس
+kitchen,,🍳,Frying pan,مقلاة
+kitchen,,🫖,Teapot,إبريق شاي
+kitchen,,☕,Cup,فنجان
+kitchen,,🥃,Glass,كأس
+kitchen,,🫙,Jar,مرطبان
+kitchen,,🍽️,Plate,صحن
+kitchen,,🥣,Bowl,وعاء
+kitchen,,🥄,Spoon,ملعقة
+kitchen,,🍴,Fork and knife,شوكة وسكين
+kitchen,,🔪,Knife,سكين
+kitchen,,🧊,Ice,ثلج مكعبات
+kitchen,,🧂,Salt shaker,مملحة
+kitchen,,🍼,Baby bottle,رضّاعة
+kitchen,,🥢,Chopsticks,عيدان الأكل
+sea-insects,,🐟,Fish,سمكة
+sea-insects,,🐳,Whale,حوت
+sea-insects,,🐬,Dolphin,دلفين
+sea-insects,,🦈,Shark,قرش
+sea-insects,,🐙,Octopus,أخطبوط
+sea-insects,,🦀,Crab,سرطان البحر
+sea-insects,,🦐,Shrimp,روبيان
+sea-insects,,🦞,Lobster,كركند
+sea-insects,,🦭,Seal,فقمة
+sea-insects,,🐚,Shell,صدفة
+sea-insects,,🪸,Coral,مرجان
+sea-insects,,🐜,Ant,نملة
+sea-insects,,🐝,Bee,نحلة
+sea-insects,,🦋,Butterfly,فراشة
+sea-insects,,🐞,Ladybird,دعسوقة
+sea-insects,,🕷️,Spider,عنكبوت
+sea-insects,,🪰,Fly,ذبابة
+sea-insects,,🦟,Mosquito,بعوضة
+sea-insects,,🪱,Worm,دودة
+sea-insects,,🐌,Snail,حلزون
+sea-insects,,🪲,Beetle,خنفساء
+sea-insects,,🦗,Cricket,صرصار الليل
+sea-insects,,🦂,Scorpion,عقرب
+time,,📅,Monday,الاثنين
+time,,📅,Tuesday,الثلاثاء
+time,,📅,Wednesday,الأربعاء
+time,,📅,Thursday,الخميس
+time,,📅,Friday,الجمعة
+time,,📅,Saturday,السبت
+time,,📅,Sunday,الأحد
+time,,=1,January,كانون الثاني
+time,,=2,February,شباط
+time,,=3,March,آذار
+time,,=4,April,نيسان
+time,,=5,May,أيار
+time,,=6,June,حزيران
+time,,=7,July,تموز
+time,,=8,August,آب
+time,,=9,September,أيلول
+time,,=10,October,تشرين الأول
+time,,=11,November,تشرين الثاني
+time,,=12,December,كانون الأول
+time,,🌅,Morning,الصباح
+time,,🕛,Noon,الظهر
+time,,🕓,Afternoon,بعد الظهر
+time,,🌆,Evening,المساء
+time,,🌙,Night,الليل
+time,,🗓️,Today,اليوم
+time,,⏭️,Tomorrow,غداً
+time,,⏮️,Yesterday,أمس
+time,,📆,Week,أسبوع
+time,,🎆,Year,سنة
+time,,⌛,Hour,ساعة
+time,,⏱️,Minute,دقيقة
+nature,,🌳,Tree,شجرة
+nature,,🌴,Palm tree,نخلة
+nature,,🌲,Pine tree,شجرة صنوبر
+nature,,🌸,Flower,زهرة
+nature,,🌹,Rose,وردة
+nature,,🌻,Sunflower,عبّاد الشمس
+nature,,🍃,Leaf,ورقة شجر
+nature,,🌿,Herb,عشبة
+nature,,🌱,Seedling,نبتة صغيرة
+nature,,🌵,Cactus,صبّار
+nature,,⛰️,Mountain,جبل
+nature,,🏔️,Snowy mountain,جبل مثلج
+nature,,🌋,Volcano,بركان
+nature,,🏜️,Desert,صحراء
+nature,,🏝️,Island,جزيرة
+nature,,🏖️,Beach,شاطئ
+nature,,🌊,Sea,بحر
+nature,,🏞️,River,نهر
+nature,,🪨,Rock,صخرة
+nature,,🪵,Wood,خشب
+nature,,🔥,Fire,نار
+nature,,🌍,Earth,الأرض
+nature,,🌙,Moon,القمر
+nature,,⭐,Star,نجمة
+nature,,🌄,Sunrise,شروق الشمس
+nature,,🌇,Sunset,غروب الشمس
+nature,,🌌,Night sky,سماء الليل
+transport,,🚗,Car,سيارة
+transport,,🚌,Bus,حافلة
+transport,,🚕,Taxi,سيارة أجرة
+transport,,🚚,Lorry,شاحنة
+transport,,🚆,Train,قطار
+transport,,🚇,Underground,مترو
+transport,,🚊,Tram,ترام
+transport,,✈️,Plane,طائرة
+transport,,🚁,Helicopter,مروحية
+transport,,🚀,Rocket,صاروخ
+transport,,🚢,Ship,سفينة
+transport,,⛵,Sailing boat,قارب شراعي
+transport,,🚤,Speedboat,زورق سريع
+transport,,🚲,Bicycle,دراجة
+transport,,🏍️,Motorbike,دراجة نارية
+transport,,🛴,Scooter,سكوتر
+transport,,🚑,Ambulance,سيارة إسعاف
+transport,,🚒,Fire engine,سيارة إطفاء
+transport,,🚓,Police car,سيارة شرطة
+transport,,🚜,Tractor,جرار زراعي
+transport,,🛣️,Road,طريق
+transport,,🚦,Traffic light,إشارة مرور
+transport,,🛑,Stop sign,إشارة توقف
+transport,,⛽,Petrol station,محطة وقود
+transport,,🚏,Bus stop,موقف حافلات
+transport,,🎫,Ticket,تذكرة
+transport,,🛞,Wheel,عجلة
+transport,,⚓,Anchor,مرساة
+city,,🏙️,City,مدينة
+city,,🏢,Office building,مبنى مكاتب
+city,,🏥,Hospital,مستشفى
+city,,🏦,Bank,بنك
+city,,🏤,Post office,مكتب البريد
+city,,🏨,Hotel,فندق
+city,,🏪,Shop,دكان
+city,,🏬,Shopping centre,مركز تسوق
+city,,🕌,Mosque,مسجد
+city,,⛪,Church,كنيسة
+city,,🏭,Factory,مصنع
+city,,🏟️,Stadium,ملعب
+city,,🏰,Castle,قلعة
+city,,🏛️,Museum,متحف
+city,,🌉,Bridge,جسر
+city,,⛲,Fountain,نافورة
+city,,🎡,Funfair,مدينة ملاهي
+city,,🚉,Train station,محطة قطار
+city,,🏗️,Building site,ورشة بناء
+city,,📮,Post box,صندوق بريد
+city,,🏧,Cash machine,صرّاف آلي
+city,,🚻,Toilets,حمّامات عامة
+city,,⛺,Tent,خيمة
+city,,🗽,Statue,تمثال
+jobs,,🧑‍⚕️,Doctor,طبيب
+jobs,,🧑‍🏫,Teacher,معلم
+jobs,,🧑‍🌾,Farmer,مزارع
+jobs,,🧑‍🍳,Cook,طباخ
+jobs,,🧑‍🔧,Mechanic,ميكانيكي
+jobs,,🧑‍🏭,Factory worker,عامل مصنع
+jobs,,🧑‍💼,Office worker,موظف
+jobs,,🧑‍🔬,Scientist,عالِم
+jobs,,🧑‍💻,Programmer,مبرمج
+jobs,,🧑‍🎤,Singer,مغنٍّ
+jobs,,🧑‍🎨,Artist,رسّام
+jobs,,🧑‍✈️,Pilot,طيار
+jobs,,🧑‍🚀,Astronaut,رائد فضاء
+jobs,,🧑‍🚒,Firefighter,إطفائي
+jobs,,👮,Police officer,شرطي
+jobs,,🕵️,Detective,محقق
+jobs,,💂,Guard,حارس
+jobs,,👷,Builder,عامل بناء
+jobs,,🧑‍⚖️,Judge,قاضٍ
+jobs,,🪡,Tailor,خيّاط
+jobs,,🧑‍🎓,Student,طالب
+feelings,,😀,Happy,سعيد
+feelings,,😂,Laughing,يضحك
+feelings,,😢,Sad,حزين
+feelings,,😭,Crying,يبكي
+feelings,,😠,Angry,غاضب
+feelings,,😴,Sleepy,نعسان
+feelings,,😩,Tired,متعب
+feelings,,😨,Scared,خائف
+feelings,,😲,Surprised,متفاجئ
+feelings,,😟,Worried,قلق
+feelings,,😕,Confused,محتار
+feelings,,😑,Bored,ملول
+feelings,,🤩,Excited,متحمس
+feelings,,😬,Nervous,متوتر
+feelings,,😊,Shy,خجول
+feelings,,😌,Calm,هادئ
+feelings,,😋,Hungry,جائع
+feelings,,🥤,Thirsty,عطشان
+feelings,,🤒,Ill,مريض
+feelings,,🥰,Loved,محبوب
+verbs,,🍽️,Eat,يأكل
+verbs,,🥤,Drink,يشرب
+verbs,,🛌,Sleep,ينام
+verbs,,⏰,Wake up,يستيقظ
+verbs,,📖,Read,يقرأ
+verbs,,✍️,Write,يكتب
+verbs,,🖍️,Draw,يرسم
+verbs,,🏃,Run,يركض
+verbs,,🚶,Walk,يمشي
+verbs,,⚽,Play,يلعب
+verbs,,🏊,Swim,يسبح
+verbs,,🧑‍🍳,Cook,يطبخ
+verbs,,🎧,Listen,يستمع
+verbs,,🗣️,Speak,يتكلم
+verbs,,🎤,Sing,يغني
+verbs,,💃,Dance,يرقص
+verbs,,🧼,Wash,يغسل
+verbs,,😭,Cry,يبكي
+verbs,,😂,Laugh,يضحك
+verbs,,🤔,Think,يفكر
+verbs,,👀,Look,ينظر
+verbs,,📞,Call,يتصل
+verbs,,🛒,Buy,يشتري
+verbs,,🎁,Give,يعطي
+verbs,,🧗,Climb,يتسلق
+verbs,,🚴,Ride a bike,يركب الدراجة
+verbs,,🚗,Drive,يقود السيارة
+verbs,,🕊️,Fly,يطير
+verbs,,🤲,Pray,يدعو
+verbs,,📚,Study,يدرس
+verbs,,🔓,Open,يفتح
+verbs,,🔐,Close,يغلق
+verbs,,👋,Wave,يلوّح
+verbs,,👏,Clap,يصفّق
+verbs,,👉,Point,يشير
+verbs,,🪑,Sit,يجلس
+verbs,,🧍,Stand,يقف
+verbs,,🫂,Hug,يعانق
+verbs,,✂️,Cut,يقصّ
+verbs,,🎨,Paint,يلوّن
+sports,,⚽,Football,كرة القدم
+sports,,🏀,Basketball,كرة السلة
+sports,,🏐,Volleyball,الكرة الطائرة
+sports,,🎾,Tennis,التنس
+sports,,🏓,Table tennis,تنس الطاولة
+sports,,🏸,Badminton,الريشة الطائرة
+sports,,⚾,Baseball,البيسبول
+sports,,🏈,American football,كرة القدم الأمريكية
+sports,,🏉,Rugby,الرغبي
+sports,,🏏,Cricket,الكريكيت
+sports,,⛳,Golf,الغولف
+sports,,🏊,Swimming,السباحة
+sports,,🏃,Running,الجري
+sports,,🚴,Cycling,ركوب الدراجات
+sports,,⛷️,Skiing,التزلج على الثلج
+sports,,⛸️,Ice skating,التزلج على الجليد
+sports,,🥊,Boxing,الملاكمة
+sports,,🥋,Martial arts,الفنون القتالية
+sports,,🤼,Wrestling,المصارعة
+sports,,🏋️,Weightlifting,رفع الأثقال
+sports,,🏇,Horse riding,ركوب الخيل
+sports,,🧗,Climbing,التسلق
+sports,,🤸,Gymnastics,الجمباز
+sports,,🏄,Surfing,ركوب الأمواج
+sports,,🎣,Fishing,صيد السمك
+sports,,🛹,Skateboard,لوح التزلج
+sports,,🥅,Goal,مرمى
+sports,,🏅,Medal,ميدالية
+sports,,🏆,Trophy,كأس البطولة
+music,,🎵,Music,موسيقى
+music,,🎶,Song,أغنية
+music,,🎸,Guitar,غيتار
+music,,🎹,Piano,بيانو
+music,,🎻,Violin,كمان
+music,,🥁,Drum,طبل
+music,,🪘,Darbuka,دربكة
+music,,🎺,Trumpet,بوق
+music,,🎷,Saxophone,ساكسفون
+music,,🪈,Flute,ناي
+music,,🪗,Accordion,أكورديون
+music,,🪕,Banjo,بانجو
+music,,🎤,Microphone,ميكروفون
+music,,🎧,Headphones,سماعات
+music,,📻,Radio,راديو
+toys,,🧸,Teddy bear,دبدوب
+toys,,🪆,Doll,دمية
+toys,,🪁,Kite,طائرة ورقية
+toys,,🎈,Balloon,بالون
+toys,,🪀,Yo-yo,يويو
+toys,,🧩,Puzzle,أحجية
+toys,,🎲,Dice,نرد
+toys,,♟️,Chess,شطرنج
+toys,,🃏,Playing cards,ورق اللعب
+toys,,🎮,Video game,لعبة فيديو
+toys,,🏎️,Racing car,سيارة سباق
+toys,,🤖,Robot,روبوت
+toys,,🪄,Magic wand,عصا سحرية
+toys,,🎁,Present,هدية
+toys,,🎉,Party,حفلة
+toys,,🎂,Birthday cake,كعكة عيد الميلاد
+toys,,🫧,Bubbles,فقاعات
+toys,,🎳,Bowling,البولينغ
+toys,,🎯,Darts,لعبة السهام
+crafts,,🎨,Paints,ألوان
+crafts,,🖌️,Paintbrush,فرشاة رسم
+crafts,,🖍️,Crayons,أقلام تلوين
+crafts,,✒️,Calligraphy pen,قلم الخط
+crafts,,📄,Paper,ورقة
+crafts,,✂️,Scissors,مقص
+crafts,,🧵,Thread,خيط
+crafts,,🧶,Wool,صوف
+crafts,,🪡,Needle,إبرة
+crafts,,🪢,Knot,عقدة
+crafts,,🎀,Ribbon,شريطة
+crafts,,🖼️,Painting,لوحة فنية
+crafts,,🏺,Pottery,فخّار
+crafts,,🗿,Sculpture,منحوتة
+crafts,,📷,Photography,التصوير
+tools,,🔨,Hammer,مطرقة
+tools,,🔧,Spanner,مفتاح ربط
+tools,,🪛,Screwdriver,مفك براغي
+tools,,🪚,Saw,منشار
+tools,,🪓,Axe,فأس
+tools,,⛏️,Pickaxe,معول
+tools,,🔩,Nut and bolt,صامولة وبرغي
+tools,,⚙️,Gear,ترس
+tools,,🧲,Magnet,مغناطيس
+tools,,🧰,Toolbox,صندوق العدة
+tools,,🪝,Hook,خطّاف
+tools,,⛓️,Chain,سلسلة
+tools,,🔦,Torch,مصباح يدوي
+tools,,🔋,Battery,بطارية
+tools,,🔌,Plug,قابس
+tools,,🧱,Bricks,طوب
+tools,,⚖️,Scales,ميزان
+tools,,🧪,Test tube,أنبوب اختبار
+tools,,🪜,Ladder,سلّم
+tools,,🧯,Fire extinguisher,طفاية حريق
+technology,,💻,Laptop,حاسوب محمول
+technology,,🖥️,Desktop computer,حاسوب مكتبي
+technology,,⌨️,Keyboard,لوحة مفاتيح
+technology,,🖱️,Mouse,فأرة
+technology,,🖨️,Printer,طابعة
+technology,,📱,Mobile phone,هاتف محمول
+technology,,☎️,Telephone,هاتف أرضي
+technology,,📷,Camera,كاميرا
+technology,,📹,Video camera,كاميرا فيديو
+technology,,📺,Television,تلفاز
+technology,,🎮,Games console,جهاز ألعاب
+technology,,🕹️,Joystick,عصا تحكم
+technology,,⌚,Watch,ساعة يد
+technology,,⏰,Alarm clock,منبّه
+technology,,💡,Light bulb,مصباح كهربائي
+technology,,🛰️,Satellite,قمر صناعي
+technology,,🤖,Robot,روبوت
+technology,,🌐,Internet,الإنترنت
+technology,,📧,Email,بريد إلكتروني
+technology,,💿,CD,قرص مدمج
+technology,,🔋,Battery,بطارية
+doctor,,🧑‍⚕️,Doctor,طبيب
+doctor,,🏥,Hospital,مستشفى
+doctor,,🚑,Ambulance,سيارة إسعاف
+doctor,,💊,Medicine,دواء
+doctor,,💉,Injection,حقنة
+doctor,,🌡️,Thermometer,ميزان حرارة
+doctor,,🩹,Plaster,لاصقة جروح
+doctor,,🩺,Stethoscope,سماعة الطبيب
+doctor,,🩼,Crutch,عكّاز
+doctor,,🦽,Wheelchair,كرسي متحرك
+doctor,,🩻,X-ray,صورة أشعة
+doctor,,🩸,Blood,دم
+doctor,,😷,Face mask,كمامة
+doctor,,🤧,Cold,زكام
+doctor,,🤒,Fever,حمّى
+doctor,,🤕,Headache,صداع
+doctor,,🦷,Toothache,ألم الأسنان
+daily,,⏰,I wake up at seven o’clock.,أستيقظ في الساعة السابعة.
+daily,,🪥,I brush my teeth.,أنظّف أسناني.
+daily,,🍳,I have breakfast with my family.,أتناول الفطور مع عائلتي.
+daily,,🚌,I go to school by bus.,أذهب إلى المدرسة بالحافلة.
+daily,,📚,I do my homework after school.,أحلّ واجباتي بعد المدرسة.
+daily,,🤲,I help my mother at home.,أساعد أمي في البيت.
+daily,,⚽,I play football with my friends.,ألعب كرة القدم مع أصدقائي.
+daily,,🛏️,I go to bed at nine o’clock.,أذهب إلى النوم في الساعة التاسعة.
+meeting,,🏷️,What is your name?,ما اسمك؟
+meeting,,🌍,Where are you from?,من أين أنت؟
+meeting,,🗺️,I am from Syria.,أنا من سوريا.
+meeting,,🎂,How old are you?,كم عمرك؟
+meeting,,🔟,I am ten years old.,عمري عشر سنوات.
+meeting,,🏙️,I live in Aleppo.,أسكن في حلب.
+meeting,,👧,Do you have brothers or sisters?,هل لديك إخوة أو أخوات؟
+meeting,,🎨,What do you like doing?,ماذا تحب أن تفعل؟
+meeting,,📚,I like reading and football.,أحب القراءة وكرة القدم.
+meeting,,👋,See you tomorrow!,أراك غداً!
+classroom,,📖,Open your books.,افتحوا كتبكم.
+classroom,,👂,Listen carefully.,استمعوا جيداً.
+classroom,,🔁,"Can you repeat that, please?",هل يمكنك أن تعيد ذلك، من فضلك؟
+classroom,,🤔,I don’t understand.,لا أفهم.
+classroom,,💬,How do you say this in English?,كيف نقول هذا بالإنجليزية؟
+classroom,,🚻,May I go to the toilet?,هل يمكنني الذهاب إلى الحمّام؟
+classroom,,✅,I have finished.,لقد انتهيت.
+classroom,,📝,What is the homework?,ما هو الواجب؟
+classroom,,🤝,Work in pairs.,اعملوا في أزواج.
+classroom,,✋,Raise your hand.,ارفع يدك.
+market,,💰,How much is this?,بكم هذا؟
+market,,🍅,"I want two kilos of tomatoes, please.",أريد كيلوين من البندورة، من فضلك.
+market,,🍞,Do you have fresh bread?,هل عندك خبز طازج؟
+market,,💸,That is too expensive.,هذا غالٍ جداً.
+market,,🛍️,"I need a bag, please.",أحتاج كيساً، من فضلك.
+market,,🗺️,Where is the market?,أين السوق؟
+market,,🤝,Here you are.,تفضّل.
+market,,🌞,"Thank you, have a nice day!",شكراً، نهارك سعيد!
+travel,,🚏,Where is the bus stop?,أين موقف الحافلات؟
+travel,,⬅️,Turn left.,انعطف يساراً.
+travel,,➡️,Turn right.,انعطف يميناً.
+travel,,⬆️,Go straight ahead.,امشِ إلى الأمام مباشرةً.
+travel,,🏦,It is next to the bank.,إنه بجانب البنك.
+travel,,📍,How far is it?,كم يبعد؟
+travel,,🎫,I would like a ticket to Damascus.,أريد تذكرة إلى دمشق.
+travel,,🚆,What time does the train leave?,متى يغادر القطار؟
+travel,,🧭,I am lost.,أنا تائه.
+travel,,🙋,"Can you help me, please?",هل يمكنك مساعدتي، من فضلك؟
+health,,🤒,I feel ill.,أشعر بالمرض.
+health,,🤕,My head hurts.,رأسي يؤلمني.
+health,,🩺,I need a doctor.,أحتاج إلى طبيب.
+health,,🏥,Where is the hospital?,أين المستشفى؟
+health,,💊,Take this medicine twice a day.,خذ هذا الدواء مرتين في اليوم.
+health,,🚑,Call an ambulance!,اتصل بالإسعاف!
+health,,💧,Drink a lot of water.,اشرب الكثير من الماء.
+health,,💐,Get well soon!,أتمنى لك الشفاء العاجل!
+work,,🔎,I am looking for a job.,أبحث عن عمل.
+work,,🧑‍🏫,I have experience in teaching.,لديّ خبرة في التدريس.
+work,,💼,Could you tell me more about the position?,هل يمكنك أن تخبرني المزيد عن الوظيفة؟
+work,,🎓,I would like to apply for a scholarship.,أودّ التقدّم بطلب للحصول على منحة دراسية.
+work,,📅,The deadline is next Monday.,آخر موعد هو يوم الاثنين القادم.
+work,,⏱️,I can start immediately.,يمكنني أن أبدأ فوراً.
+work,,🗓️,Let’s schedule a meeting.,لنحدّد موعداً للاجتماع.
+work,,🛠️,I am studying to become an engineer.,أدرس لأصبح مهندساً.
+phone,,☎️,"Hello, who is speaking?",مرحباً، من المتكلّم؟
+phone,,🧑‍💼,"Could I speak to Mr Ahmad, please?",هل يمكنني التحدث مع السيد أحمد، من فضلك؟
+phone,,⏳,Please hold on a moment.,انتظر لحظة من فضلك.
+phone,,🚫,I’m afraid he isn’t available right now.,للأسف هو غير متاح الآن.
+phone,,📝,Can I leave a message?,هل يمكنني ترك رسالة؟
+phone,,🔁,I’ll call you back later.,سأعاود الاتصال بك لاحقاً.
+phone,,📶,"The line is bad, I can’t hear you.",الخط سيئ، لا أستطيع سماعك.
+phone,,🙏,Thank you for calling.,شكراً لاتصالك.
+expressions,,🍰,It’s a piece of cake.,إنه سهل جداً.
+expressions,,🍀,Good luck!,حظاً موفقاً!
+expressions,,🚶,I’m on my way.,أنا في الطريق.
+expressions,,🤷,Never mind.,لا يهم.
+expressions,,👉,It’s up to you.,القرار لك.
+expressions,,⏰,Better late than never.,أن تأتي متأخراً خيرٌ من ألّا تأتي أبداً.
+expressions,,🕰️,Take your time.,خذ وقتك.
+expressions,,👍,Sounds good!,فكرة جيدة!
+expressions,,📬,Let’s keep in touch.,لنبقَ على تواصل.
+expressions,,😌,No worries.,لا تقلق.
+expressions,,🌇,Let’s call it a day.,لنكتفِ بهذا القدر اليوم.
+expressions,,👂,I’m all ears.,كلّي آذان صاغية.
+opinions,,🔑,"In my opinion, education is the key to the future.",برأيي، التعليم هو مفتاح المستقبل.
+opinions,,🤔,"I see your point, but I disagree.",أفهم وجهة نظرك، لكنني لا أوافق.
+opinions,,⚖️,"On the other hand, there are some risks.",من ناحية أخرى، هناك بعض المخاطر.
+opinions,,🕊️,There is no doubt that peace brings hope.,لا شكّ أن السلام يجلب الأمل.
+opinions,,📌,It is worth mentioning that this takes time.,من الجدير بالذكر أن هذا يحتاج إلى وقت.
+opinions,,❗,This issue deserves serious attention.,هذه القضية تستحق اهتماماً جدياً.
+opinions,,🏗️,Rebuilding requires time and patience.,إعادة البناء تتطلب وقتاً وصبراً.
+opinions,,🧾,"To sum up, we must work together.",خلاصة القول، يجب أن نعمل معاً.
+opinions,,📚,I strongly believe that every child deserves an education.,أؤمن بشدة أن كل طفل يستحق التعليم.
+opinions,,👌,That’s a fair point.,هذه نقطة وجيهة.
+opinions,,🔄,Let me put it another way.,دعني أعبّر عن ذلك بطريقة أخرى.
+opinions,,📊,The evidence suggests otherwise.,تشير الأدلة إلى عكس ذلك.
+advanced,,💪,Resilience,الصمود
+advanced,,🚪,Opportunity,فرصة
+advanced,,🏘️,Community,مجتمع
+advanced,,🏆,Achievement,إنجاز
+advanced,,⚖️,Responsibility,مسؤولية
+advanced,,🧠,Knowledge,معرفة
+advanced,,🌱,Hope,أمل
+advanced,,🔓,Freedom,حرية
+advanced,,🕊️,Peace,سلام
+advanced,,✨,Dignity,كرامة
+advanced,,📈,Development,تنمية
+advanced,,⏳,Patience,صبر
+advanced,,🎓,Education,تعليم
+advanced,,🌍,Environment,بيئة
+advanced,,🫶,Solidarity,تضامن
+advanced,,🤝,Cooperation,تعاون
+advanced,,🪪,Citizen,مواطن
+advanced,,🏛️,Heritage,تراث
+advanced,,🔭,Future,المستقبل
+advanced,,🎁,Generosity,كرم
+advanced,,🦁,Courage,شجاعة
+advanced,,🦉,Wisdom,حكمة
+advanced,,🧳,Migration,هجرة

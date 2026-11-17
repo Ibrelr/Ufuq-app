@@ -20,6 +20,9 @@ export function WordCard({ item, topicId, wide, highlighted, onBeforeSpeak }: Pr
   const { t, target, native, tgt, nat } = useLanguage()
   const { speakItem } = useSpeak()
 
+  // In the two-column phone grid there is only room for icons
+  const label = wide ? '' : 'hidden sm:inline'
+
   const play = (opts?: { slow?: boolean; native?: boolean }) => {
     onBeforeSpeak?.()
     speakItem(item, topicId, { slow: opts?.slow, lang: opts?.native ? native : target })
@@ -41,7 +44,7 @@ export function WordCard({ item, topicId, wide, highlighted, onBeforeSpeak }: Pr
         }`}
       >
         <span className={`flex flex-none items-center justify-center ${wide ? '' : 'min-h-19'}`}>
-          <Pic pic={item.pic} size={wide ? 'sm' : 'md'} />
+          <Pic item={item} size={wide ? 'sm' : 'md'} />
         </span>
         <span className="flex flex-col gap-0.5">
           <span lang={target} dir="auto" className={`font-extrabold leading-tight ${wide ? 'text-xl' : 'text-[21px] sm:text-[26px]'}`}>
@@ -53,17 +56,18 @@ export function WordCard({ item, topicId, wide, highlighted, onBeforeSpeak }: Pr
         </span>
       </button>
       <div className="mt-auto flex border-t border-line">
-        <button type="button" className={actionBtn} onClick={() => play()}>
+        <button type="button" className={actionBtn} onClick={() => play()} aria-label={t.hear}>
           <SpeakerIcon />
-          <span>{t.hear}</span>
+          <span className={label}>{t.hear}</span>
         </button>
-        <button type="button" className={actionBtn} onClick={() => play({ slow: true })}>
+        <button type="button" className={actionBtn} onClick={() => play({ slow: true })} aria-label={t.slow}>
           <SlowIcon />
-          <span>{t.slow}</span>
+          <span className={label}>{t.slow}</span>
         </button>
-        <button type="button" className={actionBtn} onClick={() => play({ native: true })}>
+        <button type="button" className={actionBtn} onClick={() => play({ native: true })} aria-label={t.hearNative}>
           <SpeakerIcon />
-          <span>{t.hearNative}</span>
+          {/* A short language tag fits on every screen: ع for Arabic, EN for English */}
+          <span lang={native}>{native === 'ar' ? 'ع' : 'EN'}</span>
         </button>
       </div>
     </div>

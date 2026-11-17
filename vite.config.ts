@@ -28,12 +28,19 @@ export default defineConfig({
       workbox: {
         // App shell + content are precached; audio files are cached the first time they play.
         globPatterns: ['**/*.{js,css,html,svg,woff2}'],
+        // Pictures are cached as they are seen, not all up front (saves mobile data)
+        globIgnores: ['pics/**'],
         navigateFallback: '/index.html',
         runtimeCaching: [
           {
             urlPattern: ({ url }) => url.pathname.startsWith('/audio/') && url.pathname.endsWith('.mp3'),
             handler: 'CacheFirst',
             options: { cacheName: 'ufuq-audio', expiration: { maxEntries: 2000 } },
+          },
+          {
+            urlPattern: ({ url }) => url.pathname.startsWith('/pics/'),
+            handler: 'CacheFirst',
+            options: { cacheName: 'ufuq-pics', expiration: { maxEntries: 3000 } },
           },
           {
             urlPattern: ({ url }) => url.origin === 'https://fonts.googleapis.com' || url.origin === 'https://fonts.gstatic.com',

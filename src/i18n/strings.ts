@@ -50,6 +50,7 @@ export interface Strings {
   stars: (n: number) => string
   notFound: string
   option: (n: number) => string
+  credits: string
 }
 
 const ar: Strings = {
@@ -109,6 +110,7 @@ const ar: Strings = {
   stars: (n) => `${n} من 3 نجوم`,
   notFound: 'لم نجد هذه الصفحة.',
   option: (n) => `الخيار ${n}`,
+  credits: 'الصور: Microsoft Fluent Emoji (رخصة MIT)',
 }
 
 const en: Strings = {
@@ -168,6 +170,7 @@ const en: Strings = {
   stars: (n) => `${n} of 3 stars`,
   notFound: 'We could not find this page.',
   option: (n) => `Option ${n}`,
+  credits: 'Pictures: Microsoft Fluent Emoji (MIT licence)',
 }
 
 export const STRINGS: Record<Lang, Strings> = { ar, en }
