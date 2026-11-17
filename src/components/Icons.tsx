@@ -68,3 +68,32 @@ export const Mascot = ({ size = 92 }: P) => (
     <path d="M56 94 q14 12 28 0" fill="none" stroke="#1B2340" strokeWidth="5" strokeLinecap="round" />
   </svg>
 )
+
+export const HeartIcon = ({ size = 24, filled }: P & { filled?: boolean }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill={filled ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth={2.2} strokeLinejoin="round" aria-hidden="true">
+    <path d="M12 20.5s-7.5-4.6-9.3-9.2C1.4 8 3.6 4.5 7 4.5c2 0 3.5 1.1 5 3 1.5-1.9 3-3 5-3 3.4 0 5.6 3.5 4.3 6.8-1.8 4.6-9.3 9.2-9.3 9.2z" />
+  </svg>
+)
+
+export const SearchIcon = ({ size = 22 }: P) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" {...stroke} aria-hidden="true">
+    <circle cx="11" cy="11" r="7" />
+    <path d="m20 20-3.5-3.5" />
+  </svg>
+)
+
+export const FlameIcon = ({ size = 22, lit = true }: P & { lit?: boolean }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M12 2.5c.6 3.2-1.3 5-3 6.8C7.4 11 6 12.7 6 15.3a6 6 0 0 0 12 0c0-2.4-1.2-4.2-2.3-5.4-.3 1.5-1 2.5-2.1 3 .5-3.7-.2-7.6-1.6-10.4z" fill={lit ? '#F5862E' : '#E6EBF3'} />
+    <path d="M12 21.3a3.6 3.6 0 0 1-3.6-3.6c0-1.9 1.4-3 2.4-4.3.4 1.2 1.1 1.9 2 2.2.1-.9.5-1.6 1.1-2.2.9 1.1 1.7 2.4 1.7 4.3a3.6 3.6 0 0 1-3.6 3.6z" fill={lit ? '#FFC93C' : '#C9D1DF'} />
+  </svg>
+)
+
+export const RepeatIcon = ({ size = 22 }: P) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" {...stroke} aria-hidden="true">
+    <path d="M17 2l3 3-3 3" />
+    <path d="M4 11V9a4 4 0 0 1 4-4h12" />
+    <path d="M7 22l-3-3 3-3" />
+    <path d="M20 13v2a4 4 0 0 1-4 4H4" />
+  </svg>
+)

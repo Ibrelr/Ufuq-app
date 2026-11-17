@@ -1,14 +1,17 @@
 import { useEffect } from 'react'
-import { Link, Outlet, useLocation } from 'react-router-dom'
+import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useLanguage } from '../i18n/LanguageProvider'
-import { useProgress } from '../lib/progress'
+import { useStats } from '../lib/stats'
 import { useSpeak } from '../lib/useSpeak'
-import { Logo, StarIcon } from './Icons'
+import { FlameIcon, HeartIcon, Logo, SearchIcon } from './Icons'
 import { pill } from './ui'
+
+const iconLink =
+  'inline-flex size-11 items-center justify-center rounded-full text-ink no-underline hover:bg-tint aria-[current=page]:bg-ink aria-[current=page]:text-white'
 
 export function Layout() {
   const { t, direction, setDirection } = useLanguage()
-  const { total } = useProgress()
+  const { streak } = useStats()
   const { stop } = useSpeak()
   const { pathname } = useLocation()
 
@@ -32,14 +35,34 @@ export function Layout() {
               <small className="hidden text-sm leading-tight text-muted sm:block">{t.brandSub}</small>
             </span>
           </Link>
-          <nav aria-label={t.home} className="ms-auto flex flex-wrap items-center gap-2.5">
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-sun-tint px-3.5 py-2 text-base font-extrabold text-sun-ink">
-              <StarIcon on size={20} />
-              <span aria-hidden="true">{total}</span>
-              <span className="sr-only">{t.stars(total)}</span>
-            </span>
-            <button type="button" className={pill} onClick={() => setDirection(direction === 'ar2en' ? 'en2ar' : 'ar2en')}>
-              {direction === 'ar2en' ? <span lang="en">I’m learning Arabic</span> : <span lang="ar">أتعلّم الإنجليزية</span>}
+          <nav aria-label={t.home} className="ms-auto flex items-center gap-1.5 sm:gap-2.5">
+            <NavLink to="/search" aria-label={t.search} title={t.search} className={iconLink}>
+              <SearchIcon size={24} />
+            </NavLink>
+            <NavLink to="/saved" aria-label={t.saved} title={t.saved} className={iconLink}>
+              <HeartIcon size={24} />
+            </NavLink>
+            <NavLink to="/progress" aria-label={`${t.progress}: ${t.streakDays(streak)}`} title={t.progress} className={`${iconLink} w-auto gap-1 px-2.5 font-extrabold`}>
+              <FlameIcon size={24} lit={streak > 0} />
+              <span aria-hidden="true">{streak}</span>
+            </NavLink>
+            <button
+              type="button"
+              className={`${pill} min-h-11 px-3 sm:px-4`}
+              onClick={() => setDirection(direction === 'ar2en' ? 'en2ar' : 'ar2en')}
+              title={direction === 'ar2en' ? 'I’m learning Arabic' : 'أتعلّم الإنجليزية'}
+            >
+              {direction === 'ar2en' ? (
+                <span lang="en">
+                  <span className="sm:hidden">EN</span>
+                  <span className="hidden sm:inline">I’m learning Arabic</span>
+                </span>
+              ) : (
+                <span lang="ar">
+                  <span className="sm:hidden">ع</span>
+                  <span className="hidden sm:inline">أتعلّم الإنجليزية</span>
+                </span>
+              )}
             </button>
           </nav>
         </div>

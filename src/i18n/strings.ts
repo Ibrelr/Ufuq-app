@@ -51,7 +51,96 @@ export interface Strings {
   notFound: string
   option: (n: number) => string
   credits: string
+  // navigation
+  back: string
+  search: string
+  saved: string
+  progress: string
+  // activities
+  match: string
+  spell: string
+  speak: string
+  activityHint: Record<'learn' | 'quiz' | 'match' | 'spell' | 'speak', string>
+  check: string
+  clear: string
+  skip: string
+  next2: string
+  wellDone: string
+  xpGain: (n: number) => string
+  // match
+  matchHint: string
+  moves: (n: number) => string
+  matchDone: (moves: number) => string
+  // spell
+  spellHint: string
+  spellCorrect: string
+  spellWrong: string
+  spellDone: (score: number, total: number) => string
+  // speak
+  speakHint: string
+  speakTap: string
+  listening: string
+  heard: string
+  speakGood: string
+  speakTry: string
+  speakUnsupported: string
+  speakNetwork: string
+  speakDone: (score: number, total: number) => string
+  // today
+  todayTitle: string
+  goal: (xp: number, goal: number) => string
+  goalReached: string
+  streakDays: (n: number) => string
+  continueTopic: string
+  wordOfDay: string
+  reviewN: (n: number) => string
+  savedN: (n: number) => string
+  // saved / review
+  savedTitle: string
+  savedText: string
+  savedEmpty: string
+  practiceThese: string
+  needFour: string
+  reviewTitle: string
+  reviewText: string
+  reviewEmpty: string
+  saveWord: string
+  unsaveWord: string
+  // search
+  searchTitle: string
+  searchPlaceholder: string
+  searchHint: string
+  noResults: (q: string) => string
+  resultsN: (n: number) => string
+  // progress
+  progressTitle: string
+  totalXp: string
+  streakLabel: string
+  learnedWords: string
+  starsEarned: string
+  weekTitle: string
+  weekdays: string[]
+  achievements: string
+  badges: Record<BadgeId, [string, string]>
 }
+
+export type BadgeId = 'first' | 'streak3' | 'streak7' | 'words50' | 'words200' | 'stars30' | 'saved10' | 'xp1000'
+
+/**
+ * Arabic counted nouns: 1 → "كلمة واحدة", 2 → "كلمتان", 3–10 → plural, 11+ → singular.
+ * [singular, dual, plural, "one" adjective]
+ */
+function arCount(n: number, [one, two, many, oneAdj]: [string, string, string, string]) {
+  if (n === 1) return `${one} ${oneAdj}`
+  if (n === 2) return two
+  if (n >= 3 && n <= 10) return `${n} ${many}`
+  return `${n} ${one}`
+}
+const WORD: [string, string, string, string] = ['كلمة', 'كلمتان', 'كلمات', 'واحدة']
+const SENTENCE: [string, string, string, string] = ['جملة', 'جملتان', 'جمل', 'واحدة']
+const TOPIC: [string, string, string, string] = ['موضوع', 'موضوعان', 'موضوعات', 'واحد']
+const TRY: [string, string, string, string] = ['محاولة', 'محاولتان', 'محاولات', 'واحدة']
+const RESULT: [string, string, string, string] = ['نتيجة', 'نتيجتان', 'نتائج', 'واحدة']
 
 const ar: Strings = {
   brand: 'أُفق',
@@ -70,9 +159,9 @@ const ar: Strings = {
     ['اختبر نفسك', 'أجب عن الأسئلة واجمع النجوم.'],
   ],
   levelsTitle: 'المستويات',
-  topicsN: (n) => `${n} موضوعات`,
-  words: (n) => `${n} كلمات`,
-  phrases: (n) => `${n} جمل`,
+  topicsN: (n) => arCount(n, TOPIC),
+  words: (n) => arCount(n, WORD),
+  phrases: (n) => arCount(n, SENTENCE),
   learn: 'تعلّم',
   quiz: 'اختبر نفسك',
   playAll: 'استمع إلى الكل',
@@ -111,6 +200,83 @@ const ar: Strings = {
   notFound: 'لم نجد هذه الصفحة.',
   option: (n) => `الخيار ${n}`,
   credits: 'الصور: Microsoft Fluent Emoji (رخصة MIT)',
+  back: 'رجوع',
+  search: 'بحث',
+  saved: 'كلماتي',
+  progress: 'تقدّمي',
+  match: 'طابِق',
+  spell: 'تهجَّ',
+  speak: 'انطق',
+  activityHint: {
+    learn: 'شاهد واستمع',
+    quiz: 'أسئلة سريعة',
+    match: 'صِل الصورة بالكلمة',
+    spell: 'رتّب الحروف',
+    speak: 'قل الكلمة بصوتك',
+  },
+  check: 'تحقّق',
+  clear: 'امسح',
+  skip: 'تخطَّ',
+  next2: 'التالي',
+  wellDone: 'أحسنت!',
+  xpGain: (n) => `+${n} نقطة`,
+  matchHint: 'اضغط على صورة، ثم على الكلمة التي تناسبها.',
+  moves: (n) => arCount(n, TRY),
+  matchDone: (m) => `أنهيت اللعبة في ${arCount(m, TRY)}!`,
+  spellHint: 'استمع، ثم رتّب الحروف لتكتب الكلمة بالإنجليزية.',
+  spellCorrect: 'صحيح! كتبت الكلمة بشكل صحيح.',
+  spellWrong: 'ليس تماماً. الكلمة الصحيحة:',
+  spellDone: (s, t) => `كتبت ${s} من ${t} بشكل صحيح.`,
+  speakHint: 'اضغط على الميكروفون وقل الكلمة بالإنجليزية.',
+  speakTap: 'اضغط وتكلّم',
+  listening: 'أستمع إليك…',
+  heard: 'سمعت:',
+  speakGood: 'رائع! نطقك واضح.',
+  speakTry: 'قريب! استمع مرة أخرى وحاول من جديد.',
+  speakUnsupported: 'هذا المتصفح لا يدعم التعرّف على الصوت. جرّب Chrome على أندرويد أو الحاسوب.',
+  speakNetwork: 'التعرّف على الصوت يحتاج إلى اتصال بالإنترنت والسماح باستخدام الميكروفون.',
+  speakDone: (s, t) => `نطقت ${s} من ${t} بشكل صحيح.`,
+  todayTitle: 'اليوم',
+  goal: (x, g) => `${x} من ${g} نقطة`,
+  goalReached: 'حقّقت هدف اليوم!',
+  streakDays: (n) => (n === 1 ? 'يوم واحد متتالٍ' : `${n} أيام متتالية`),
+  continueTopic: 'تابع من حيث توقفت',
+  wordOfDay: 'كلمة اليوم',
+  reviewN: (n) => `راجع ${arCount(n, WORD)}`,
+  savedN: (n) => (n === 0 ? 'لا توجد كلمات محفوظة' : `${arCount(n, WORD)} محفوظة`),
+  savedTitle: 'كلماتي',
+  savedText: 'الكلمات التي حفظتها بالضغط على القلب.',
+  savedEmpty: 'لم تحفظ أي كلمة بعد. اضغط على القلب ♡ في أي بطاقة لتحفظها هنا.',
+  practiceThese: 'تدرّب على هذه الكلمات',
+  needFour: 'احفظ 4 كلمات على الأقل لتتدرّب عليها.',
+  reviewTitle: 'المراجعة',
+  reviewText: 'الكلمات التي أخطأت فيها. أجب عن كل كلمة بشكل صحيح مرتين لتختفي من القائمة.',
+  reviewEmpty: 'لا توجد كلمات للمراجعة. أحسنت!',
+  saveWord: 'احفظ الكلمة',
+  unsaveWord: 'أزل الكلمة من كلماتي',
+  searchTitle: 'ابحث عن كلمة',
+  searchPlaceholder: 'اكتب بالعربية أو بالإنجليزية…',
+  searchHint: 'ابحث في كل الكلمات والجمل، بالعربية أو بالإنجليزية.',
+  noResults: (q) => `لم نجد شيئاً لـ «${q}».`,
+  resultsN: (n) => arCount(n, RESULT),
+  progressTitle: 'تقدّمي',
+  totalXp: 'مجموع النقاط',
+  streakLabel: 'أيام متتالية',
+  learnedWords: 'كلمات تعلّمتها',
+  starsEarned: 'النجوم',
+  weekTitle: 'آخر 7 أيام',
+  weekdays: ['أحد', 'اثنين', 'ثلاثاء', 'أربعاء', 'خميس', 'جمعة', 'سبت'],
+  achievements: 'الأوسمة',
+  badges: {
+    first: ['البداية', 'أنهِ أول نشاط'],
+    streak3: ['3 أيام', 'تعلّم 3 أيام متتالية'],
+    streak7: ['أسبوع كامل', 'تعلّم 7 أيام متتالية'],
+    words50: ['50 كلمة', 'تعلّم 50 كلمة'],
+    words200: ['200 كلمة', 'تعلّم 200 كلمة'],
+    stars30: ['جامع النجوم', 'اجمع 30 نجمة'],
+    saved10: ['جامع الكلمات', 'احفظ 10 كلمات'],
+    xp1000: ['1000 نقطة', 'اجمع 1000 نقطة'],
+  },
 }
 
 const en: Strings = {
@@ -171,6 +337,83 @@ const en: Strings = {
   notFound: 'We could not find this page.',
   option: (n) => `Option ${n}`,
   credits: 'Pictures: Microsoft Fluent Emoji (MIT licence)',
+  back: 'Back',
+  search: 'Search',
+  saved: 'My words',
+  progress: 'My progress',
+  match: 'Match',
+  spell: 'Spell',
+  speak: 'Speak',
+  activityHint: {
+    learn: 'Look and listen',
+    quiz: 'Quick questions',
+    match: 'Match pictures and words',
+    spell: 'Build the word',
+    speak: 'Say it out loud',
+  },
+  check: 'Check',
+  clear: 'Clear',
+  skip: 'Skip',
+  next2: 'Next',
+  wellDone: 'Well done!',
+  xpGain: (n) => `+${n} XP`,
+  matchHint: 'Tap a picture, then the word that goes with it.',
+  moves: (n) => (n === 1 ? '1 try' : `${n} tries`),
+  matchDone: (m) => `You finished in ${m} tries!`,
+  spellHint: 'Listen, then put the letters in order to write the word in Arabic.',
+  spellCorrect: 'Correct! You spelled it right.',
+  spellWrong: 'Not quite. The right word is:',
+  spellDone: (s, t) => `You spelled ${s} of ${t} words correctly.`,
+  speakHint: 'Tap the microphone and say the word in Arabic.',
+  speakTap: 'Tap and speak',
+  listening: 'Listening…',
+  heard: 'I heard:',
+  speakGood: 'Great! Your pronunciation is clear.',
+  speakTry: 'Close! Listen again and try once more.',
+  speakUnsupported: 'This browser can’t recognise speech. Try Chrome on Android or a computer.',
+  speakNetwork: 'Speech recognition needs an internet connection and permission to use the microphone.',
+  speakDone: (s, t) => `You said ${s} of ${t} words correctly.`,
+  todayTitle: 'Today',
+  goal: (x, g) => `${x} of ${g} XP`,
+  goalReached: 'Daily goal reached!',
+  streakDays: (n) => (n === 1 ? '1 day in a row' : `${n} days in a row`),
+  continueTopic: 'Continue where you left off',
+  wordOfDay: 'Word of the day',
+  reviewN: (n) => (n === 1 ? 'Review 1 word' : `Review ${n} words`),
+  savedN: (n) => (n === 1 ? '1 saved word' : `${n} saved words`),
+  savedTitle: 'My words',
+  savedText: 'Words you saved by tapping the heart.',
+  savedEmpty: 'You haven’t saved any words yet. Tap the heart ♡ on any card to save it here.',
+  practiceThese: 'Practise these words',
+  needFour: 'Save at least 4 words to practise them.',
+  reviewTitle: 'Review',
+  reviewText: 'Words you got wrong. Answer each one correctly twice to clear it.',
+  reviewEmpty: 'Nothing to review. Well done!',
+  saveWord: 'Save word',
+  unsaveWord: 'Remove from my words',
+  searchTitle: 'Find a word',
+  searchPlaceholder: 'Type in English or Arabic…',
+  searchHint: 'Search every word and sentence, in English or Arabic.',
+  noResults: (q) => `Nothing found for “${q}”.`,
+  resultsN: (n) => (n === 1 ? '1 result' : `${n} results`),
+  progressTitle: 'My progress',
+  totalXp: 'Total XP',
+  streakLabel: 'Day streak',
+  learnedWords: 'Words learned',
+  starsEarned: 'Stars',
+  weekTitle: 'Last 7 days',
+  weekdays: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+  achievements: 'Badges',
+  badges: {
+    first: ['First step', 'Finish your first activity'],
+    streak3: ['3 days', 'Learn 3 days in a row'],
+    streak7: ['Full week', 'Learn 7 days in a row'],
+    words50: ['50 words', 'Learn 50 words'],
+    words200: ['200 words', 'Learn 200 words'],
+    stars30: ['Star collector', 'Collect 30 stars'],
+    saved10: ['Word collector', 'Save 10 words'],
+    xp1000: ['1000 XP', 'Earn 1000 XP'],
+  },
 }
 
 export const STRINGS: Record<Lang, Strings> = { ar, en }
