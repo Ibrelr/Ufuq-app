@@ -1,53 +1,78 @@
 order,id,level,type,icon,name_en,name_ar
 1,greetings,a1,words,👋,Greetings,التحيات
 2,numbers,a1,words,🔢,Numbers,الأرقام
-3,colors,a1,words,🎨,Colours,الألوان
-4,family,a1,words,👨‍👩‍👧,Family,العائلة
-5,body,a1,words,✋,The body,جسم الإنسان
-6,fruits,a1,words,🍎,Fruit,الفواكه
-7,vegetables,a1,words,🥕,Vegetables,الخضروات
-8,food,a1,words,🍞,Food and drink,الطعام والشراب
-9,pets-farm,a1,words,🐄,Pets and farm animals,الحيوانات الأليفة وحيوانات المزرعة
-10,wild-animals,a1,words,🦁,Wild animals,الحيوانات البرية
-11,birds,a1,words,🐦,Birds,الطيور
-12,clothes,a1,words,👕,Clothes,الملابس
-13,school,a1,words,🏫,School,المدرسة
-14,weather,a1,words,🌦️,Weather and seasons,الطقس والفصول
-15,home,a2,words,🏠,House and home,البيت
-16,kitchen,a2,words,🍳,In the kitchen,في المطبخ
-17,sea-insects,a2,words,🐙,Sea animals and insects,حيوانات البحر والحشرات
-18,time,a2,words,📅,Time and calendar,الوقت والتقويم
-19,nature,a2,words,🏞️,Nature,الطبيعة
-20,transport,a2,words,🚌,Transport,المواصلات
-21,city,a2,words,🏙️,In the city,في المدينة
-22,jobs,a2,words,🧑‍🏫,Jobs,المهن
-23,feelings,a2,words,😊,Feelings,المشاعر
-24,verbs,a2,words,🏃,Action words,أفعال مهمة
-25,sports,a2,words,⚽,Sports,الرياضة
-26,music,a2,words,🎵,Music,الموسيقى
-27,toys,a2,words,🧸,Toys and games,الألعاب
-28,crafts,a2,words,🧶,Arts and crafts,الفنون والحِرَف
-29,tools,a2,words,🔨,Tools,الأدوات
-30,technology,a2,words,💻,Technology,التكنولوجيا
-31,doctor,a2,words,🩺,At the doctor,عند الطبيب
-32,restaurant,a2,phrases,🍽️,At the restaurant,في المطعم
-33,clothes-shop,a2,phrases,🛍️,Shopping for clothes,شراء الملابس
-34,about-me,a2,phrases,🙋,Talking about yourself,الحديث عن نفسك
-35,help,a2,phrases,🆘,Asking for help,طلب المساعدة
-36,yesterday,a2,phrases,⏪,What I did yesterday,ماذا فعلت أمس؟
-37,daily,b1,phrases,⏰,My day,يومي
-38,meeting,b1,phrases,🤝,Getting to know someone,التعارف
-39,classroom,b1,phrases,✋,In the classroom,في الصف
-40,market,b1,phrases,🛒,At the market,في السوق
-41,travel,b1,phrases,🧭,Travel and directions,السفر والاتجاهات
-42,health,b1,phrases,🏥,Health,الصحة
-43,opinions-b1,b1,phrases,💭,Feelings and opinions,المشاعر والآراء
-44,plans,b1,phrases,🗓️,Making plans,وضع الخطط
-45,at-work,b1,phrases,🏢,At work,في العمل
-46,work,b2,phrases,💼,Work and study,العمل والدراسة
-47,phone,b2,phrases,📞,On the phone,على الهاتف
-48,expressions,b2,phrases,💬,Common expressions,تعابير شائعة
-49,bank,b2,phrases,🏦,Bank and money,البنك والمال
-50,problems,b2,phrases,🧩,Discussing problems,مناقشة المشكلات
-51,opinions,c1,phrases,🗣️,Opinions and debate,الرأي والنقاش
-52,advanced,c1,words,📚,Advanced vocabulary,مفردات متقدمة
+3,question-words,a1,words,❓,Question words,أدوات الاستفهام
+4,pronouns,a1,words,🙋,Personal pronouns,الضمائر
+5,colors,a1,words,🎨,Colours,الألوان
+6,shapes,a1,words,🔺,Shapes,الأشكال
+7,family,a1,words,👨‍👩‍👧,Family,العائلة
+8,body,a1,words,✋,The body,جسم الإنسان
+9,fruits,a1,words,🍎,Fruit,الفواكه
+10,vegetables,a1,words,🥕,Vegetables,الخضروات
+11,food,a1,words,🍞,Food and drink,الطعام والشراب
+12,pets-farm,a1,words,🐄,Pets and farm animals,الحيوانات الأليفة وحيوانات المزرعة
+13,wild-animals,a1,words,🦁,Wild animals,الحيوانات البرية
+14,birds,a1,words,🐦,Birds,الطيور
+15,clothes,a1,words,👕,Clothes,الملابس
+16,school,a1,words,🏫,School,المدرسة
+17,weather,a1,words,🌦️,Weather and seasons,الطقس والفصول
+18,opposites,a1,words,⚖️,Describing words and opposites,الصفات والأضداد
+19,first-sentences,a1,phrases,🌱,First sentences,جمل أولى
+20,where-is-it,a1,phrases,📍,Where is it?,أين هو؟
+21,home,a2,words,🏠,House and home,البيت
+22,kitchen,a2,words,🍳,In the kitchen,في المطبخ
+23,sea-insects,a2,words,🐙,Sea animals and insects,حيوانات البحر والحشرات
+24,time,a2,words,📅,Time and calendar,الوقت والتقويم
+25,nature,a2,words,🏞️,Nature,الطبيعة
+26,transport,a2,words,🚌,Transport,المواصلات
+27,city,a2,words,🏙️,In the city,في المدينة
+28,jobs,a2,words,🧑‍🏫,Jobs,المهن
+29,feelings,a2,words,😊,Feelings,المشاعر
+30,character,a2,words,🤗,Personality,الصفات الشخصية
+31,verbs,a2,words,🏃,Action words,أفعال مهمة
+32,sports,a2,words,⚽,Sports,الرياضة
+33,music,a2,words,🎵,Music,الموسيقى
+34,toys,a2,words,🧸,Toys and games,الألعاب
+35,crafts,a2,words,🧶,Arts and crafts,الفنون والحِرَف
+36,tools,a2,words,🔨,Tools,الأدوات
+37,technology,a2,words,💻,Technology,التكنولوجيا
+38,doctor,a2,words,🩺,At the doctor,عند الطبيب
+39,airport,a2,words,✈️,At the airport,في المطار
+40,money,a2,words,💰,Money and shopping,المال والتسوق
+41,emergencies,a2,words,🚨,Emergencies,حالات الطوارئ
+42,celebrations,a2,words,🎉,Celebrations,المناسبات
+43,restaurant,a2,phrases,🍽️,At the restaurant,في المطعم
+44,clothes-shop,a2,phrases,🛍️,Shopping for clothes,شراء الملابس
+45,about-me,a2,phrases,🙋,Talking about yourself,الحديث عن نفسك
+46,help,a2,phrases,🆘,Asking for help,طلب المساعدة
+47,yesterday,a2,phrases,⏪,What I did yesterday,ماذا فعلت أمس؟
+48,bus-train,a2,phrases,🚌,On the bus and train,في الحافلة والقطار
+49,describing-people,a2,phrases,👀,Describing people,وصف الأشخاص
+50,weather-talk,a2,phrases,🌤️,Talking about the weather,الحديث عن الطقس
+51,daily,b1,phrases,⏰,My day,يومي
+52,meeting,b1,phrases,🤝,Getting to know someone,التعارف
+53,classroom,b1,phrases,✋,In the classroom,في الصف
+54,market,b1,phrases,🛒,At the market,في السوق
+55,travel,b1,phrases,🧭,Travel and directions,السفر والاتجاهات
+56,health,b1,phrases,🏥,Health,الصحة
+57,symptoms,b1,phrases,🤒,Describing symptoms,وصف الأعراض
+58,opinions-b1,b1,phrases,💭,Feelings and opinions,المشاعر والآراء
+59,plans,b1,phrases,🗓️,Making plans,وضع الخطط
+60,at-work,b1,phrases,🏢,At work,في العمل
+61,housing,b1,words,🏢,Housing,السكن
+62,offices,b1,phrases,📝,Official offices,المكاتب الرسمية
+63,housing-problems,b1,phrases,🔧,Problems at home,مشاكل السكن
+64,work,b2,phrases,💼,Work and study,العمل والدراسة
+65,phone,b2,phrases,📞,On the phone,على الهاتف
+66,expressions,b2,phrases,💬,Common expressions,تعابير شائعة
+67,bank,b2,phrases,🏦,Bank and money,البنك والمال
+68,problems,b2,phrases,🧩,Discussing problems,مناقشة المشكلات
+69,society,b2,words,📰,Society and the news,المجتمع والأخبار
+70,workplace,b2,words,👔,The workplace,بيئة العمل
+71,meetings-emails,b2,phrases,📧,Meetings and emails,الاجتماعات والبريد الإلكتروني
+72,linking,b2,phrases,🔗,Linking words,أدوات الربط
+73,opinions,c1,phrases,🗣️,Opinions and debate,الرأي والنقاش
+74,advanced,c1,words,📚,Advanced vocabulary,مفردات متقدمة
+75,academic-words,c1,words,🔬,Academic words,مفردات أكاديمية
+76,idioms,c1,phrases,🎭,Idioms,تعابير اصطلاحية
+77,academic-phrases,c1,phrases,🎓,Academic phrases,عبارات أكاديمية

@@ -891,3 +891,347 @@ problems,,🤔,What’s the worst that could happen?,ما أسوأ ما يمكن
 problems,,🤝,We need to find a compromise.,نحتاج إلى إيجاد حلّ وسط.
 problems,,🛌,I’ll sleep on it.,سأفكّر في الأمر حتى الغد.
 problems,,🙏,Thanks for listening. It really helps.,شكراً لاستماعك. هذا يساعدني حقاً.
+question-words,,❓,What?,ماذا؟
+question-words,,🧑,Who?,من؟
+question-words,,📍,Where?,أين؟
+question-words,,⏰,When?,متى؟
+question-words,,🤔,Why?,لماذا؟
+question-words,,🛠️,How?,كيف؟
+question-words,,💰,How much?,بكم؟
+question-words,,🔢,How many?,كم عدد؟
+question-words,,👉,Which?,أيّ؟
+question-words,,🎂,How old?,كم العمر؟
+pronouns,,🙋,I,أنا
+pronouns,you-man,👨,You (to a man),أنتَ
+pronouns,you-woman,👩,You (to a woman),أنتِ
+pronouns,,🧔,He,هو
+pronouns,,👧,She,هي
+pronouns,,🤝,We,نحن
+pronouns,you-group,👥,You (to a group),أنتم
+pronouns,,🫂,They,هم
+shapes,,⭕,Circle,دائرة
+shapes,,🟥,Square,مربع
+shapes,,🔺,Triangle,مثلث
+shapes,,⭐,Star,نجمة
+shapes,,❤️,Heart,قلب
+shapes,,🔷,Diamond,معيّن
+shapes,,➡️,Arrow,سهم
+shapes,,🟢,Dot,نقطة
+opposites,,🐘,Big,كبير
+opposites,,🐭,Small,صغير
+opposites,,🦒,Tall,طويل
+opposites,,🐁,Short,قصير
+opposites,,🔥,Hot,حار
+opposites,,🧊,Cold,بارد
+opposites,,🐆,Fast,سريع
+opposites,,🐢,Slow,بطيء
+opposites,,🏋️,Heavy,ثقيل
+opposites,,🪶,Light,خفيف
+opposites,,📢,Loud,عالي الصوت
+opposites,,🤫,Quiet,هادئ
+opposites,,💪,Strong,قوي
+opposites,,🥀,Weak,ضعيف
+opposites,,🔓,Open,مفتوح
+opposites,,🔒,Closed,مغلق
+opposites,,☀️,Bright,مضيء
+opposites,,🌑,Dark,مظلم
+opposites,,💦,Wet,مبلّل
+opposites,,🏜️,Dry,جاف
+opposites,,✨,New,جديد
+opposites,,🏺,Old,قديم
+opposites,,👶,Young,صغير السن
+opposites,,👴,Elderly,كبير السن
+opposites,,👌,Easy,سهل
+opposites,,🧗,Difficult,صعب
+opposites,,🌸,Beautiful,جميل
+opposites,,🧼,Clean,نظيف
+opposites,,💰,Rich,غني
+opposites,,🪙,Poor,فقير
+family,,🧔‍♂️,Uncle (father’s brother),عمّ
+family,,👨‍🦱,Uncle (mother’s brother),خال
+family,,👩‍🦱,Aunt (father’s sister),عمّة
+family,,👩‍🦳,Aunt (mother’s sister),خالة
+family,,👦🏽,Cousin,ابن العمّ
+family,,🧑,Son,ابن
+family,,👱‍♀️,Daughter,ابنة
+family,,🧒🏻,Grandson,حفيد
+family,,👧🏽,Granddaughter,حفيدة
+family,,👯,Twins,توأمان
+airport,,🛩️,Airport,مطار
+airport,,🛂,Passport,جواز سفر
+airport,,🪪,ID card,بطاقة هوية
+airport,,🧳,Suitcase,حقيبة سفر
+airport,,🎫,Ticket,تذكرة
+airport,,🛫,Departures,المغادرة
+airport,,🛬,Arrivals,الوصول
+airport,,💺,Seat,مقعد
+airport,,🛃,Customs,الجمارك
+airport,,🛅,Left luggage,أمانات الأمتعة
+airport,,🧑‍✈️,Pilot,طيار
+airport,,🗺️,Map,خريطة
+airport,,🏨,Hotel,فندق
+airport,,⏳,Delay,تأخير
+money,,💰,Money,مال
+money,,🪙,Coin,قطعة نقدية
+money,,💵,Banknote,ورقة نقدية
+money,,💳,Bank card,بطاقة مصرفية
+money,,🧾,Receipt,إيصال
+money,,🏷️,Price,سعر
+money,,🛒,Trolley,عربة التسوق
+money,,🛍️,Shopping bag,كيس تسوق
+money,,👛,Wallet,محفظة
+money,,🏧,Cash machine,صرّاف آلي
+money,,🏦,Bank,بنك
+money,,📉,Discount,خصم
+money,,🐷,Savings,مدّخرات
+emergencies,,🚨,Emergency,طوارئ
+emergencies,,👮,Police,الشرطة
+emergencies,,🚒,Fire brigade,الإطفاء
+emergencies,,🚑,Ambulance,الإسعاف
+emergencies,,🔥,Fire,حريق
+emergencies,,🆘,Help!,النجدة!
+emergencies,,💥,Accident,حادث
+emergencies,,⚠️,Danger,خطر
+emergencies,,🩹,First aid,إسعافات أولية
+emergencies,,🚪,Emergency exit,مخرج الطوارئ
+emergencies,,🌊,Flood,فيضان
+emergencies,,☎️,Emergency number,رقم الطوارئ
+celebrations,,🌙,Eid,العيد
+celebrations,,🏮,Ramadan,رمضان
+celebrations,,🎂,Birthday,عيد ميلاد
+celebrations,,💒,Wedding,عرس
+celebrations,,🎁,Gift,هدية
+celebrations,,🎉,Party,حفلة
+celebrations,,🕯️,Candle,شمعة
+celebrations,,🎈,Balloon,بالون
+celebrations,,🎆,Fireworks,ألعاب نارية
+celebrations,,🍬,Sweets,حلويات
+celebrations,,🫂,Guests,ضيوف
+celebrations,,🎄,Christmas,عيد الميلاد المجيد
+celebrations,,🎊,New Year,رأس السنة
+celebrations,,🥳,Congratulations!,مبروك!
+character,,🤗,Kind,لطيف
+character,,🤪,Funny,مضحك
+character,,🧠,Clever,ذكي
+character,,🦥,Lazy,كسول
+character,,🐝,Hard-working,مجتهد
+character,,🦁,Brave,شجاع
+character,,🙈,Shy,خجول
+character,,👋,Friendly,ودود
+character,,🤝,Honest,صادق
+character,,⏳,Patient,صبور
+character,,🎩,Polite,مهذّب
+character,,🗣️,Talkative,ثرثار
+character,,🔍,Curious,فضولي
+character,,🎁,Generous,كريم
+character,,😤,Stubborn,عنيد
+jobs,,🥖,Baker,خبّاز
+jobs,,🥩,Butcher,جزّار
+jobs,,🚕,Taxi driver,سائق تاكسي
+jobs,,💇,Hairdresser,حلّاق
+jobs,,🏪,Shopkeeper,بائع
+jobs,,🏗️,Engineer,مهندس
+jobs,,🦷,Dentist,طبيب أسنان
+jobs,,💉,Nurse,ممرّض
+jobs,,🍽️,Waiter,نادل
+jobs,,⚖️,Lawyer,محامٍ
+jobs,,📰,Journalist,صحفي
+jobs,,🔌,Electrician,كهربائي
+jobs,,🚰,Plumber,سبّاك
+jobs,,🪚,Carpenter,نجّار
+jobs,,🧹,Cleaner,عامل نظافة
+verbs,,➡️,Go,يذهب
+verbs,,🔙,Come back,يعود
+verbs,,🆘,Help,يساعد
+verbs,,🎓,Learn,يتعلّم
+verbs,,🧑‍🏫,Teach,يعلّم
+verbs,,💼,Work,يعمل
+verbs,,⏳,Wait,ينتظر
+verbs,,❤️,Love,يحب
+verbs,,💡,Understand,يفهم
+verbs,,🤦,Forget,ينسى
+verbs,,🧠,Remember,يتذكّر
+verbs,,▶️,Start,يبدأ
+verbs,,🏁,Finish,ينهي
+verbs,,🏷️,Sell,يبيع
+verbs,,💳,Pay,يدفع
+verbs,,📤,Send,يرسل
+verbs,,🔍,Find,يجد
+verbs,,🛠️,Repair,يصلح
+housing,,🏢,Flat,شقة
+housing,,💶,Rent,إيجار
+housing,,📝,Contract,عقد
+housing,,🧓,Landlord,صاحب البيت
+housing,,🧑,Tenant,مستأجر
+housing,,💰,Deposit,تأمين
+housing,,🧾,Bills,فواتير
+housing,,⚡,Electricity,كهرباء
+housing,,🔥,Heating,تدفئة
+housing,,🔧,Repair,تصليح
+housing,,🛋️,Furniture,أثاث
+housing,,🛗,Lift,مصعد
+housing,,🏘️,Neighbourhood,حيّ
+housing,,🔑,Keys,مفاتيح
+society,,🏛️,Government,حكومة
+society,,🗳️,Election,انتخابات
+society,,⚖️,Law,قانون
+society,,✊,Rights,حقوق
+society,,📈,Economy,اقتصاد
+society,,📉,Unemployment,بطالة
+society,,🧳,Refugee,لاجئ
+society,,🏭,Pollution,تلوّث
+society,,🌡️,Climate change,تغيّر المناخ
+society,,👥,Society,مجتمع
+society,,📰,News,أخبار
+society,,🎙️,Interview,مقابلة
+society,,📊,Statistics,إحصائيات
+society,,🏥,Health care,الرعاية الصحية
+society,,🎓,Education system,نظام التعليم
+workplace,,🗣️,Meeting,اجتماع
+workplace,,⏰,Deadline,موعد نهائي
+workplace,,💵,Salary,راتب
+workplace,,📃,Contract,عقد عمل
+workplace,,🧑‍💼,Colleague,زميل
+workplace,,👔,Manager,مدير
+workplace,,🤝,Job interview,مقابلة عمل
+workplace,,📄,CV,سيرة ذاتية
+workplace,,📈,Promotion,ترقية
+workplace,,🏖️,Annual leave,إجازة سنوية
+workplace,,🌙,Overtime,عمل إضافي
+workplace,,🎓,Training,تدريب
+workplace,,👥,Team,فريق
+workplace,,📊,Report,تقرير
+workplace,,🗂️,Project,مشروع
+academic-words,,🔬,Analysis,تحليل
+academic-words,,🔍,Evidence,دليل
+academic-words,,💡,Hypothesis,فرضية
+academic-words,,🧾,Conclusion,استنتاج
+academic-words,,📚,Research,بحث علمي
+academic-words,,🗣️,Argument,حجّة
+academic-words,,➡️,Consequence,عاقبة
+academic-words,,👓,Perspective,منظور
+academic-words,,🌀,Phenomenon,ظاهرة
+academic-words,,♻️,Sustainability,استدامة
+academic-words,,🚀,Innovation,ابتكار
+academic-words,,⚖️,Inequality,عدم المساواة
+academic-words,,🧠,Awareness,وعي
+academic-words,,📜,Policy,سياسة
+academic-words,,💥,Impact,تأثير
+first-sentences,,🏠,This is my house.,هذا بيتي.
+first-sentences,,👧,I have a sister.,لديّ أخت.
+first-sentences,,🍎,I like apples.,أحب التفاح.
+first-sentences,,🥛,I don’t like milk.,لا أحب الحليب.
+first-sentences,,😋,I am hungry.,أنا جائع.
+first-sentences,,☀️,It is hot today.,الجو حار اليوم.
+first-sentences,,🐱,The cat is small.,القطة صغيرة.
+first-sentences,,🎒,My bag is blue.,حقيبتي زرقاء.
+first-sentences,,🏊,I can swim.,أستطيع السباحة.
+first-sentences,,💧,I want some water.,أريد بعض الماء.
+first-sentences,,📱,Where is my phone?,أين هاتفي؟
+first-sentences,,❓,What is this?,ما هذا؟
+first-sentences,,🧑‍🏫,She is a teacher.,هي معلمة.
+first-sentences,,🚗,We have a car.,لدينا سيارة.
+where-is-it,,🪑,The cat is on the chair.,القطة على الكرسي.
+where-is-it,,🛏️,The ball is under the bed.,الكرة تحت السرير.
+where-is-it,,🎒,The book is in the bag.,الكتاب في الحقيبة.
+where-is-it,,🏦,The shop is next to the bank.,المتجر بجانب البنك.
+where-is-it,,🚗,The car is in front of the house.,السيارة أمام البيت.
+where-is-it,,🏡,The garden is behind the house.,الحديقة خلف البيت.
+where-is-it,,💡,The lamp is between the bed and the window.,المصباح بين السرير والنافذة.
+where-is-it,,🐦,The bird is above the tree.,العصفور فوق الشجرة.
+where-is-it,,🔑,The keys are near the door.,المفاتيح قرب الباب.
+where-is-it,,🏫,The school is far from here.,المدرسة بعيدة من هنا.
+bus-train,,🚌,Does this bus go to the city centre?,هل تذهب هذه الحافلة إلى وسط المدينة؟
+bus-train,,🎫,"A single ticket, please.",تذكرة ذهاب فقط، من فضلك.
+bus-train,,🔁,"A return ticket, please.",تذكرة ذهاب وعودة، من فضلك.
+bus-train,,🚉,Which platform is it?,من أي رصيف؟
+bus-train,,🚆,When is the next train?,متى القطار التالي؟
+bus-train,,💺,Is this seat free?,هل هذا المقعد شاغر؟
+bus-train,,🗣️,Please tell me when we get there.,من فضلك أخبرني عندما نصل.
+bus-train,,🚏,I want to get off here.,أريد أن أنزل هنا.
+bus-train,,⏳,The train is late.,القطار متأخر.
+bus-train,,⏱️,How long does it take?,كم يستغرق ذلك؟
+describing-people,,💇‍♀️,She has long black hair.,لديها شعر أسود طويل.
+describing-people,,🦒,He is tall and thin.,هو طويل ونحيف.
+describing-people,,👓,My brother wears glasses.,أخي يلبس نظارة.
+describing-people,,👁️,She has brown eyes.,لديها عينان بنيتان.
+describing-people,,🤗,He is very kind and funny.,هو لطيف ومضحك جداً.
+describing-people,,👴,My grandfather has a white beard.,جدّي لديه لحية بيضاء.
+describing-people,,🎂,She is about thirty years old.,عمرها حوالي ثلاثين سنة.
+describing-people,,🧔,He looks like his father.,يشبه أباه.
+describing-people,,👗,She is wearing a red dress.,ترتدي فستاناً أحمر.
+describing-people,,👋,They are very friendly.,إنهم ودودون جداً.
+weather-talk,,🌤️,What’s the weather like today?,كيف الطقس اليوم؟
+weather-talk,,☀️,It’s sunny and warm.,الجو مشمس ودافئ.
+weather-talk,,🌧️,It’s raining.,إنها تمطر.
+weather-talk,,🌬️,It’s very windy.,الرياح قوية جداً.
+weather-talk,,🧥,"It’s cold, take a coat.",الجو بارد، خذ معطفاً.
+weather-talk,,❄️,It might snow tomorrow.,قد تثلج غداً.
+weather-talk,,🌷,I love the spring.,أحب الربيع.
+weather-talk,,🥵,It’s too hot to go out.,الجو حار جداً للخروج.
+symptoms,,🤕,I’ve had a headache for three days.,أعاني من صداع منذ ثلاثة أيام.
+symptoms,,🤢,My stomach hurts.,معدتي تؤلمني.
+symptoms,,😵‍💫,I feel dizzy.,أشعر بالدوار.
+symptoms,,😷,I can’t stop coughing.,لا أستطيع التوقف عن السعال.
+symptoms,,💊,I’m allergic to penicillin.,لديّ حساسية من البنسلين.
+symptoms,,🦴,I think I’ve broken my arm.,أظن أنني كسرت ذراعي.
+symptoms,,🔴,I have a rash on my skin.,لديّ طفح جلدي.
+symptoms,,😩,I’ve been feeling very tired lately.,أشعر بتعب شديد في الآونة الأخيرة.
+symptoms,,📝,Do I need a prescription?,هل أحتاج إلى وصفة طبية؟
+symptoms,,⏰,How often should I take it?,كم مرة يجب أن آخذه؟
+offices,,🏠,I’d like to register my address.,أودّ تسجيل عنواني.
+offices,,📝,I need to fill in this form.,أحتاج إلى ملء هذا النموذج.
+offices,,✍️,Where do I sign?,أين أوقّع؟
+offices,,📅,Do I need an appointment?,هل أحتاج إلى موعد؟
+offices,,🛂,Here is my passport.,هذا جواز سفري.
+offices,,⏳,How long will it take?,كم من الوقت سيستغرق ذلك؟
+offices,,🔁,Could you explain that again?,هل يمكنك أن تشرح ذلك مرة أخرى؟
+offices,,🗣️,I need an interpreter.,أحتاج إلى مترجم.
+offices,,📧,Can I send the documents by email?,هل يمكنني إرسال الوثائق بالبريد الإلكتروني؟
+offices,,📬,When will I get an answer?,متى سأحصل على رد؟
+housing-problems,,🔥,The heating isn’t working.,التدفئة لا تعمل.
+housing-problems,,💧,There’s a leak in the bathroom.,هناك تسرّب في الحمّام.
+housing-problems,,🪟,The window won’t close.,النافذة لا تُغلق.
+housing-problems,,📢,The neighbours are very noisy at night.,الجيران مزعجون جداً في الليل.
+housing-problems,,🔧,When can someone come to fix it?,متى يمكن أن يأتي أحد لإصلاحه؟
+housing-problems,,🦠,There is mould on the wall.,هناك عفن على الجدار.
+housing-problems,,🔑,I’ve lost my key.,أضعت مفتاحي.
+housing-problems,,📅,The rent is due on the first of the month.,يُستحق الإيجار في الأول من الشهر.
+meetings-emails,,✉️,I’m writing to ask about the course.,أكتب لأستفسر عن الدورة.
+meetings-emails,,📎,Please find the report attached.,تجدون التقرير في المرفقات.
+meetings-emails,,📬,I look forward to hearing from you.,أتطلّع إلى سماع ردّكم.
+meetings-emails,,📅,Could we move the meeting to Thursday?,هل يمكننا نقل الاجتماع إلى يوم الخميس؟
+meetings-emails,,📋,Let’s start with the first point on the agenda.,لنبدأ بالنقطة الأولى في جدول الأعمال.
+meetings-emails,,🤔,Could you clarify what you mean?,هل يمكنك توضيح ما تقصده؟
+meetings-emails,,🙋,I’d like to add something.,أودّ أن أضيف شيئاً.
+meetings-emails,,🧾,Let’s sum up what we’ve agreed.,لنلخّص ما اتفقنا عليه.
+meetings-emails,,🔁,I’ll get back to you by Friday.,سأعود إليك بالرد قبل يوم الجمعة.
+meetings-emails,,🙏,Thank you all for your time.,شكراً لكم جميعاً على وقتكم.
+linking,,🧩,"However, the plan has some problems.",ومع ذلك، الخطة فيها بعض المشكلات.
+linking,,⏳,"Therefore, we need more time.",لذلك، نحتاج إلى مزيد من الوقت.
+linking,,🌧️,"Although it was raining, we went out.",على الرغم من أنها كانت تمطر، خرجنا.
+linking,,➕,"In addition, the price is reasonable.",بالإضافة إلى ذلك، السعر معقول.
+linking,,📉,"As a result, many people lost their jobs.",نتيجة لذلك، فقد كثير من الناس وظائفهم.
+linking,,🚌,"For example, you could take the bus.",على سبيل المثال، يمكنك أن تركب الحافلة.
+linking,,⚖️,"On the one hand, it’s cheap.",من ناحية، إنه رخيص.
+linking,,🚶,"Instead of driving, I walk to work.",بدلاً من القيادة، أمشي إلى العمل.
+linking,,🏃,"Unless we hurry, we’ll miss the train.",ما لم نسرع، سيفوتنا القطار.
+linking,,🏆,"Despite the difficulties, she succeeded.",رغم الصعوبات، نجحت.
+idioms,,🌧️,It’s raining cats and dogs.,إنها تمطر بغزارة.
+idioms,,🧊,A joke can help to break the ice.,النكتة تساعد على كسر الجليد.
+idioms,,🌙,I see him once in a blue moon.,أراه نادراً جداً.
+idioms,,🌳,Let’s not beat around the bush.,لنتكلّم بصراحة دون مراوغة.
+idioms,,🔨,She hit the nail on the head.,أصابت كبد الحقيقة.
+idioms,,🤒,I’m feeling under the weather.,أشعر بتوعّك.
+idioms,,⛵,We’re in the same boat.,نحن في المركب نفسه.
+idioms,,💬,Actions speak louder than words.,الأفعال أبلغ من الأقوال.
+idioms,,🥚,Don’t put all your eggs in one basket.,لا تضع كل البيض في سلة واحدة.
+idioms,,☁️,Every cloud has a silver lining.,في كل محنة منحة.
+academic-phrases,,📝,This essay will examine the causes of migration.,سيتناول هذا المقال أسباب الهجرة.
+academic-phrases,,📈,The data clearly indicates a rising trend.,تشير البيانات بوضوح إلى اتجاه تصاعدي.
+academic-phrases,,🗣️,It could be argued that the policy has failed.,يمكن القول إن هذه السياسة قد فشلت.
+academic-phrases,,❓,This raises an important question.,يطرح هذا سؤالاً مهماً.
+academic-phrases,,📚,A growing body of research supports this idea.,يدعم عدد متزايد من الأبحاث هذه الفكرة.
+academic-phrases,,🔄,"In contrast to previous studies, this one is larger.",على عكس الدراسات السابقة، هذه الدراسة أوسع.
+academic-phrases,,🔬,Further research is needed.,هناك حاجة إلى مزيد من البحث.
+academic-phrases,,🧾,"In conclusion, the evidence supports this view.",في الختام، تدعم الأدلة هذا الرأي.
