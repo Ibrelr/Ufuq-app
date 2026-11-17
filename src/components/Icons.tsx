@@ -111,3 +111,10 @@ export const HomeIcon = ({ size = 22 }: P) => (
     <path d="M5 9.5V20h5v-6h4v6h5V9.5" />
   </svg>
 )
+
+export const MapIcon = ({ size = 22 }: P) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" {...stroke} aria-hidden="true">
+    <path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z" />
+    <path d="M9 4v14M15 6v14" />
+  </svg>
+)

@@ -155,6 +155,21 @@ export interface Strings {
   finished: string
   build: string
   read: string
+  grammar: string
+  grammarTitle: string
+  grammarText: string
+  theRule: string
+  examples: string
+  exercisesN: (n: number) => string
+  grammarHint: string
+  course: string
+  courseTitle: string
+  courseText: string
+  nextStep: string
+  startStep: string
+  stepKind: Record<'words' | 'phrases' | 'grammar' | 'talk' | 'read', string>
+  stepsDone: (done: number, total: number) => string
+  levelDone: string
   practiseDone: (score: number, total: number) => string
   seeAll: string
 }
@@ -335,6 +350,21 @@ const ar: Strings = {
   finished: 'مكتمل',
   build: 'ابنِ الجملة',
   read: 'اقرأ',
+  grammar: 'القواعد',
+  grammarTitle: 'قواعد اللغة الإنجليزية',
+  grammarText: 'دروس قصيرة مع شرح واضح بالعربية وأمثلة مسموعة وتمارين.',
+  theRule: 'القاعدة',
+  examples: 'أمثلة',
+  exercisesN: (n) => arCount(n, ['تمرين', 'تمرينان', 'تمارين', 'واحد']),
+  grammarHint: 'اختر الكلمة المناسبة لإكمال الجملة.',
+  course: 'مساري',
+  courseTitle: 'مسار تعلّمك',
+  courseText: 'اتبع الخطوات بالترتيب: كلمات، ثم جمل، ثم قواعد، ثم محادثات وقراءة.',
+  nextStep: 'الخطوة التالية',
+  startStep: 'ابدأ',
+  stepKind: { words: 'كلمات', phrases: 'جمل', grammar: 'قواعد', talk: 'محادثة', read: 'قراءة' },
+  stepsDone: (d, t) => `${d} من ${t}`,
+  levelDone: 'أكملت هذا المستوى!',
   practiseDone: (s, t) => `أجبت عن ${s} من ${t} بشكل صحيح.`,
   seeAll: 'عرض الكل',
   badges: {
@@ -507,6 +537,21 @@ const en: Strings = {
   finished: 'Finished',
   build: 'Build',
   read: 'Read',
+  grammar: 'Grammar',
+  grammarTitle: 'English grammar',
+  grammarText: 'Short lessons with clear explanations, examples with audio, and exercises.',
+  theRule: 'The rule',
+  examples: 'Examples',
+  exercisesN: (n) => (n === 1 ? '1 exercise' : `${n} exercises`),
+  grammarHint: 'Choose the word that completes the sentence.',
+  course: 'My course',
+  courseTitle: 'Your learning path',
+  courseText: 'Follow the steps in order: words, then sentences, grammar, conversations and reading.',
+  nextStep: 'Next step',
+  startStep: 'Start',
+  stepKind: { words: 'Words', phrases: 'Sentences', grammar: 'Grammar', talk: 'Conversation', read: 'Reading' },
+  stepsDone: (d, t) => `${d} of ${t}`,
+  levelDone: 'You finished this level!',
   practiseDone: (s, t) => `You got ${s} of ${t} right.`,
   seeAll: 'See all',
   badges: {

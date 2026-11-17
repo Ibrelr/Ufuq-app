@@ -68,3 +68,23 @@ export interface Reading {
   sentences: Sentence[]
   vocab: Sentence[]
 }
+
+export interface GrammarExercise {
+  /** English sentence with ___ where the answer goes */
+  sentence: string
+  answer: string
+  wrong: string[]
+  /** Arabic translation of the whole sentence */
+  ar: string
+}
+
+export interface GrammarLesson {
+  id: string
+  level: LevelId
+  icon: string
+  iconImg?: string
+  title: Localized
+  rule: Localized
+  examples: Sentence[]
+  exercises: GrammarExercise[]
+}

@@ -178,7 +178,22 @@ const readings = readJson('readings.json').map((r, n) => {
   const vocab = (r.vocab ?? []).map(([en, ar]) => ({ en, ar }))
   return { ...r, iconImg: iconFor(r.icon), sentences, vocab }
 })
-for (const [list, name] of [[conversations, 'conversation'], [readings, 'reading']]) {
+const grammar = readJson('grammar.json').map((g, n) => {
+  const where = `grammar.json #${n + 1} (${g.id ?? 'no id'})`
+  if (!g.id) problems.push(`${where}: missing id`)
+  if (!LEVELS.includes(g.level)) problems.push(`${where}: bad level "${g.level}"`)
+  if (!hasText(g.title) || !hasText(g.rule)) problems.push(`${where}: title and rule need en and ar`)
+  const examples = (g.examples ?? []).map(([en, ar]) => ({ en, ar }))
+  const exercises = (g.exercises ?? []).map(([sentence, answer, wrong, ar], i) => {
+    if (!sentence?.includes('___')) problems.push(`${where} exercise ${i + 1}: sentence needs ___ for the gap`)
+    if (!answer || !Array.isArray(wrong) || !wrong.length) problems.push(`${where} exercise ${i + 1}: needs an answer and wrong options`)
+    if (wrong?.includes(answer)) problems.push(`${where} exercise ${i + 1}: the answer is also a wrong option`)
+    return { sentence, answer, wrong, ar }
+  })
+  return { ...g, iconImg: iconFor(g.icon), examples, exercises }
+})
+
+for (const [list, name] of [[conversations, 'conversation'], [readings, 'reading'], [grammar, 'grammar']]) {
   const seen = new Set()
   for (const x of list) {
     if (seen.has(x.id)) problems.push(`duplicate ${name} id "${x.id}"`)
@@ -200,9 +215,10 @@ mkdirSync(genDir, { recursive: true })
 writeFileSync(join(genDir, 'topics.json'), JSON.stringify(out))
 writeFileSync(join(genDir, 'conversations.json'), JSON.stringify(conversations))
 writeFileSync(join(genDir, 'readings.json'), JSON.stringify(readings))
+writeFileSync(join(genDir, 'grammar.json'), JSON.stringify(grammar))
 
 // Pictures the interface itself uses (activity tabs, badges, home page)
-const UI_EMOJIS = ['📖', '❓', '🧩', '🔤', '🎤', '🔥', '⭐', '❤️', '🔁', '🔍', '🏅', '🎯', '🌱', '🚀', '📚', '🏆', '💯', '🗓️', '👣', '💎', '🎧', '🎭', '💬']
+const UI_EMOJIS = ['📖', '❓', '🧩', '🔤', '🎤', '🔥', '⭐', '❤️', '🔁', '🔍', '🏅', '🎯', '🌱', '🚀', '📚', '🏆', '💯', '🗓️', '👣', '💎', '🎧', '🎭', '💬', '📐', '🗺️', '🏁']
 const uiIcons = {}
 for (const e of UI_EMOJIS) {
   const name = emojiToIcon(e)
@@ -220,4 +236,4 @@ for (const [name, svg] of svgCache) writeFileSync(join(picDir, `${name}.svg`), s
 
 const total = out.reduce((s, t) => s + t.items.length, 0)
 if (warnings.length) console.warn('! ' + warnings.join('\n! '))
-console.log(`✓ content: ${out.length} topics, ${total} items, ${conversations.length} conversations, ${readings.length} texts, ${svgCache.size} pictures`)
+console.log(`✓ content: ${out.length} topics, ${total} items, ${conversations.length} conversations, ${readings.length} texts, ${grammar.length} grammar lessons, ${svgCache.size} pictures`)

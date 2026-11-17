@@ -15,6 +15,8 @@ import { ProgressPage } from './pages/ProgressPage'
 import { ConversationPage } from './pages/ConversationPage'
 import { ReadingPage } from './pages/ReadingPage'
 import { LessonListPage } from './pages/LessonListPage'
+import { GrammarPage } from './pages/GrammarPage'
+import { CoursePage } from './pages/CoursePage'
 
 export default function App() {
   return (
@@ -35,6 +37,9 @@ export default function App() {
                 <Route path="talk" element={<LessonListPage kind="talk" />} />
                 <Route path="talk/:id/:mode?" element={<ConversationPage />} />
                 <Route path="read" element={<LessonListPage kind="read" />} />
+                <Route path="grammar" element={<LessonListPage kind="grammar" />} />
+                <Route path="grammar/:id/:mode?" element={<GrammarPage />} />
+                <Route path="course" element={<CoursePage />} />
                 <Route path="read/:id/:mode?" element={<ReadingPage />} />
                 <Route path="*" element={<NotFound />} />
               </Route>

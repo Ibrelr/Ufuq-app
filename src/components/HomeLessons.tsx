@@ -1,13 +1,14 @@
 import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
-import { CONVERSATIONS, READINGS } from '../content'
+import { CONVERSATIONS, GRAMMAR, READINGS } from '../content'
+import { GrammarCard } from './GrammarCard'
 import { useLanguage } from '../i18n/LanguageProvider'
 import { ConversationCard, ReadingCard } from './LessonCards'
 import { UiIcon } from './Pic'
 
 /** Home page rows that lead to real conversations and reading texts. */
 export function HomeLessons() {
-  const { t } = useLanguage()
+  const { t, target } = useLanguage()
   const row = (emoji: string, title: string, text: string, to: string, children: ReactNode) => (
     <section className="py-6">
       <div className="mb-4 flex flex-wrap items-end gap-3">
@@ -17,7 +18,7 @@ export function HomeLessons() {
           <p className="m-0 text-muted">{text}</p>
         </div>
         <Link to={to} className="ms-auto font-extrabold text-primary-dark">
-          {t.seeAll} ({to === '/talk' ? CONVERSATIONS.length : READINGS.length})
+          {t.seeAll} ({to === '/talk' ? CONVERSATIONS.length : to === '/read' ? READINGS.length : GRAMMAR.length})
         </Link>
       </div>
       {children}
@@ -25,6 +26,19 @@ export function HomeLessons() {
   )
   return (
     <>
+      {target === 'en' &&
+        row(
+          '📐',
+          t.grammarTitle,
+          t.grammarText,
+          '/grammar',
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {['to-be', 'present-simple', 'past-simple'].map((id) => {
+              const g = GRAMMAR.find((x) => x.id === id)
+              return g && <GrammarCard key={id} lesson={g} />
+            })}
+          </div>,
+        )}
       {row(
         '💬',
         t.talkTitle,

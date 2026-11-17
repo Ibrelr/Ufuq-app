@@ -1,0 +1,2589 @@
+[
+  {
+    "id": "to-be",
+    "level": "a1",
+    "icon": "🙋",
+    "title": {
+      "en": "The verb ‘to be’ (am / is / are)",
+      "ar": "الفعل to be (am / is / are)"
+    },
+    "rule": {
+      "en": "Use am with I, is with he/she/it and singular nouns, and are with you/we/they and plurals. Add not for the negative and put the verb first in questions.",
+      "ar": "نستخدم am مع I، وis مع he وshe وit والاسم المفرد، وare مع you وwe وthey والجمع. في النفي نضيف not بعد الفعل، وفي السؤال نضع الفعل في البداية: Are you a student?"
+    },
+    "examples": [
+      [
+        "I am a student.",
+        "أنا طالب."
+      ],
+      [
+        "She is from Syria.",
+        "هي من سوريا."
+      ],
+      [
+        "They are my friends.",
+        "هم أصدقائي."
+      ],
+      [
+        "It is not cold today.",
+        "الجو ليس بارداً اليوم."
+      ],
+      [
+        "Are you tired?",
+        "هل أنت متعب؟"
+      ]
+    ],
+    "exercises": [
+      [
+        "I ___ ten years old.",
+        "am",
+        [
+          "is",
+          "are"
+        ],
+        "عمري عشر سنوات."
+      ],
+      [
+        "My mother ___ a nurse.",
+        "is",
+        [
+          "am",
+          "are"
+        ],
+        "أمي ممرضة."
+      ],
+      [
+        "We ___ in the classroom.",
+        "are",
+        [
+          "is",
+          "am"
+        ],
+        "نحن في الصف."
+      ],
+      [
+        "___ you from Damascus?",
+        "Are",
+        [
+          "Is",
+          "Am"
+        ],
+        "هل أنت من دمشق؟"
+      ],
+      [
+        "The children ___ happy.",
+        "are",
+        [
+          "is",
+          "am"
+        ],
+        "الأطفال سعداء."
+      ],
+      [
+        "It ___ not a cat, it’s a dog.",
+        "is",
+        [
+          "are",
+          "am"
+        ],
+        "ليست قطة، إنه كلب."
+      ],
+      [
+        "He ___ my brother.",
+        "is",
+        [
+          "are",
+          "am"
+        ],
+        "هو أخي."
+      ],
+      [
+        "You ___ very kind.",
+        "are",
+        [
+          "is",
+          "am"
+        ],
+        "أنت لطيف جداً."
+      ]
+    ]
+  },
+  {
+    "id": "articles",
+    "level": "a1",
+    "icon": "🅰️",
+    "title": {
+      "en": "a / an / the",
+      "ar": "أدوات التنكير والتعريف (a / an / the)"
+    },
+    "rule": {
+      "en": "Use a before a consonant sound and an before a vowel sound. Use the for something specific or already known.",
+      "ar": "نستخدم a قبل الكلمة التي تبدأ بصوت ساكن (a book)، وan قبل الكلمة التي تبدأ بصوت متحرك (an apple). ونستخدم the عندما نتحدث عن شيء محدد أو معروف، مثل «ال» في العربية."
+    },
+    "examples": [
+      [
+        "I have a car.",
+        "لديّ سيارة."
+      ],
+      [
+        "She is eating an orange.",
+        "هي تأكل برتقالة."
+      ],
+      [
+        "The car is red.",
+        "السيارة حمراء."
+      ],
+      [
+        "He is an engineer.",
+        "هو مهندس."
+      ],
+      [
+        "Look at the moon!",
+        "انظر إلى القمر!"
+      ]
+    ],
+    "exercises": [
+      [
+        "I want ___ apple.",
+        "an",
+        [
+          "a",
+          "the"
+        ],
+        "أريد تفاحة."
+      ],
+      [
+        "She has ___ dog and a cat.",
+        "a",
+        [
+          "an"
+        ],
+        "لديها كلب وقطة."
+      ],
+      [
+        "He is ___ teacher.",
+        "a",
+        [
+          "an"
+        ],
+        "هو معلم."
+      ],
+      [
+        "Look at ___ sun!",
+        "the",
+        [
+          "a",
+          "an"
+        ],
+        "انظر إلى الشمس!"
+      ],
+      [
+        "It takes ___ hour to get there.",
+        "an",
+        [
+          "a"
+        ],
+        "يستغرق الوصول إلى هناك ساعة."
+      ],
+      [
+        "My father is ___ engineer.",
+        "an",
+        [
+          "a"
+        ],
+        "أبي مهندس."
+      ],
+      [
+        "I bought a book. ___ book is very interesting.",
+        "The",
+        [
+          "A",
+          "An"
+        ],
+        "اشتريت كتاباً. الكتاب ممتع جداً."
+      ],
+      [
+        "There is ___ umbrella by the door.",
+        "an",
+        [
+          "a"
+        ],
+        "هناك مظلة بجانب الباب."
+      ]
+    ]
+  },
+  {
+    "id": "plurals",
+    "level": "a1",
+    "icon": "🔢",
+    "title": {
+      "en": "Plurals",
+      "ar": "الجمع"
+    },
+    "rule": {
+      "en": "Add -s to most nouns and -es after s, sh, ch and x. Learn irregular plurals like men, children, teeth and feet.",
+      "ar": "نضيف s إلى معظم الأسماء لنجمعها: book ← books. ونضيف es بعد s وsh وch وx: box ← boxes. وبعض الكلمات جمعها شاذ: man ← men، child ← children، tooth ← teeth، foot ← feet."
+    },
+    "examples": [
+      [
+        "one cat, two cats",
+        "قطة واحدة، قطتان"
+      ],
+      [
+        "one bus, three buses",
+        "حافلة واحدة، ثلاث حافلات"
+      ],
+      [
+        "one city, two cities",
+        "مدينة واحدة، مدينتان"
+      ],
+      [
+        "one child, many children",
+        "طفل واحد، أطفال كثيرون"
+      ],
+      [
+        "one tooth, two teeth",
+        "سن واحد، سنّان"
+      ]
+    ],
+    "exercises": [
+      [
+        "I have two ___.",
+        "brothers",
+        [
+          "brotheres",
+          "brother"
+        ],
+        "لديّ أخوان."
+      ],
+      [
+        "There are three ___ in the street.",
+        "buses",
+        [
+          "buss",
+          "bus"
+        ],
+        "هناك ثلاث حافلات في الشارع."
+      ],
+      [
+        "The ___ are playing in the garden.",
+        "children",
+        [
+          "childs",
+          "childrens"
+        ],
+        "الأطفال يلعبون في الحديقة."
+      ],
+      [
+        "I brush my ___ every morning.",
+        "teeth",
+        [
+          "tooths",
+          "toothes"
+        ],
+        "أنظّف أسناني كل صباح."
+      ],
+      [
+        "She bought two ___ of apples.",
+        "boxes",
+        [
+          "boxs",
+          "box"
+        ],
+        "اشترت صندوقين من التفاح."
+      ],
+      [
+        "Those ___ are very tall.",
+        "men",
+        [
+          "mans",
+          "mens"
+        ],
+        "هؤلاء الرجال طوال جداً."
+      ],
+      [
+        "London and Paris are big ___.",
+        "cities",
+        [
+          "citys",
+          "cityes"
+        ],
+        "لندن وباريس مدينتان كبيرتان."
+      ],
+      [
+        "My ___ hurt after the long walk.",
+        "feet",
+        [
+          "foots",
+          "feets"
+        ],
+        "قدماي تؤلمانني بعد المشي الطويل."
+      ]
+    ]
+  },
+  {
+    "id": "have",
+    "level": "a1",
+    "icon": "🎒",
+    "title": {
+      "en": "have / has",
+      "ar": "الفعل have / has"
+    },
+    "rule": {
+      "en": "Use have with I/you/we/they and has with he/she/it. Negative: don’t have / doesn’t have. Question: Do you have…? Does she have…?",
+      "ar": "نستخدم have مع I وyou وwe وthey، وhas مع he وshe وit للتعبير عن الملكية: I have a bike. She has two sisters. وفي النفي نقول don't have / doesn't have، وفي السؤال Do you have…? / Does she have…?"
+    },
+    "examples": [
+      [
+        "I have a big family.",
+        "لديّ عائلة كبيرة."
+      ],
+      [
+        "He has a new phone.",
+        "لديه هاتف جديد."
+      ],
+      [
+        "We don’t have a car.",
+        "ليس لدينا سيارة."
+      ],
+      [
+        "Does she have any children?",
+        "هل لديها أطفال؟"
+      ],
+      [
+        "They have a beautiful garden.",
+        "لديهم حديقة جميلة."
+      ]
+    ],
+    "exercises": [
+      [
+        "She ___ long hair.",
+        "has",
+        [
+          "have"
+        ],
+        "لديها شعر طويل."
+      ],
+      [
+        "I ___ two cousins in Germany.",
+        "have",
+        [
+          "has"
+        ],
+        "لديّ ابنا عم في ألمانيا."
+      ],
+      [
+        "My father ___ a small shop.",
+        "has",
+        [
+          "have"
+        ],
+        "أبي لديه متجر صغير."
+      ],
+      [
+        "We ___ a lot of homework today.",
+        "have",
+        [
+          "has"
+        ],
+        "لدينا الكثير من الواجبات اليوم."
+      ],
+      [
+        "He doesn’t ___ a bike.",
+        "have",
+        [
+          "has"
+        ],
+        "ليس لديه دراجة."
+      ],
+      [
+        "___ you have a pen?",
+        "Do",
+        [
+          "Does"
+        ],
+        "هل لديك قلم؟"
+      ],
+      [
+        "The house ___ three bedrooms.",
+        "has",
+        [
+          "have"
+        ],
+        "البيت فيه ثلاث غرف نوم."
+      ],
+      [
+        "They ___ a cat called Mimi.",
+        "have",
+        [
+          "has"
+        ],
+        "لديهم قطة اسمها ميمي."
+      ]
+    ]
+  },
+  {
+    "id": "there-is",
+    "level": "a1",
+    "icon": "🏠",
+    "title": {
+      "en": "there is / there are",
+      "ar": "يوجد (there is / there are)"
+    },
+    "rule": {
+      "en": "Use there is with singular and uncountable nouns and there are with plurals. Questions: Is there…? Are there…?",
+      "ar": "نستخدم there is مع المفرد وغير المعدود، وthere are مع الجمع، لنقول إن شيئاً موجوداً: There is a park near my house. There are two shops. وفي السؤال: Is there…? / Are there…?"
+    },
+    "examples": [
+      [
+        "There is a bank on this street.",
+        "يوجد بنك في هذا الشارع."
+      ],
+      [
+        "There are five people in my family.",
+        "يوجد خمسة أشخاص في عائلتي."
+      ],
+      [
+        "Is there a pharmacy near here?",
+        "هل توجد صيدلية قريبة من هنا؟"
+      ],
+      [
+        "There isn’t any milk.",
+        "لا يوجد حليب."
+      ],
+      [
+        "Are there any questions?",
+        "هل توجد أي أسئلة؟"
+      ]
+    ],
+    "exercises": [
+      [
+        "There ___ a cat under the table.",
+        "is",
+        [
+          "are"
+        ],
+        "توجد قطة تحت الطاولة."
+      ],
+      [
+        "There ___ many students in the library.",
+        "are",
+        [
+          "is"
+        ],
+        "يوجد طلاب كثيرون في المكتبة."
+      ],
+      [
+        "___ there a bus stop near here?",
+        "Is",
+        [
+          "Are"
+        ],
+        "هل يوجد موقف حافلات قريب من هنا؟"
+      ],
+      [
+        "There ___ any eggs in the fridge.",
+        "aren’t",
+        [
+          "isn’t"
+        ],
+        "لا يوجد أي بيض في البراد."
+      ],
+      [
+        "___ there any good restaurants in your town?",
+        "Are",
+        [
+          "Is"
+        ],
+        "هل توجد مطاعم جيدة في مدينتك؟"
+      ],
+      [
+        "There ___ a beautiful mosque in the old city.",
+        "is",
+        [
+          "are"
+        ],
+        "يوجد مسجد جميل في المدينة القديمة."
+      ],
+      [
+        "There ___ two bedrooms in our flat.",
+        "are",
+        [
+          "is"
+        ],
+        "توجد غرفتا نوم في شقتنا."
+      ],
+      [
+        "There ___ no water in the bottle.",
+        "is",
+        [
+          "are"
+        ],
+        "لا يوجد ماء في الزجاجة."
+      ]
+    ]
+  },
+  {
+    "id": "possessives",
+    "level": "a1",
+    "icon": "🏷️",
+    "title": {
+      "en": "my, your, his, her…",
+      "ar": "صفات الملكية (my, your, his…)"
+    },
+    "rule": {
+      "en": "Use my, your, his, her, its, our and their before a noun to show who it belongs to.",
+      "ar": "تأتي هذه الكلمات قبل الاسم لتدل على المالك: my (ـي)، your (ـكَ/ـكِ)، his (ـه)، her (ـها)، its (لغير العاقل)، our (ـنا)، their (ـهم). مثل: my book = كتابي، her book = كتابها."
+    },
+    "examples": [
+      [
+        "This is my bag.",
+        "هذه حقيبتي."
+      ],
+      [
+        "What is your name?",
+        "ما اسمك؟"
+      ],
+      [
+        "His car is black.",
+        "سيارته سوداء."
+      ],
+      [
+        "Her sister is a doctor.",
+        "أختها طبيبة."
+      ],
+      [
+        "Our house is small but cosy.",
+        "بيتنا صغير لكنه مريح."
+      ]
+    ],
+    "exercises": [
+      [
+        "Sami is my friend. ___ father is a cook.",
+        "His",
+        [
+          "Her",
+          "Their"
+        ],
+        "سامي صديقي. أبوه طباخ."
+      ],
+      [
+        "Lina loves ___ cat.",
+        "her",
+        [
+          "his",
+          "its"
+        ],
+        "لينا تحب قطتها."
+      ],
+      [
+        "We live with ___ grandparents.",
+        "our",
+        [
+          "we",
+          "us"
+        ],
+        "نسكن مع أجدادنا."
+      ],
+      [
+        "Is this ___ phone, Omar?",
+        "your",
+        [
+          "you",
+          "yours"
+        ],
+        "هل هذا هاتفك يا عمر؟"
+      ],
+      [
+        "The children are playing with ___ toys.",
+        "their",
+        [
+          "there",
+          "they"
+        ],
+        "الأطفال يلعبون بألعابهم."
+      ],
+      [
+        "I can’t find ___ keys.",
+        "my",
+        [
+          "me",
+          "I"
+        ],
+        "لا أجد مفاتيحي."
+      ],
+      [
+        "The dog is eating ___ food.",
+        "its",
+        [
+          "it’s",
+          "his"
+        ],
+        "الكلب يأكل طعامه."
+      ],
+      [
+        "My parents sold ___ old car.",
+        "their",
+        [
+          "they’re",
+          "there"
+        ],
+        "باع والداي سيارتهما القديمة."
+      ]
+    ]
+  },
+  {
+    "id": "present-simple",
+    "level": "a1",
+    "icon": "🔁",
+    "title": {
+      "en": "Present simple",
+      "ar": "المضارع البسيط"
+    },
+    "rule": {
+      "en": "Use it for habits and facts. Add -s with he/she/it. Use don’t/doesn’t and do/does with the base verb.",
+      "ar": "نستخدمه للعادات والحقائق. مع he وshe وit نضيف s إلى الفعل: She works. وفي النفي نستخدم don't / doesn't، وفي السؤال do / does، ويعود الفعل إلى أصله دون s: Does he work?"
+    },
+    "examples": [
+      [
+        "I drink tea every morning.",
+        "أشرب الشاي كل صباح."
+      ],
+      [
+        "She works in a hospital.",
+        "تعمل في مستشفى."
+      ],
+      [
+        "We don’t eat meat.",
+        "نحن لا نأكل اللحم."
+      ],
+      [
+        "Does he speak English?",
+        "هل يتكلم الإنجليزية؟"
+      ],
+      [
+        "The sun rises in the east.",
+        "تشرق الشمس من الشرق."
+      ]
+    ],
+    "exercises": [
+      [
+        "My brother ___ football every Friday.",
+        "plays",
+        [
+          "play",
+          "playing"
+        ],
+        "أخي يلعب كرة القدم كل جمعة."
+      ],
+      [
+        "I ___ to school by bus.",
+        "go",
+        [
+          "goes",
+          "going"
+        ],
+        "أذهب إلى المدرسة بالحافلة."
+      ],
+      [
+        "She ___ like coffee.",
+        "doesn’t",
+        [
+          "don’t",
+          "isn’t"
+        ],
+        "هي لا تحب القهوة."
+      ],
+      [
+        "___ you live near here?",
+        "Do",
+        [
+          "Does",
+          "Are"
+        ],
+        "هل تسكن قريباً من هنا؟"
+      ],
+      [
+        "Water ___ at 100 degrees.",
+        "boils",
+        [
+          "boil",
+          "boiling"
+        ],
+        "يغلي الماء عند 100 درجة."
+      ],
+      [
+        "They ___ watch TV in the morning.",
+        "don’t",
+        [
+          "doesn’t",
+          "aren’t"
+        ],
+        "هم لا يشاهدون التلفاز في الصباح."
+      ],
+      [
+        "Does your sister ___ in a bank?",
+        "work",
+        [
+          "works",
+          "working"
+        ],
+        "هل تعمل أختك في بنك؟"
+      ],
+      [
+        "He ___ his teeth twice a day.",
+        "brushes",
+        [
+          "brush",
+          "brushs"
+        ],
+        "ينظّف أسنانه مرتين في اليوم."
+      ]
+    ]
+  },
+  {
+    "id": "can",
+    "level": "a1",
+    "icon": "💪",
+    "title": {
+      "en": "can / can’t",
+      "ar": "القدرة والإذن (can / can’t)"
+    },
+    "rule": {
+      "en": "Use can + base verb (no to) for ability and permission. Negative: can’t. Question: Can you…?",
+      "ar": "نستخدم can للتعبير عن القدرة أو الإذن، وبعدها الفعل في أصله دون to: I can swim. والنفي can't، والسؤال يبدأ بـ Can: Can you help me?"
+    },
+    "examples": [
+      [
+        "I can speak two languages.",
+        "أستطيع التحدث بلغتين."
+      ],
+      [
+        "She can’t drive.",
+        "هي لا تستطيع القيادة."
+      ],
+      [
+        "Can you help me, please?",
+        "هل يمكنك مساعدتي، من فضلك؟"
+      ],
+      [
+        "Birds can fly.",
+        "الطيور تستطيع الطيران."
+      ],
+      [
+        "Can I sit here?",
+        "هل يمكنني الجلوس هنا؟"
+      ]
+    ],
+    "exercises": [
+      [
+        "My little sister can ___ to ten.",
+        "count",
+        [
+          "counts",
+          "to count"
+        ],
+        "أختي الصغيرة تستطيع العدّ إلى عشرة."
+      ],
+      [
+        "I ___ swim. I’m afraid of water.",
+        "can’t",
+        [
+          "can",
+          "don’t can"
+        ],
+        "لا أستطيع السباحة. أخاف من الماء."
+      ],
+      [
+        "___ I open the window?",
+        "Can",
+        [
+          "Do",
+          "Am"
+        ],
+        "هل يمكنني فتح النافذة؟"
+      ],
+      [
+        "Fish can ___, but they can’t walk.",
+        "swim",
+        [
+          "swims",
+          "swimming"
+        ],
+        "الأسماك تستطيع السباحة، لكنها لا تستطيع المشي."
+      ],
+      [
+        "He can ___ the guitar very well.",
+        "play",
+        [
+          "plays",
+          "to play"
+        ],
+        "يستطيع العزف على الغيتار جيداً جداً."
+      ],
+      [
+        "Can you ___ me the time?",
+        "tell",
+        [
+          "to tell",
+          "tells"
+        ],
+        "هل يمكنك أن تخبرني كم الساعة؟"
+      ],
+      [
+        "Sorry, I ___ come to the party.",
+        "can’t",
+        [
+          "not can",
+          "can"
+        ],
+        "آسف، لا أستطيع الحضور إلى الحفلة."
+      ],
+      [
+        "Can she ___ English?",
+        "speak",
+        [
+          "speaks",
+          "speaking"
+        ],
+        "هل تستطيع التحدث بالإنجليزية؟"
+      ]
+    ]
+  },
+  {
+    "id": "present-continuous",
+    "level": "a2",
+    "icon": "⏳",
+    "title": {
+      "en": "Present continuous",
+      "ar": "المضارع المستمر"
+    },
+    "rule": {
+      "en": "Use am/is/are + verb-ing for things happening now or around now.",
+      "ar": "نستخدمه لما يحدث الآن أو هذه الأيام: am / is / are + الفعل مع ing. مثل: I am reading now. She is studying English this year."
+    },
+    "examples": [
+      [
+        "I am cooking dinner.",
+        "أنا أطبخ العشاء."
+      ],
+      [
+        "The children are sleeping.",
+        "الأطفال نائمون."
+      ],
+      [
+        "She is wearing a blue dress.",
+        "ترتدي فستاناً أزرق."
+      ],
+      [
+        "Are you listening to me?",
+        "هل تستمع إليّ؟"
+      ],
+      [
+        "It isn’t raining now.",
+        "لا تمطر الآن."
+      ]
+    ],
+    "exercises": [
+      [
+        "Be quiet! The baby ___.",
+        "is sleeping",
+        [
+          "sleeps",
+          "are sleeping"
+        ],
+        "اهدأ! الطفل نائم."
+      ],
+      [
+        "Look! It ___.",
+        "is snowing",
+        [
+          "snows",
+          "snowing"
+        ],
+        "انظر! إنها تثلج."
+      ],
+      [
+        "We ___ for the bus.",
+        "are waiting",
+        [
+          "is waiting",
+          "waits"
+        ],
+        "ننتظر الحافلة."
+      ],
+      [
+        "What ___ you doing?",
+        "are",
+        [
+          "is",
+          "do"
+        ],
+        "ماذا تفعل؟"
+      ],
+      [
+        "I’m ___ a letter to my grandmother.",
+        "writing",
+        [
+          "write",
+          "writeing"
+        ],
+        "أكتب رسالة إلى جدتي."
+      ],
+      [
+        "They ___ watching TV. They’re doing homework.",
+        "aren’t",
+        [
+          "isn’t",
+          "don’t"
+        ],
+        "هم لا يشاهدون التلفاز. إنهم يحلّون الواجب."
+      ],
+      [
+        "She is ___ in the park.",
+        "running",
+        [
+          "runing",
+          "runs"
+        ],
+        "هي تركض في الحديقة."
+      ],
+      [
+        "Why ___ he crying?",
+        "is",
+        [
+          "are",
+          "does"
+        ],
+        "لماذا يبكي؟"
+      ]
+    ]
+  },
+  {
+    "id": "past-simple",
+    "level": "a2",
+    "icon": "⏪",
+    "title": {
+      "en": "Past simple",
+      "ar": "الماضي البسيط"
+    },
+    "rule": {
+      "en": "Use it for finished actions in the past. Add -ed to regular verbs and learn the irregular ones (go → went, eat → ate). Use didn’t / did + base verb.",
+      "ar": "نستخدمه لأحداث انتهت في الماضي. نضيف ed إلى الأفعال المنتظمة: work ← worked. أما الأفعال الشاذة فلها شكل خاص: go ← went، eat ← ate، see ← saw. وفي النفي والسؤال نستخدم did ويعود الفعل إلى أصله: I didn't go. Did you see it?"
+    },
+    "examples": [
+      [
+        "I visited my uncle yesterday.",
+        "زرت عمّي أمس."
+      ],
+      [
+        "We went to the beach last summer.",
+        "ذهبنا إلى الشاطئ الصيف الماضي."
+      ],
+      [
+        "She didn’t come to school.",
+        "لم تأتِ إلى المدرسة."
+      ],
+      [
+        "Did you eat breakfast?",
+        "هل تناولت الفطور؟"
+      ],
+      [
+        "They saw a great film.",
+        "شاهدوا فيلماً رائعاً."
+      ]
+    ],
+    "exercises": [
+      [
+        "Yesterday I ___ to the market.",
+        "went",
+        [
+          "go",
+          "goed"
+        ],
+        "أمس ذهبت إلى السوق."
+      ],
+      [
+        "She ___ her homework last night.",
+        "finished",
+        [
+          "finish",
+          "finishs"
+        ],
+        "أنهت واجبها ليلة أمس."
+      ],
+      [
+        "We ___ fish for dinner.",
+        "ate",
+        [
+          "eated",
+          "eat"
+        ],
+        "أكلنا السمك على العشاء."
+      ],
+      [
+        "I didn’t ___ him at the party.",
+        "see",
+        [
+          "saw",
+          "seen"
+        ],
+        "لم أره في الحفلة."
+      ],
+      [
+        "___ you call your mother?",
+        "Did",
+        [
+          "Do",
+          "Were"
+        ],
+        "هل اتصلت بأمك؟"
+      ],
+      [
+        "They ___ in Aleppo for ten years.",
+        "lived",
+        [
+          "live",
+          "living"
+        ],
+        "عاشوا في حلب لمدة عشر سنوات."
+      ],
+      [
+        "He ___ a new bike for his birthday.",
+        "got",
+        [
+          "getted",
+          "get"
+        ],
+        "حصل على دراجة جديدة في عيد ميلاده."
+      ],
+      [
+        "The film ___ at eight o’clock.",
+        "started",
+        [
+          "start",
+          "starting"
+        ],
+        "بدأ الفيلم في الساعة الثامنة."
+      ]
+    ]
+  },
+  {
+    "id": "going-to",
+    "level": "a2",
+    "icon": "🔮",
+    "title": {
+      "en": "Future: going to",
+      "ar": "المستقبل بـ going to"
+    },
+    "rule": {
+      "en": "Use am/is/are going to + verb for plans, and for things we can see are about to happen.",
+      "ar": "نستخدم am / is / are + going to + الفعل للحديث عن خطط ونوايا في المستقبل، أو عن شيء نرى أنه سيحدث: I'm going to study medicine. Look at the clouds! It's going to rain."
+    },
+    "examples": [
+      [
+        "I’m going to visit my cousins next week.",
+        "سأزور أبناء عمي الأسبوع القادم."
+      ],
+      [
+        "She is going to start a new job.",
+        "ستبدأ عملاً جديداً."
+      ],
+      [
+        "We aren’t going to travel this summer.",
+        "لن نسافر هذا الصيف."
+      ],
+      [
+        "Are you going to buy that coat?",
+        "هل ستشتري ذلك المعطف؟"
+      ],
+      [
+        "Be careful! You’re going to fall.",
+        "انتبه! ستقع."
+      ]
+    ],
+    "exercises": [
+      [
+        "I ___ going to learn to drive.",
+        "am",
+        [
+          "is",
+          "are"
+        ],
+        "سأتعلّم القيادة."
+      ],
+      [
+        "They are going ___ a house.",
+        "to buy",
+        [
+          "buy",
+          "buying"
+        ],
+        "سيشترون بيتاً."
+      ],
+      [
+        "Look at the sky. It’s going to ___.",
+        "rain",
+        [
+          "raining",
+          "rains"
+        ],
+        "انظر إلى السماء. ستمطر."
+      ],
+      [
+        "___ you going to call him?",
+        "Are",
+        [
+          "Do",
+          "Is"
+        ],
+        "هل ستتصل به؟"
+      ],
+      [
+        "She ___ going to come. She’s ill.",
+        "isn’t",
+        [
+          "aren’t",
+          "not"
+        ],
+        "لن تأتي. إنها مريضة."
+      ],
+      [
+        "We’re going to ___ a party on Friday.",
+        "have",
+        [
+          "having",
+          "has"
+        ],
+        "سنقيم حفلة يوم الجمعة."
+      ],
+      [
+        "What ___ you going to do after school?",
+        "are",
+        [
+          "do",
+          "is"
+        ],
+        "ماذا ستفعل بعد المدرسة؟"
+      ],
+      [
+        "He is going to ___ a doctor one day.",
+        "be",
+        [
+          "is",
+          "being"
+        ],
+        "سيصبح طبيباً يوماً ما."
+      ]
+    ]
+  },
+  {
+    "id": "comparatives",
+    "level": "a2",
+    "icon": "🏆",
+    "title": {
+      "en": "Comparatives and superlatives",
+      "ar": "المقارنة والتفضيل"
+    },
+    "rule": {
+      "en": "Short adjectives: -er than / the -est. Long adjectives: more … than / the most. Irregular: good, better, the best; bad, worse, the worst.",
+      "ar": "للمقارنة بين شيئين نضيف er إلى الصفة القصيرة ثم than: taller than. ومع الصفات الطويلة نستخدم more: more expensive than. وللتفضيل نستخدم the + est أو the most: the tallest، the most beautiful. وهناك صفات شاذة: good ← better ← the best، bad ← worse ← the worst."
+    },
+    "examples": [
+      [
+        "My brother is taller than me.",
+        "أخي أطول مني."
+      ],
+      [
+        "This phone is more expensive than that one.",
+        "هذا الهاتف أغلى من ذلك."
+      ],
+      [
+        "Damascus is one of the oldest cities in the world.",
+        "دمشق من أقدم المدن في العالم."
+      ],
+      [
+        "She is the best student in the class.",
+        "هي أفضل طالبة في الصف."
+      ],
+      [
+        "Today is worse than yesterday.",
+        "اليوم أسوأ من أمس."
+      ]
+    ],
+    "exercises": [
+      [
+        "An elephant is ___ than a horse.",
+        "bigger",
+        [
+          "more big",
+          "biggest"
+        ],
+        "الفيل أكبر من الحصان."
+      ],
+      [
+        "This is the ___ day of the year.",
+        "hottest",
+        [
+          "hotter",
+          "most hot"
+        ],
+        "هذا أحرّ يوم في السنة."
+      ],
+      [
+        "English is ___ than I thought.",
+        "easier",
+        [
+          "more easy",
+          "easiest"
+        ],
+        "الإنجليزية أسهل مما ظننت."
+      ],
+      [
+        "Gold is ___ expensive than silver.",
+        "more",
+        [
+          "most",
+          "much"
+        ],
+        "الذهب أغلى من الفضة."
+      ],
+      [
+        "She is the ___ singer in the country.",
+        "most famous",
+        [
+          "famousest",
+          "more famous"
+        ],
+        "هي أشهر مغنية في البلد."
+      ],
+      [
+        "My cooking is ___ than my sister’s.",
+        "better",
+        [
+          "gooder",
+          "best"
+        ],
+        "طبخي أفضل من طبخ أختي."
+      ],
+      [
+        "That was the ___ film I’ve ever seen.",
+        "worst",
+        [
+          "baddest",
+          "worse"
+        ],
+        "كان ذلك أسوأ فيلم شاهدته في حياتي."
+      ],
+      [
+        "A plane is faster ___ a train.",
+        "than",
+        [
+          "then",
+          "that"
+        ],
+        "الطائرة أسرع من القطار."
+      ]
+    ]
+  },
+  {
+    "id": "prepositions-time",
+    "level": "a2",
+    "icon": "🗓️",
+    "title": {
+      "en": "in / on / at (time)",
+      "ar": "حروف الجر للزمن (in / on / at)"
+    },
+    "rule": {
+      "en": "at + clock times and night; on + days and dates; in + months, years, seasons and parts of the day.",
+      "ar": "نستخدم at مع الساعة: at 5 o'clock. وon مع الأيام والتواريخ: on Monday، on 3 May. وin مع الشهور والسنوات والفصول وأجزاء اليوم: in June، in 2020، in summer، in the morning. لكننا نقول at night."
+    },
+    "examples": [
+      [
+        "The lesson starts at nine o’clock.",
+        "يبدأ الدرس في الساعة التاسعة."
+      ],
+      [
+        "My birthday is on 12 March.",
+        "عيد ميلادي في 12 آذار."
+      ],
+      [
+        "We moved here in 2019.",
+        "انتقلنا إلى هنا في عام 2019."
+      ],
+      [
+        "I study in the evening.",
+        "أدرس في المساء."
+      ],
+      [
+        "I can’t sleep at night.",
+        "لا أستطيع النوم في الليل."
+      ]
+    ],
+    "exercises": [
+      [
+        "The shop opens ___ eight o’clock.",
+        "at",
+        [
+          "on",
+          "in"
+        ],
+        "يفتح المتجر في الساعة الثامنة."
+      ],
+      [
+        "I was born ___ 2012.",
+        "in",
+        [
+          "on",
+          "at"
+        ],
+        "وُلدت في عام 2012."
+      ],
+      [
+        "We have English ___ Tuesday.",
+        "on",
+        [
+          "in",
+          "at"
+        ],
+        "لدينا درس إنجليزي يوم الثلاثاء."
+      ],
+      [
+        "It’s very cold ___ winter.",
+        "in",
+        [
+          "on",
+          "at"
+        ],
+        "الجو بارد جداً في الشتاء."
+      ],
+      [
+        "I drink coffee ___ the morning.",
+        "in",
+        [
+          "on",
+          "at"
+        ],
+        "أشرب القهوة في الصباح."
+      ],
+      [
+        "The stars come out ___ night.",
+        "at",
+        [
+          "in",
+          "on"
+        ],
+        "تظهر النجوم في الليل."
+      ],
+      [
+        "Eid is ___ Friday this year.",
+        "on",
+        [
+          "in",
+          "at"
+        ],
+        "العيد يوم الجمعة هذه السنة."
+      ],
+      [
+        "School starts ___ September.",
+        "in",
+        [
+          "on",
+          "at"
+        ],
+        "تبدأ المدرسة في أيلول."
+      ]
+    ]
+  },
+  {
+    "id": "countable",
+    "level": "a2",
+    "icon": "🧂",
+    "title": {
+      "en": "some / any, much / many",
+      "ar": "المعدود وغير المعدود (some / any, much / many)"
+    },
+    "rule": {
+      "en": "Use many with countable and much with uncountable nouns (mostly in negatives and questions). Use some in positive sentences and offers, any in negatives and questions.",
+      "ar": "الأسماء المعدودة يمكن عدّها: an apple، two apples. وغير المعدودة لا تُعدّ: water، rice، money. نستخدم many مع المعدود وmuch مع غير المعدود (غالباً في النفي والسؤال). ونستخدم some في الجمل المثبتة والطلبات، وany في النفي والسؤال."
+    },
+    "examples": [
+      [
+        "There are many people here.",
+        "يوجد أشخاص كثيرون هنا."
+      ],
+      [
+        "I don’t have much time.",
+        "ليس لديّ وقت كثير."
+      ],
+      [
+        "Can I have some water?",
+        "هل يمكنني الحصول على بعض الماء؟"
+      ],
+      [
+        "Do you have any brothers?",
+        "هل لديك إخوة؟"
+      ],
+      [
+        "How much sugar do you want?",
+        "كم من السكر تريد؟"
+      ]
+    ],
+    "exercises": [
+      [
+        "How ___ apples do you need?",
+        "many",
+        [
+          "much"
+        ],
+        "كم تفاحة تحتاج؟"
+      ],
+      [
+        "There isn’t ___ milk left.",
+        "much",
+        [
+          "many"
+        ],
+        "لم يبقَ حليب كثير."
+      ],
+      [
+        "I’d like ___ bread, please.",
+        "some",
+        [
+          "any"
+        ],
+        "أريد بعض الخبز، من فضلك."
+      ],
+      [
+        "We don’t have ___ eggs.",
+        "any",
+        [
+          "some"
+        ],
+        "ليس لدينا أي بيض."
+      ],
+      [
+        "How ___ money does it cost?",
+        "much",
+        [
+          "many"
+        ],
+        "كم يكلّف من المال؟"
+      ],
+      [
+        "Are there ___ good films on TV tonight?",
+        "any",
+        [
+          "some"
+        ],
+        "هل هناك أي أفلام جيدة على التلفاز الليلة؟"
+      ],
+      [
+        "She has ___ friends at school.",
+        "many",
+        [
+          "much"
+        ],
+        "لديها أصدقاء كثيرون في المدرسة."
+      ],
+      [
+        "I need ___ information about the course.",
+        "some",
+        [
+          "many"
+        ],
+        "أحتاج إلى بعض المعلومات عن الدورة."
+      ]
+    ]
+  },
+  {
+    "id": "present-perfect",
+    "level": "b1",
+    "icon": "✅",
+    "title": {
+      "en": "Present perfect",
+      "ar": "المضارع التام"
+    },
+    "rule": {
+      "en": "have/has + past participle: for life experiences, things that started in the past and continue (for/since), and recent actions (just, already, yet).",
+      "ar": "يتكوّن من have / has + التصريف الثالث للفعل (gone، eaten، visited). نستخدمه لتجارب الحياة دون ذكر وقت محدد، أو لشيء بدأ في الماضي وما زال مستمراً (مع for للمدة وsince لنقطة البداية)، أو لشيء حدث للتو (just). مثل: I have lived here for three years."
+    },
+    "examples": [
+      [
+        "I have visited London twice.",
+        "زرت لندن مرتين."
+      ],
+      [
+        "She has lived here since 2020.",
+        "تعيش هنا منذ عام 2020."
+      ],
+      [
+        "Have you ever eaten sushi?",
+        "هل أكلت السوشي من قبل؟"
+      ],
+      [
+        "We have just finished dinner.",
+        "انتهينا للتو من العشاء."
+      ],
+      [
+        "He hasn’t found a job yet.",
+        "لم يجد عملاً بعد."
+      ]
+    ],
+    "exercises": [
+      [
+        "I have ___ this film three times.",
+        "seen",
+        [
+          "saw",
+          "see"
+        ],
+        "شاهدت هذا الفيلم ثلاث مرات."
+      ],
+      [
+        "She ___ worked here for five years.",
+        "has",
+        [
+          "have",
+          "is"
+        ],
+        "تعمل هنا منذ خمس سنوات."
+      ],
+      [
+        "We have lived in this flat ___ 2021.",
+        "since",
+        [
+          "for",
+          "from"
+        ],
+        "نسكن في هذه الشقة منذ عام 2021."
+      ],
+      [
+        "They’ve known each other ___ ten years.",
+        "for",
+        [
+          "since",
+          "during"
+        ],
+        "يعرفون بعضهم منذ عشر سنوات."
+      ],
+      [
+        "___ you ever been to Turkey?",
+        "Have",
+        [
+          "Did",
+          "Has"
+        ],
+        "هل سبق أن زرت تركيا؟"
+      ],
+      [
+        "I haven’t finished my homework ___.",
+        "yet",
+        [
+          "already",
+          "just"
+        ],
+        "لم أنتهِ من واجبي بعد."
+      ],
+      [
+        "He has ___ arrived. He’s in the kitchen.",
+        "just",
+        [
+          "yet",
+          "ever"
+        ],
+        "وصل للتو. إنه في المطبخ."
+      ],
+      [
+        "My parents have ___ to Mecca twice.",
+        "been",
+        [
+          "went",
+          "go"
+        ],
+        "ذهب والداي إلى مكة مرتين."
+      ]
+    ]
+  },
+  {
+    "id": "past-continuous",
+    "level": "b1",
+    "icon": "🎞️",
+    "title": {
+      "en": "Past continuous",
+      "ar": "الماضي المستمر"
+    },
+    "rule": {
+      "en": "was/were + verb-ing for an action in progress in the past, often interrupted by a short action in the past simple.",
+      "ar": "يتكوّن من was / were + الفعل مع ing. نستخدمه لحدث كان مستمراً في وقت معيّن في الماضي، وغالباً مع حدث قصير قطعه (بالماضي البسيط): I was cooking when the phone rang."
+    },
+    "examples": [
+      [
+        "At eight o’clock I was having dinner.",
+        "في الساعة الثامنة كنت أتناول العشاء."
+      ],
+      [
+        "They were playing football when it started to rain.",
+        "كانوا يلعبون كرة القدم عندما بدأت تمطر."
+      ],
+      [
+        "She wasn’t listening to the teacher.",
+        "لم تكن تستمع إلى المعلمة."
+      ],
+      [
+        "What were you doing last night?",
+        "ماذا كنت تفعل ليلة أمس؟"
+      ],
+      [
+        "While I was walking home, I met an old friend.",
+        "بينما كنت أمشي إلى البيت، التقيت بصديق قديم."
+      ]
+    ],
+    "exercises": [
+      [
+        "I ___ reading when you called.",
+        "was",
+        [
+          "were",
+          "am"
+        ],
+        "كنت أقرأ عندما اتصلت."
+      ],
+      [
+        "They ___ watching TV at nine o’clock.",
+        "were",
+        [
+          "was",
+          "are"
+        ],
+        "كانوا يشاهدون التلفاز في الساعة التاسعة."
+      ],
+      [
+        "She was cooking when the lights ___ out.",
+        "went",
+        [
+          "were going",
+          "go"
+        ],
+        "كانت تطبخ عندما انقطعت الكهرباء."
+      ],
+      [
+        "What ___ you doing at midnight?",
+        "were",
+        [
+          "was",
+          "did"
+        ],
+        "ماذا كنت تفعل في منتصف الليل؟"
+      ],
+      [
+        "While we ___ to the market, it started to rain.",
+        "were walking",
+        [
+          "walked",
+          "are walking"
+        ],
+        "بينما كنا نمشي إلى السوق، بدأت تمطر."
+      ],
+      [
+        "He ___ sleeping, so he didn’t hear the doorbell.",
+        "was",
+        [
+          "were",
+          "is"
+        ],
+        "كان نائماً، لذلك لم يسمع جرس الباب."
+      ],
+      [
+        "The children weren’t ___ attention.",
+        "paying",
+        [
+          "pay",
+          "paid"
+        ],
+        "لم يكن الأطفال منتبهين."
+      ],
+      [
+        "I saw an accident while I ___ home.",
+        "was driving",
+        [
+          "drove",
+          "am driving"
+        ],
+        "رأيت حادثاً بينما كنت أقود إلى البيت."
+      ]
+    ]
+  },
+  {
+    "id": "modals",
+    "level": "b1",
+    "icon": "📋",
+    "title": {
+      "en": "should, must, have to",
+      "ar": "النصيحة والإلزام (should, must, have to)"
+    },
+    "rule": {
+      "en": "should = advice; must / have to = obligation; don’t have to = not necessary; mustn’t = not allowed.",
+      "ar": "نستخدم should للنصيحة: You should see a doctor. ونستخدم must أو have to للإلزام والضرورة: You must wear a seatbelt. I have to work tomorrow. أما don't have to فتعني «ليس ضرورياً»، وmustn't تعني «ممنوع»."
+    },
+    "examples": [
+      [
+        "You should drink more water.",
+        "ينبغي أن تشرب المزيد من الماء."
+      ],
+      [
+        "Students must arrive on time.",
+        "يجب على الطلاب الحضور في الوقت المحدد."
+      ],
+      [
+        "I have to get up early tomorrow.",
+        "عليّ أن أستيقظ باكراً غداً."
+      ],
+      [
+        "You don’t have to pay. It’s free.",
+        "لا داعي لأن تدفع. إنه مجاني."
+      ],
+      [
+        "You mustn’t smoke here.",
+        "ممنوع التدخين هنا."
+      ]
+    ],
+    "exercises": [
+      [
+        "You look tired. You ___ go to bed.",
+        "should",
+        [
+          "mustn’t",
+          "don’t have to"
+        ],
+        "تبدو متعباً. ينبغي أن تنام."
+      ],
+      [
+        "Drivers ___ stop at a red light.",
+        "must",
+        [
+          "shouldn’t",
+          "don’t have to"
+        ],
+        "يجب على السائقين التوقف عند الإشارة الحمراء."
+      ],
+      [
+        "It’s Saturday, so I ___ go to work.",
+        "don’t have to",
+        [
+          "mustn’t",
+          "have to"
+        ],
+        "اليوم السبت، لذلك لا داعي لأن أذهب إلى العمل."
+      ],
+      [
+        "You ___ touch that. It’s dangerous!",
+        "mustn’t",
+        [
+          "don’t have to",
+          "should"
+        ],
+        "ممنوع أن تلمس ذلك. إنه خطير!"
+      ],
+      [
+        "She ___ take this medicine three times a day.",
+        "has to",
+        [
+          "have to",
+          "must to"
+        ],
+        "عليها أن تأخذ هذا الدواء ثلاث مرات في اليوم."
+      ],
+      [
+        "I think you ___ apologise to her.",
+        "should",
+        [
+          "must to",
+          "has to"
+        ],
+        "أظن أنه ينبغي أن تعتذر لها."
+      ],
+      [
+        "Do we ___ bring our passports?",
+        "have to",
+        [
+          "must",
+          "should to"
+        ],
+        "هل علينا إحضار جوازات سفرنا؟"
+      ],
+      [
+        "You ___ eat so much sugar. It’s bad for you.",
+        "shouldn’t",
+        [
+          "don’t have",
+          "mustn’t to"
+        ],
+        "لا ينبغي أن تأكل كل هذا السكر. إنه مضرّ لك."
+      ]
+    ]
+  },
+  {
+    "id": "first-conditional",
+    "level": "b1",
+    "icon": "🌦️",
+    "title": {
+      "en": "First conditional (if + will)",
+      "ar": "الشرط الأول (if + will)"
+    },
+    "rule": {
+      "en": "If + present simple, will + verb — for real possibilities in the future. Don’t use will after if.",
+      "ar": "نستخدمه لموقف ممكن الحدوث في المستقبل: if + المضارع البسيط، ثم will + الفعل. مثل: If it rains, we will stay at home. لاحظ أننا لا نستخدم will بعد if مباشرة."
+    },
+    "examples": [
+      [
+        "If you study, you will pass.",
+        "إذا درست، ستنجح."
+      ],
+      [
+        "If it’s sunny tomorrow, we’ll go to the park.",
+        "إذا كان الجو مشمساً غداً، سنذهب إلى الحديقة."
+      ],
+      [
+        "She’ll be angry if you’re late.",
+        "ستغضب إذا تأخرت."
+      ],
+      [
+        "If I don’t feel better, I’ll see a doctor.",
+        "إذا لم أتحسّن، سأراجع الطبيب."
+      ],
+      [
+        "What will you do if you miss the bus?",
+        "ماذا ستفعل إذا فاتتك الحافلة؟"
+      ]
+    ],
+    "exercises": [
+      [
+        "If it ___ tomorrow, we’ll stay inside.",
+        "rains",
+        [
+          "will rain",
+          "rained"
+        ],
+        "إذا أمطرت غداً، سنبقى في الداخل."
+      ],
+      [
+        "If you hurry, you ___ catch the bus.",
+        "will",
+        [
+          "would",
+          "are"
+        ],
+        "إذا أسرعت، ستلحق بالحافلة."
+      ],
+      [
+        "I’ll call you if I ___ time.",
+        "have",
+        [
+          "will have",
+          "had"
+        ],
+        "سأتصل بك إذا كان لديّ وقت."
+      ],
+      [
+        "If she ___ hard, she’ll get the job.",
+        "works",
+        [
+          "will work",
+          "worked"
+        ],
+        "إذا عملت بجد، ستحصل على الوظيفة."
+      ],
+      [
+        "We ___ late if we don’t leave now.",
+        "will be",
+        [
+          "are",
+          "would be"
+        ],
+        "سنتأخر إذا لم نغادر الآن."
+      ],
+      [
+        "If you don’t eat, you ___ hungry.",
+        "will get",
+        [
+          "got",
+          "would get"
+        ],
+        "إذا لم تأكل، ستجوع."
+      ],
+      [
+        "What will you do if it ___ cold?",
+        "is",
+        [
+          "will be",
+          "was"
+        ],
+        "ماذا ستفعل إذا كان الجو بارداً؟"
+      ],
+      [
+        "If I see Omar, I ___ him your message.",
+        "will give",
+        [
+          "gave",
+          "would give"
+        ],
+        "إذا رأيت عمر، سأعطيه رسالتك."
+      ]
+    ]
+  },
+  {
+    "id": "second-conditional",
+    "level": "b2",
+    "icon": "💭",
+    "title": {
+      "en": "Second conditional (if + would)",
+      "ar": "الشرط الثاني (if + would)"
+    },
+    "rule": {
+      "en": "If + past simple, would + verb — for imaginary or unlikely situations. Use If I were you for advice.",
+      "ar": "نستخدمه لموقف خيالي أو غير مرجّح في الحاضر أو المستقبل: if + الماضي البسيط، ثم would + الفعل. مثل: If I had more money, I would travel. ونقول عادةً If I were you… لتقديم النصيحة."
+    },
+    "examples": [
+      [
+        "If I won the lottery, I would build a school.",
+        "لو ربحت اليانصيب، لبنيت مدرسة."
+      ],
+      [
+        "If I were you, I’d accept the job.",
+        "لو كنت مكانك، لقبلت الوظيفة."
+      ],
+      [
+        "She would be happier if she lived near her family.",
+        "لكانت أسعد لو عاشت قرب عائلتها."
+      ],
+      [
+        "What would you do if you saw a ghost?",
+        "ماذا كنت ستفعل لو رأيت شبحاً؟"
+      ],
+      [
+        "If we had a car, we wouldn’t need the bus.",
+        "لو كانت لدينا سيارة، لما احتجنا إلى الحافلة."
+      ]
+    ],
+    "exercises": [
+      [
+        "If I ___ a bird, I would fly over the sea.",
+        "were",
+        [
+          "am",
+          "will be"
+        ],
+        "لو كنت طائراً، لطرت فوق البحر."
+      ],
+      [
+        "If she had time, she ___ learn French.",
+        "would",
+        [
+          "will",
+          "does"
+        ],
+        "لو كان لديها وقت، لتعلّمت الفرنسية."
+      ],
+      [
+        "What would you do if you ___ a million dollars?",
+        "had",
+        [
+          "have",
+          "would have"
+        ],
+        "ماذا كنت ستفعل لو كان لديك مليون دولار؟"
+      ],
+      [
+        "If I ___ you, I’d talk to the manager.",
+        "were",
+        [
+          "am",
+          "would be"
+        ],
+        "لو كنت مكانك، لتحدثت مع المدير."
+      ],
+      [
+        "We would go out if it ___ raining.",
+        "weren’t",
+        [
+          "isn’t",
+          "won’t be"
+        ],
+        "لخرجنا لو لم تكن تمطر."
+      ],
+      [
+        "He ___ be so tired if he slept more.",
+        "wouldn’t",
+        [
+          "won’t",
+          "didn’t"
+        ],
+        "لما كان متعباً هكذا لو نام أكثر."
+      ],
+      [
+        "If they lived closer, we ___ see them more often.",
+        "would",
+        [
+          "will",
+          "are"
+        ],
+        "لو سكنوا أقرب، لرأيناهم أكثر."
+      ],
+      [
+        "I would buy that house if it ___ cheaper.",
+        "were",
+        [
+          "is",
+          "will be"
+        ],
+        "لاشتريت ذلك البيت لو كان أرخص."
+      ]
+    ]
+  },
+  {
+    "id": "passive",
+    "level": "b2",
+    "icon": "🏗️",
+    "title": {
+      "en": "The passive",
+      "ar": "المبني للمجهول"
+    },
+    "rule": {
+      "en": "be + past participle when the action or the object matters more than who did it. Add by + person if needed.",
+      "ar": "نستخدم المبني للمجهول عندما يكون الحدث أو الشيء أهم من الفاعل: be + التصريف الثالث. مثل: The castle was built in the 12th century. English is spoken all over the world. ويمكن ذكر الفاعل بعد by."
+    },
+    "examples": [
+      [
+        "Arabic is spoken in more than twenty countries.",
+        "تُتحدّث العربية في أكثر من عشرين دولة."
+      ],
+      [
+        "This bridge was built in 1950.",
+        "بُني هذا الجسر عام 1950."
+      ],
+      [
+        "The letters are delivered every morning.",
+        "تُسلَّم الرسائل كل صباح."
+      ],
+      [
+        "The winner will be announced tomorrow.",
+        "سيُعلن عن الفائز غداً."
+      ],
+      [
+        "The book was written by a Syrian author.",
+        "كتب هذا الكتابَ كاتبٌ سوري."
+      ]
+    ],
+    "exercises": [
+      [
+        "Olive oil ___ in many Mediterranean countries.",
+        "is produced",
+        [
+          "produces",
+          "is producing"
+        ],
+        "يُنتج زيت الزيتون في كثير من دول البحر المتوسط."
+      ],
+      [
+        "The Umayyad Mosque was ___ in the 8th century.",
+        "built",
+        [
+          "build",
+          "building"
+        ],
+        "بُني الجامع الأموي في القرن الثامن."
+      ],
+      [
+        "The results ___ published next week.",
+        "will be",
+        [
+          "will",
+          "are be"
+        ],
+        "ستُنشر النتائج الأسبوع القادم."
+      ],
+      [
+        "My bike ___ stolen last night.",
+        "was",
+        [
+          "is",
+          "were"
+        ],
+        "سُرقت دراجتي ليلة أمس."
+      ],
+      [
+        "These cars ___ made in Japan.",
+        "are",
+        [
+          "is",
+          "be"
+        ],
+        "تُصنع هذه السيارات في اليابان."
+      ],
+      [
+        "The film was directed ___ a young woman.",
+        "by",
+        [
+          "from",
+          "with"
+        ],
+        "أخرجت الفيلمَ امرأةٌ شابة."
+      ],
+      [
+        "Breakfast ___ served from 7 to 10.",
+        "is",
+        [
+          "are",
+          "has"
+        ],
+        "يُقدَّم الفطور من الساعة 7 إلى 10."
+      ],
+      [
+        "The house has just ___ painted.",
+        "been",
+        [
+          "be",
+          "being"
+        ],
+        "طُلي البيت للتو."
+      ]
+    ]
+  },
+  {
+    "id": "reported-speech",
+    "level": "b2",
+    "icon": "🗨️",
+    "title": {
+      "en": "Reported speech",
+      "ar": "الكلام المنقول"
+    },
+    "rule": {
+      "en": "Move the verb one step back in time, change pronouns and time words, and use said (that) or told + person.",
+      "ar": "عندما ننقل كلام شخص آخر، نرجع الفعل عادةً خطوة إلى الماضي: “I am tired” ← She said (that) she was tired. ونغيّر الضمائر وكلمات الزمن: tomorrow ← the next day. ونستخدم told مع الشخص: He told me he was busy."
+    },
+    "examples": [
+      [
+        "He said he was hungry.",
+        "قال إنه جائع."
+      ],
+      [
+        "She said she had finished her work.",
+        "قالت إنها أنهت عملها."
+      ],
+      [
+        "They told us they would come later.",
+        "أخبرونا أنهم سيأتون لاحقاً."
+      ],
+      [
+        "He asked me where I lived.",
+        "سألني أين أسكن."
+      ],
+      [
+        "The doctor told me to rest.",
+        "طلب مني الطبيب أن أرتاح."
+      ]
+    ],
+    "exercises": [
+      [
+        "“I live in Homs.” → She said she ___ in Homs.",
+        "lived",
+        [
+          "lives",
+          "living"
+        ],
+        "قالت إنها تسكن في حمص."
+      ],
+      [
+        "“I will help you.” → He said he ___ help me.",
+        "would",
+        [
+          "will",
+          "can"
+        ],
+        "قال إنه سيساعدني."
+      ],
+      [
+        "“We are tired.” → They said they ___ tired.",
+        "were",
+        [
+          "are",
+          "was"
+        ],
+        "قالوا إنهم متعبون."
+      ],
+      [
+        "He ___ me that he was busy.",
+        "told",
+        [
+          "said",
+          "asked"
+        ],
+        "أخبرني أنه مشغول."
+      ],
+      [
+        "She ___ that she loved the city.",
+        "said",
+        [
+          "told",
+          "asked"
+        ],
+        "قالت إنها تحب المدينة."
+      ],
+      [
+        "“I can’t swim.” → He said he ___ swim.",
+        "couldn’t",
+        [
+          "can’t",
+          "doesn’t"
+        ],
+        "قال إنه لا يستطيع السباحة."
+      ],
+      [
+        "She asked me where I ___.",
+        "worked",
+        [
+          "work",
+          "did work"
+        ],
+        "سألتني أين أعمل."
+      ],
+      [
+        "The teacher told us ___ quiet.",
+        "to be",
+        [
+          "be",
+          "being"
+        ],
+        "طلبت منا المعلمة أن نهدأ."
+      ]
+    ]
+  },
+  {
+    "id": "relative-clauses",
+    "level": "b2",
+    "icon": "🔗",
+    "title": {
+      "en": "Relative clauses (who, which, where)",
+      "ar": "جمل الصلة (who, which, where)"
+    },
+    "rule": {
+      "en": "who for people, which for things, where for places, whose for possession; that can replace who or which.",
+      "ar": "نستخدم who للأشخاص، وwhich للأشياء والحيوانات، وwhere للأماكن، وwhose للملكية. ويمكن استخدام that بدل who أو which. مثل: The woman who lives next door is a doctor = المرأة التي تسكن بجانبنا طبيبة."
+    },
+    "examples": [
+      [
+        "The man who called you is my uncle.",
+        "الرجل الذي اتصل بك هو عمّي."
+      ],
+      [
+        "This is the book which I told you about.",
+        "هذا هو الكتاب الذي حدّثتك عنه."
+      ],
+      [
+        "That’s the house where I was born.",
+        "ذلك هو البيت الذي وُلدت فيه."
+      ],
+      [
+        "She’s the girl whose father is a pilot.",
+        "إنها الفتاة التي أبوها طيار."
+      ],
+      [
+        "The phone that I bought is broken.",
+        "الهاتف الذي اشتريته معطّل."
+      ]
+    ],
+    "exercises": [
+      [
+        "The girl ___ sits next to me is from Iraq.",
+        "who",
+        [
+          "which",
+          "where"
+        ],
+        "الفتاة التي تجلس بجانبي من العراق."
+      ],
+      [
+        "I lost the keys ___ you gave me.",
+        "which",
+        [
+          "who",
+          "where"
+        ],
+        "أضعت المفاتيح التي أعطيتني إياها."
+      ],
+      [
+        "This is the café ___ we first met.",
+        "where",
+        [
+          "which",
+          "who"
+        ],
+        "هذا هو المقهى الذي التقينا فيه أول مرة."
+      ],
+      [
+        "He’s the man ___ car was stolen.",
+        "whose",
+        [
+          "who",
+          "which"
+        ],
+        "إنه الرجل الذي سُرقت سيارته."
+      ],
+      [
+        "The film ___ we watched was boring.",
+        "that",
+        [
+          "who",
+          "where"
+        ],
+        "الفيلم الذي شاهدناه كان مملاً."
+      ],
+      [
+        "Do you know anyone ___ speaks Kurdish?",
+        "who",
+        [
+          "which",
+          "whose"
+        ],
+        "هل تعرف أحداً يتكلم الكردية؟"
+      ],
+      [
+        "Aleppo is the city ___ my grandparents lived.",
+        "where",
+        [
+          "which",
+          "who"
+        ],
+        "حلب هي المدينة التي عاش فيها أجدادي."
+      ],
+      [
+        "The doctor ___ treated me was very kind.",
+        "who",
+        [
+          "which",
+          "whose"
+        ],
+        "الطبيب الذي عالجني كان لطيفاً جداً."
+      ]
+    ]
+  },
+  {
+    "id": "third-conditional",
+    "level": "c1",
+    "icon": "⏮️",
+    "title": {
+      "en": "Third conditional",
+      "ar": "الشرط الثالث"
+    },
+    "rule": {
+      "en": "If + had + past participle, would have + past participle — for imaginary past situations and regrets.",
+      "ar": "نستخدمه للحديث عن ماضٍ لم يحدث وعن نتيجته الخيالية: if + had + التصريف الثالث، ثم would have + التصريف الثالث. مثل: If I had known, I would have helped you. وكثيراً ما يعبّر عن الندم."
+    },
+    "examples": [
+      [
+        "If I had studied harder, I would have passed.",
+        "لو درست بجدّ أكبر، لنجحت."
+      ],
+      [
+        "If she hadn’t missed the bus, she wouldn’t have been late.",
+        "لو لم تفتها الحافلة، لما تأخرت."
+      ],
+      [
+        "We would have come if you had invited us.",
+        "لكنا أتينا لو دعوتنا."
+      ],
+      [
+        "If they had left earlier, they would have caught the train.",
+        "لو غادروا أبكر، للحقوا بالقطار."
+      ],
+      [
+        "What would you have done if you had lost your passport?",
+        "ماذا كنت ستفعل لو أضعت جواز سفرك؟"
+      ]
+    ],
+    "exercises": [
+      [
+        "If I had known about the party, I ___ have come.",
+        "would",
+        [
+          "will",
+          "had"
+        ],
+        "لو علمت بالحفلة، لأتيت."
+      ],
+      [
+        "If she ___ the instructions, she wouldn’t have made that mistake.",
+        "had read",
+        [
+          "read",
+          "would read"
+        ],
+        "لو قرأت التعليمات، لما ارتكبت ذلك الخطأ."
+      ],
+      [
+        "We would have won if we had ___ better.",
+        "played",
+        [
+          "play",
+          "playing"
+        ],
+        "لكنا فزنا لو لعبنا أفضل."
+      ],
+      [
+        "If you ___ me, I would have helped you.",
+        "had asked",
+        [
+          "asked",
+          "would ask"
+        ],
+        "لو طلبت مني، لساعدتك."
+      ],
+      [
+        "He wouldn’t have got lost if he ___ a map.",
+        "had taken",
+        [
+          "took",
+          "would take"
+        ],
+        "لما ضاع لو أخذ خريطة."
+      ],
+      [
+        "If it hadn’t rained, we ___ gone to the beach.",
+        "would have",
+        [
+          "will have",
+          "had"
+        ],
+        "لو لم تمطر، لذهبنا إلى الشاطئ."
+      ],
+      [
+        "I’d have called you if I ___ your number.",
+        "had had",
+        [
+          "have had",
+          "would have"
+        ],
+        "لاتصلت بك لو كان معي رقمك."
+      ],
+      [
+        "If they had saved money, they ___ have bought a house.",
+        "could",
+        [
+          "can",
+          "will"
+        ],
+        "لو ادّخروا المال، لاستطاعوا شراء بيت."
+      ]
+    ]
+  },
+  {
+    "id": "wish",
+    "level": "c1",
+    "icon": "🌠",
+    "title": {
+      "en": "I wish / If only",
+      "ar": "التمني (I wish / If only)"
+    },
+    "rule": {
+      "en": "wish + past simple for wishes about now; wish + past perfect for regrets about the past; If only is stronger.",
+      "ar": "نستخدم wish + الماضي البسيط لنتمنى تغيير الحاضر: I wish I lived near the sea. ونستخدم wish + had + التصريف الثالث للندم على الماضي: I wish I had studied more. وتحمل If only المعنى نفسه بقوة أكبر."
+    },
+    "examples": [
+      [
+        "I wish I spoke French.",
+        "ليتني أتكلم الفرنسية."
+      ],
+      [
+        "She wishes she had more free time.",
+        "تتمنى لو كان لديها وقت فراغ أكثر."
+      ],
+      [
+        "I wish I hadn’t said that.",
+        "ليتني لم أقل ذلك."
+      ],
+      [
+        "If only we had left earlier!",
+        "ليتنا غادرنا أبكر!"
+      ],
+      [
+        "He wishes he could see his family.",
+        "يتمنى لو يستطيع رؤية عائلته."
+      ]
+    ],
+    "exercises": [
+      [
+        "I wish I ___ taller.",
+        "were",
+        [
+          "am",
+          "will be"
+        ],
+        "ليتني كنت أطول."
+      ],
+      [
+        "She wishes she ___ drive.",
+        "could",
+        [
+          "can",
+          "will"
+        ],
+        "تتمنى لو تستطيع القيادة."
+      ],
+      [
+        "I wish I ___ that cake. I feel sick now.",
+        "hadn’t eaten",
+        [
+          "didn’t eat",
+          "haven’t eaten"
+        ],
+        "ليتني لم آكل تلك الكعكة. أشعر بالغثيان الآن."
+      ],
+      [
+        "If only I ___ more money!",
+        "had",
+        [
+          "have",
+          "will have"
+        ],
+        "ليت لديّ المزيد من المال!"
+      ],
+      [
+        "We wish we ___ closer to the city.",
+        "lived",
+        [
+          "live",
+          "will live"
+        ],
+        "نتمنى لو نسكن أقرب إلى المدينة."
+      ],
+      [
+        "He wishes he ___ harder at school.",
+        "had worked",
+        [
+          "worked",
+          "has worked"
+        ],
+        "يتمنى لو عمل بجد أكبر في المدرسة."
+      ],
+      [
+        "I wish you ___ here with us.",
+        "were",
+        [
+          "are",
+          "will be"
+        ],
+        "ليتك كنت هنا معنا."
+      ],
+      [
+        "If only they ___ the warning!",
+        "had listened to",
+        [
+          "listened to",
+          "listen to"
+        ],
+        "ليتهم استمعوا إلى التحذير!"
+      ]
+    ]
+  }
+]
