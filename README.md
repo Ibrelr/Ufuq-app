@@ -6,8 +6,11 @@ Built for learners in Syria and anywhere else: it works on cheap Android phones,
 
 ## Features
 
-- **42 topics, ~800 words and sentences**, A1 to C1, Arabic ⇄ English
-- **Five activities per topic:** Learn (picture cards with audio), Quiz, Match (pictures ↔ words), Spell (letter tiles, also in Arabic), Speak (pronunciation check with the browser's speech recognition, where supported)
+- **52 topics, ~900 words and sentences**, A1 to C1, Arabic ⇄ English
+- **16 conversations** (A2–C1) with two voices: Listen (chat bubbles, translation, tap any line), Role play (you speak one part, the app plays the other, with speech check) and Practise
+- **10 reading texts** (A2–C1): tap a sentence to hear it and see its translation, read the whole text aloud, key words
+- **Sentence exercises** for conversations, texts and sentence topics: put the words in order, fill the gap, choose the meaning, who said it
+- **Activities per topic:** Learn (picture cards with audio), Quiz, Match (pictures ↔ words), Spell (letter tiles, also in Arabic), Build (word order, for sentence topics), Speak (pronunciation check with the browser's speech recognition, where supported)
 - **Motivation:** XP, a daily goal (50 XP), day streak, 1–3 stars per topic, badges, confetti
 - **Today panel** on the home page: goal ring, streak, continue where you left off, word of the day
 - **My words:** save any card with the heart and practise your own list
@@ -40,6 +43,8 @@ Node 20 or newer.
 ```
 content/
   topics.csv               # one row per topic: order, level, type, icon, names
+  conversations.json       # dialogues with two speakers
+  readings.json            # short reading texts with key words
   words.csv                # one row per word or sentence (the main spreadsheet)
 scripts/
   build-content.mjs        # CSV → src/content/generated/topics.json + public/pics/*.svg
@@ -60,7 +65,7 @@ src/
     spell.ts, recognition.ts
     quiz.ts                # builds the 8-question quizzes
   components/              # Layout, WordCard, LearnView, QuizView, Pic, …
-  pages/                   # Home, Level, Topic, Search, Saved, Review, Progress
+  pages/                   # Home, Level, Topic, Conversation, Reading, Search, Saved, Review, Progress
 public/
   audio/manifest.json      # list of recorded audio files (empty for now)
   _redirects               # SPA fallback for Netlify / Cloudflare Pages
@@ -91,6 +96,10 @@ All words live in two spreadsheets. Open them in Google Sheets or Excel, edit, a
 - `id`: leave empty and it is made from the English word. Fill it in only if two words would get the same id. Audio files are named after it, so don't change it later.
 - `pic`: an emoji (shown as a Fluent Emoji picture), `#RRGGBB` for a colour circle, or `=text` for a text tile (numbers also show Arabic-Indic digits).
 - Sentences with a comma must be in quotes in the CSV (the spreadsheet does this for you).
+
+`content/conversations.json` holds the dialogues: two `speakers` (with `gender` for the voice) and `lines` as `["speakerId", "English", "Arabic"]`.
+`content/readings.json` holds the texts: `sentences` as `["English", "Arabic"]` and `vocab` as `["word", "كلمة"]`.
+Exercises for both are generated from the sentences, so nothing else needs writing.
 
 `content/topics.csv` sets each topic's order, level (`a1`–`c1`), type (`words` or `phrases`), icon and names.
 

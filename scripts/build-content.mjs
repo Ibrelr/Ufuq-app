@@ -4,6 +4,7 @@
  *
  *   content/topics.csv  → one row per topic (order, level, type, icon, names)
  *   content/words.csv   → one row per word or sentence
+ *   content/conversations.json, content/readings.json → dialogues and reading texts
  *
  * Output (generated, not committed):
  *   src/content/generated/topics.json
@@ -135,6 +136,56 @@ for (const w of words) {
   topic.items.push({ id, pic, ...(img && { img }), en: w.en, ar: w.ar })
 }
 
+
+/* ---------- conversations and reading texts (content/*.json) ---------- */
+const readJson = (f) => JSON.parse(readFileSync(join(root, 'content', f), 'utf8'))
+const iconFor = (emoji) => {
+  const name = emoji ? emojiToIcon(emoji) : null
+  if (name) writeSvg(name)
+  return name ?? undefined
+}
+const hasText = (o) => o && typeof o.en === 'string' && o.en && typeof o.ar === 'string' && o.ar
+
+const conversations = readJson('conversations.json').map((c, n) => {
+  const where = `conversations.json #${n + 1} (${c.id ?? 'no id'})`
+  if (!c.id) problems.push(`${where}: missing id`)
+  if (!LEVELS.includes(c.level)) problems.push(`${where}: bad level "${c.level}"`)
+  if (!hasText(c.title)) problems.push(`${where}: title needs en and ar`)
+  if (!Array.isArray(c.speakers) || c.speakers.length !== 2) problems.push(`${where}: needs exactly 2 speakers`)
+  const ids = new Set((c.speakers ?? []).map((sp) => sp.id))
+  const lines = (c.lines ?? []).map(([speaker, en, ar], i) => {
+    if (!ids.has(speaker)) problems.push(`${where} line ${i + 1}: unknown speaker "${speaker}"`)
+    if (!en || !ar) problems.push(`${where} line ${i + 1}: needs en and ar`)
+    return { speaker, en, ar }
+  })
+  return {
+    ...c,
+    iconImg: iconFor(c.icon),
+    speakers: (c.speakers ?? []).map((sp) => ({ ...sp, iconImg: iconFor(sp.icon) })),
+    lines,
+  }
+})
+
+const readings = readJson('readings.json').map((r, n) => {
+  const where = `readings.json #${n + 1} (${r.id ?? 'no id'})`
+  if (!r.id) problems.push(`${where}: missing id`)
+  if (!LEVELS.includes(r.level)) problems.push(`${where}: bad level "${r.level}"`)
+  if (!hasText(r.title)) problems.push(`${where}: title needs en and ar`)
+  const sentences = (r.sentences ?? []).map(([en, ar], i) => {
+    if (!en || !ar) problems.push(`${where} sentence ${i + 1}: needs en and ar`)
+    return { en, ar }
+  })
+  const vocab = (r.vocab ?? []).map(([en, ar]) => ({ en, ar }))
+  return { ...r, iconImg: iconFor(r.icon), sentences, vocab }
+})
+for (const [list, name] of [[conversations, 'conversation'], [readings, 'reading']]) {
+  const seen = new Set()
+  for (const x of list) {
+    if (seen.has(x.id)) problems.push(`duplicate ${name} id "${x.id}"`)
+    seen.add(x.id)
+  }
+}
+
 for (const t of byId.values()) if (!t.items.length) warnings.push(`topic "${t.id}" has no words`)
 if (missingPics.size) warnings.push(`no Fluent picture (the emoji itself is shown): ${[...missingPics].join(', ')}`)
 
@@ -147,9 +198,11 @@ const out = [...byId.values()].sort((a, b) => a.order - b.order).map(({ order, .
 const genDir = join(root, 'src/content/generated')
 mkdirSync(genDir, { recursive: true })
 writeFileSync(join(genDir, 'topics.json'), JSON.stringify(out))
+writeFileSync(join(genDir, 'conversations.json'), JSON.stringify(conversations))
+writeFileSync(join(genDir, 'readings.json'), JSON.stringify(readings))
 
 // Pictures the interface itself uses (activity tabs, badges, home page)
-const UI_EMOJIS = ['📖', '❓', '🧩', '🔤', '🎤', '🔥', '⭐', '❤️', '🔁', '🔍', '🏅', '🎯', '🌱', '🚀', '📚', '🏆', '💯', '🗓️', '👣', '💎']
+const UI_EMOJIS = ['📖', '❓', '🧩', '🔤', '🎤', '🔥', '⭐', '❤️', '🔁', '🔍', '🏅', '🎯', '🌱', '🚀', '📚', '🏆', '💯', '🗓️', '👣', '💎', '🎧', '🎭', '💬']
 const uiIcons = {}
 for (const e of UI_EMOJIS) {
   const name = emojiToIcon(e)
@@ -167,4 +220,4 @@ for (const [name, svg] of svgCache) writeFileSync(join(picDir, `${name}.svg`), s
 
 const total = out.reduce((s, t) => s + t.items.length, 0)
 if (warnings.length) console.warn('! ' + warnings.join('\n! '))
-console.log(`✓ content: ${out.length} topics, ${total} items, ${svgCache.size} pictures`)
+console.log(`✓ content: ${out.length} topics, ${total} items, ${conversations.length} conversations, ${readings.length} texts, ${svgCache.size} pictures`)

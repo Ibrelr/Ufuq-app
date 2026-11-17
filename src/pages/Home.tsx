@@ -5,6 +5,7 @@ import { useProgress } from '../lib/progress'
 import { Mascot, StarIcon } from '../components/Icons'
 import { btn, card } from '../components/ui'
 import { TodayPanel } from '../components/TodayPanel'
+import { HomeLessons } from '../components/HomeLessons'
 import { useStats } from '../lib/stats'
 
 const STAIR_HEIGHTS = ['h-[60px]', 'h-[108px]', 'h-[156px]', 'h-[204px]', 'h-[252px]']
@@ -88,6 +89,8 @@ export function Home() {
           ))}
         </div>
       </section>
+
+      <HomeLessons />
 
       <section className="py-7">
         <h2 className="font-display mb-4.5 text-3xl">{t.levelsTitle}</h2>

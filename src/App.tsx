@@ -12,6 +12,9 @@ import { SearchPage } from './pages/SearchPage'
 import { SavedPage } from './pages/SavedPage'
 import { ReviewPage } from './pages/ReviewPage'
 import { ProgressPage } from './pages/ProgressPage'
+import { ConversationPage } from './pages/ConversationPage'
+import { ReadingPage } from './pages/ReadingPage'
+import { LessonListPage } from './pages/LessonListPage'
 
 export default function App() {
   return (
@@ -29,6 +32,10 @@ export default function App() {
                 <Route path="saved" element={<SavedPage />} />
                 <Route path="review" element={<ReviewPage />} />
                 <Route path="progress" element={<ProgressPage />} />
+                <Route path="talk" element={<LessonListPage kind="talk" />} />
+                <Route path="talk/:id/:mode?" element={<ConversationPage />} />
+                <Route path="read" element={<LessonListPage kind="read" />} />
+                <Route path="read/:id/:mode?" element={<ReadingPage />} />
                 <Route path="*" element={<NotFound />} />
               </Route>
             </Routes>

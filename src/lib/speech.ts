@@ -14,6 +14,8 @@ export type SpeechProblem = 'no-speech' | 'no-voice'
 
 export interface SayOptions {
   slow?: boolean
+  /** In conversations, each speaker gets a different voice (or pitch) */
+  gender?: 'm' | 'f'
   /** Used to find a recorded file */
   topicId?: string
   itemId?: string
@@ -58,11 +60,25 @@ const VOICE_PREFS: Record<Lang, string[]> = {
   ar: ['ar-sa', 'ar-sy', 'ar-eg', 'ar'],
 }
 
-function pickVoice(lang: Lang) {
+const FEMALE = /female|woman|zira|samantha|karen|moira|tessa|fiona|victoria|susan|hazel|libby|sonia|salma|zariyah|laila|hoda|amina|mariam|sara/i
+const MALE = /\bmale\b|\bman\b|david|daniel|alex|fred|george|ryan|guy|mark|tarik|maged|hamed|naayf|omar|shakir|majed/i
+
+function pickVoice(lang: Lang, gender?: 'm' | 'f') {
   if (!voices.length) refreshVoices()
   for (const p of VOICE_PREFS[lang]) {
-    const v = voices.find((v) => v.lang?.replace('_', '-').toLowerCase().startsWith(p))
-    if (v) return v
+    const matching = voices.filter((v) => v.lang?.replace('_', '-').toLowerCase().startsWith(p))
+    if (!matching.length) continue
+    if (gender) {
+      const want = gender === 'f' ? FEMALE : MALE
+      const avoid = gender === 'f' ? MALE : FEMALE
+      const byName = matching.find((v) => want.test(v.name) && !(gender === 'f' && /\bmale\b/i.test(v.name)))
+      if (byName) return { voice: byName, exact: true }
+      // No named match: use different voices for the two speakers when there are several
+      const others = matching.filter((v) => !avoid.test(v.name))
+      const pick = (others.length ? others : matching)[gender === 'f' ? 0 : Math.min(1, (others.length ? others : matching).length - 1)]
+      return { voice: pick, exact: false }
+    }
+    return { voice: matching[0], exact: true }
   }
   return null
 }
@@ -91,10 +107,12 @@ function speakSynth(text: string, lang: Lang, opts: SayOptions) {
   }
   const u = new SpeechSynthesisUtterance(text.replace(/…/g, '').trim())
   u.lang = lang === 'en' ? 'en-US' : 'ar-SA'
-  const v = pickVoice(lang)
-  if (v) u.voice = v
+  const v = pickVoice(lang, opts.gender)
+  if (v) u.voice = v.voice
   else if (voices.length) opts.onProblem?.('no-voice', lang)
   u.rate = opts.slow ? 0.55 : 0.85
+  // Without a voice that matches, a higher or lower pitch still tells the speakers apart
+  if (opts.gender && !v?.exact) u.pitch = opts.gender === 'f' ? 1.25 : 0.8
   if (opts.onEnd) {
     u.onend = () => opts.onEnd?.()
     u.onerror = () => opts.onEnd?.()

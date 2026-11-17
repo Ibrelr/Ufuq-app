@@ -12,16 +12,18 @@ import { TopicIcon, UiIcon } from '../components/Pic'
 import { QuizView } from '../components/QuizView'
 import { SpeakGame } from '../components/SpeakGame'
 import { SpellGame } from '../components/SpellGame'
+import { SentencePractice } from '../components/SentencePractice'
 import { spellableEntries } from '../lib/spell'
 import { Stars } from '../components/Stars'
 import { NotFound } from './NotFound'
 
-export type Mode = 'learn' | 'quiz' | 'match' | 'spell' | 'speak'
+export type Mode = 'learn' | 'quiz' | 'match' | 'spell' | 'build' | 'speak'
 const MODES: { mode: Mode; emoji: string }[] = [
   { mode: 'learn', emoji: '📖' },
   { mode: 'quiz', emoji: '❓' },
-  { mode: 'match', emoji: '🧩' },
+  { mode: 'match', emoji: '🎯' },
   { mode: 'spell', emoji: '🔤' },
+  { mode: 'build', emoji: '🧩' },
   { mode: 'speak', emoji: '🎤' },
 ]
 
@@ -34,6 +36,7 @@ export function TopicPage() {
   const topic = getTopic(topicId)
   const level = topic && getLevel(topic.level)
   const pool = useMemo(() => (topic ? topicEntries(topic) : []), [topic])
+  const sentences = useMemo(() => pool.map((e) => ({ en: e.item.en, ar: e.item.ar, key: `${e.topic.id}/${e.item.id}` })), [pool])
 
   useEffect(() => {
     if (topic) visitTopic(topic.id)
@@ -42,8 +45,9 @@ export function TopicPage() {
   if (!topic || !level) return <NotFound />
 
   const canSpell = spellableEntries(pool, target).length >= 4
-  const modes = MODES.filter((m) => m.mode !== 'spell' || canSpell)
-  const label = { learn: t.learn, quiz: t.quiz, match: t.match, spell: t.spell, speak: t.speak }
+  const isPhrases = topic.type === 'phrases'
+  const modes = MODES.filter((m) => (m.mode === 'spell' ? canSpell && !isPhrases : m.mode === 'build' ? isPhrases : true))
+  const label = { learn: t.learn, quiz: t.quiz, match: t.match, spell: t.spell, build: t.build, speak: t.speak }
 
   return (
     <>
@@ -84,6 +88,9 @@ export function TopicPage() {
       {mode === 'quiz' && <QuizView key={topic.id} pool={pool} topic={topic} />}
       {mode === 'match' && <MatchGame key={topic.id} pool={pool} topic={topic} />}
       {mode === 'spell' && canSpell && <SpellGame key={topic.id} pool={pool} topic={topic} />}
+      {mode === 'build' && isPhrases && (
+        <SentencePractice key={topic.id} sentences={sentences} types={['build', 'gap', 'build', 'meaning']} track topic={topic} />
+      )}
       {mode === 'speak' && <SpeakGame key={topic.id} pool={pool} topic={topic} />}
     </>
   )

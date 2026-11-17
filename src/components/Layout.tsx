@@ -3,7 +3,7 @@ import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useLanguage } from '../i18n/LanguageProvider'
 import { useStats } from '../lib/stats'
 import { useSpeak } from '../lib/useSpeak'
-import { FlameIcon, HeartIcon, Logo, SearchIcon } from './Icons'
+import { ChatIcon, FlameIcon, HeartIcon, HomeIcon, Logo, SearchIcon } from './Icons'
 import { pill } from './ui'
 
 const iconLink =
@@ -36,12 +36,18 @@ export function Layout() {
             </span>
           </Link>
           <nav aria-label={t.home} className="ms-auto flex items-center gap-1.5 sm:gap-2.5">
-            <NavLink to="/search" aria-label={t.search} title={t.search} className={iconLink}>
-              <SearchIcon size={24} />
-            </NavLink>
-            <NavLink to="/saved" aria-label={t.saved} title={t.saved} className={iconLink}>
-              <HeartIcon size={24} />
-            </NavLink>
+            {/* On phones these move to the tab bar at the bottom */}
+            <span className="hidden items-center gap-2.5 sm:flex">
+              <NavLink to="/talk" aria-label={t.conversations} title={t.conversations} className={iconLink}>
+                <ChatIcon size={24} />
+              </NavLink>
+              <NavLink to="/search" aria-label={t.search} title={t.search} className={iconLink}>
+                <SearchIcon size={24} />
+              </NavLink>
+              <NavLink to="/saved" aria-label={t.saved} title={t.saved} className={iconLink}>
+                <HeartIcon size={24} />
+              </NavLink>
+            </span>
             <NavLink to="/progress" aria-label={`${t.progress}: ${t.streakDays(streak)}`} title={t.progress} className={`${iconLink} w-auto gap-1 px-2.5 font-extrabold`}>
               <FlameIcon size={24} lit={streak > 0} />
               <span aria-hidden="true">{streak}</span>
@@ -72,7 +78,28 @@ export function Layout() {
         <Outlet />
       </main>
 
-      <footer className="mt-6 border-t border-line">
+      {/* Tab bar for phones */}
+      <nav aria-label={t.home} className="fixed inset-x-0 bottom-0 z-10 grid grid-cols-5 border-t border-line bg-surface pb-[env(safe-area-inset-bottom)] sm:hidden">
+        {[
+          { to: '/', label: t.home, icon: <HomeIcon size={24} /> },
+          { to: '/talk', label: t.conversations, icon: <ChatIcon size={24} /> },
+          { to: '/search', label: t.search, icon: <SearchIcon size={24} /> },
+          { to: '/saved', label: t.saved, icon: <HeartIcon size={24} /> },
+          { to: '/progress', label: t.progress, icon: <FlameIcon size={24} lit={streak > 0} /> },
+        ].map((tab) => (
+          <NavLink
+            key={tab.to}
+            to={tab.to}
+            end={tab.to === '/'}
+            className="flex min-h-15 flex-col items-center justify-center gap-0.5 text-[11px] font-extrabold text-muted no-underline aria-[current=page]:text-primary-dark"
+          >
+            {tab.icon}
+            <span className="max-w-full truncate px-1">{tab.label}</span>
+          </NavLink>
+        ))}
+      </nav>
+
+      <footer className="mt-6 border-t border-line pb-16 sm:pb-0">
         <div className="mx-auto flex max-w-6xl flex-col gap-1.5 px-5 pt-6 pb-8 text-[15px] text-muted">
           <b>{t.footer}</b>
           <span>{t.tip}</span>

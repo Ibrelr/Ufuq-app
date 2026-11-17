@@ -1,6 +1,8 @@
 import levelsJson from './levels.json'
 import topicsJson from './generated/topics.json'
-import type { Level, LevelId, Topic } from './types'
+import conversationsJson from './generated/conversations.json'
+import readingsJson from './generated/readings.json'
+import type { Conversation, Level, LevelId, Reading, Topic } from './types'
 
 export * from './types'
 
@@ -8,6 +10,13 @@ export const LEVELS = levelsJson as Level[]
 
 // Generated from content/topics.csv and content/words.csv by `npm run content`
 export const TOPICS = topicsJson as Topic[]
+
+export const CONVERSATIONS = conversationsJson as Conversation[]
+export const READINGS = readingsJson as Reading[]
+export const getConversation = (id: string) => CONVERSATIONS.find((c) => c.id === id)
+export const getReading = (id: string) => READINGS.find((r) => r.id === id)
+export const conversationsForLevel = (id: LevelId) => CONVERSATIONS.filter((c) => c.level === id)
+export const readingsForLevel = (id: LevelId) => READINGS.filter((r) => r.level === id)
 
 export const getLevel = (id: string) => LEVELS.find((l) => l.id === id)
 export const getTopic = (id: string) => TOPICS.find((t) => t.id === id)
