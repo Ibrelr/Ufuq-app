@@ -4,12 +4,16 @@ import { useLanguage, type Direction } from '../i18n/LanguageProvider'
 import { useProgress } from '../lib/progress'
 import { Mascot, StarIcon } from '../components/Icons'
 import { btn, card } from '../components/ui'
+import { TodayPanel } from '../components/TodayPanel'
+import { useStats } from '../lib/stats'
 
 const STAIR_HEIGHTS = ['h-[60px]', 'h-[108px]', 'h-[156px]', 'h-[204px]', 'h-[252px]']
 
 export function Home() {
   const { t, ui, target, direction, setDirection, name } = useLanguage()
   const { levelStars } = useProgress()
+  const { totalXp } = useStats()
+  const returning = totalXp > 0
 
   const dirButton = (d: Direction, lang: 'ar' | 'en', label: string) => (
     <button
@@ -25,6 +29,7 @@ export function Home() {
 
   return (
     <>
+      {returning && <TodayPanel />}
       <section className="flex flex-wrap items-center gap-10 pt-12 pb-8">
         <div className="flex min-w-0 flex-[1_1_420px] flex-col gap-4.5">
           <span className="self-start rounded-full bg-sun-tint px-3.5 py-1.5 text-[15px] font-extrabold text-sun-ink">{t.tag}</span>
@@ -66,6 +71,8 @@ export function Home() {
           </div>
         </div>
       </section>
+
+      {!returning && <TodayPanel />}
 
       <section className="py-7">
         <h2 className="font-display mb-4.5 text-3xl">{t.howTitle}</h2>

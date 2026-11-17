@@ -1,11 +1,11 @@
-import type { Item, Topic } from '../content'
+import type { Entry } from './entries'
 
 export type QuestionType = 'listen-pic' | 'native' | 'pic-text' | 'listen-text'
 
 export interface Question {
-  item: Item
+  entry: Entry
   type: QuestionType
-  options: Item[]
+  options: Entry[]
 }
 
 export const QUIZ_LENGTH = 8
@@ -20,32 +20,31 @@ export function shuffle<T>(arr: T[]): T[] {
 }
 
 /**
- * A picture can stand for a word in a quiz only if no other word in the topic shares it,
- * and it doesn't spell out the answer. Days of the week, for example, all use 📅.
+ * Entries whose picture can stand for the word: no other entry in the pool shares it,
+ * it doesn't spell out the answer, and the word is a word (not a sentence).
+ * Days of the week, for example, all use 📅.
  */
-function pictureItems(topic: Topic) {
+export function pictureEntries(pool: Entry[]) {
   const count = new Map<string, number>()
-  for (const it of topic.items) count.set(it.pic, (count.get(it.pic) ?? 0) + 1)
-  return new Set(topic.items.filter((it) => count.get(it.pic) === 1 && !it.pic.startsWith('=')))
+  for (const e of pool) count.set(e.item.pic, (count.get(e.item.pic) ?? 0) + 1)
+  return pool.filter((e) => count.get(e.item.pic) === 1 && !e.item.pic.startsWith('=') && e.topic.type === 'words')
 }
 
-/** Up to 8 questions, rotating question types. Each has the right answer plus 3 wrong ones from the same topic. */
-export function buildQuiz(topic: Topic): Question[] {
-  const withPicture = pictureItems(topic)
-  const canUsePictures = topic.type === 'words' && withPicture.size >= 4
+/** Up to 8 questions, rotating question types. Each has the right answer plus 3 wrong ones from the same pool. */
+export function buildQuiz(pool: Entry[], length = QUIZ_LENGTH): Question[] {
+  const withPicture = new Set(pictureEntries(pool))
+  const canUsePictures = withPicture.size >= 4
   const types: QuestionType[] = canUsePictures ? ['listen-pic', 'native', 'pic-text', 'listen-text'] : ['native', 'listen-text']
 
-  return shuffle(topic.items)
-    .slice(0, Math.min(QUIZ_LENGTH, topic.items.length))
-    .map((item, i) => {
+  return shuffle(pool)
+    .slice(0, Math.min(length, pool.length))
+    .map((entry, i) => {
       let type = types[i % types.length]
       const isPictureQuestion = type === 'listen-pic' || type === 'pic-text'
-      // This word's picture isn't unique, so ask in words instead
-      if (isPictureQuestion && !withPicture.has(item)) type = type === 'listen-pic' ? 'listen-text' : 'native'
-      // Picture answers must all be different pictures
-      const pool = type === 'listen-pic' ? [...withPicture] : topic.items
-      const wrong = shuffle(pool.filter((x) => x !== item)).slice(0, 3)
-      return { item, type, options: shuffle([item, ...wrong]) }
+      if (isPictureQuestion && !withPicture.has(entry)) type = type === 'listen-pic' ? 'listen-text' : 'native'
+      const candidates = type === 'listen-pic' ? [...withPicture] : pool
+      const wrong = shuffle(candidates.filter((x) => x !== entry && x.item.en !== entry.item.en)).slice(0, 3)
+      return { entry, type, options: shuffle([entry, ...wrong]) }
     })
 }
 

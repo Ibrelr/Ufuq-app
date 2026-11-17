@@ -3,28 +3,38 @@ import { Layout } from './components/Layout'
 import { LanguageProvider } from './i18n/LanguageProvider'
 import { ProgressProvider } from './lib/progress'
 import { SpeakProvider } from './lib/useSpeak'
+import { StatsProvider } from './lib/stats'
 import { Home } from './pages/Home'
 import { LevelPage } from './pages/LevelPage'
 import { NotFound } from './pages/NotFound'
 import { TopicPage } from './pages/TopicPage'
+import { SearchPage } from './pages/SearchPage'
+import { SavedPage } from './pages/SavedPage'
+import { ReviewPage } from './pages/ReviewPage'
+import { ProgressPage } from './pages/ProgressPage'
 
 export default function App() {
   return (
     <LanguageProvider>
       <ProgressProvider>
+        <StatsProvider>
         <SpeakProvider>
           <BrowserRouter>
             <Routes>
               <Route element={<Layout />}>
                 <Route index element={<Home />} />
                 <Route path="level/:levelId" element={<LevelPage />} />
-                <Route path="topic/:topicId" element={<TopicPage mode="learn" />} />
-                <Route path="topic/:topicId/quiz" element={<TopicPage mode="quiz" />} />
+                <Route path="topic/:topicId/:mode?" element={<TopicPage />} />
+                <Route path="search" element={<SearchPage />} />
+                <Route path="saved" element={<SavedPage />} />
+                <Route path="review" element={<ReviewPage />} />
+                <Route path="progress" element={<ProgressPage />} />
                 <Route path="*" element={<NotFound />} />
               </Route>
             </Routes>
           </BrowserRouter>
         </SpeakProvider>
+        </StatsProvider>
       </ProgressProvider>
     </LanguageProvider>
   )

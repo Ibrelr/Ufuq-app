@@ -1,3 +1,4 @@
+import uiIcons from '../content/generated/ui-icons.json'
 import type { Item } from '../content'
 
 type Size = 'sm' | 'md' | 'lg'
@@ -58,6 +59,17 @@ export function TopicIcon({ icon, iconImg, className = 'size-14' }: { icon: stri
   return (
     <span aria-hidden="true" className="text-[52px] leading-none">
       {icon}
+    </span>
+  )
+}
+
+/** A picture used by the interface itself (tabs, badges), from the same Fluent Emoji set */
+export function UiIcon({ emoji, className = 'size-7' }: { emoji: string; className?: string }) {
+  const name = (uiIcons as Record<string, string>)[emoji]
+  if (name) return <img src={`/pics/${name}.svg`} alt="" aria-hidden="true" className={className} />
+  return (
+    <span aria-hidden="true" className="text-2xl leading-none">
+      {emoji}
     </span>
   )
 }

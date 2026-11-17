@@ -148,6 +148,18 @@ const genDir = join(root, 'src/content/generated')
 mkdirSync(genDir, { recursive: true })
 writeFileSync(join(genDir, 'topics.json'), JSON.stringify(out))
 
+// Pictures the interface itself uses (activity tabs, badges, home page)
+const UI_EMOJIS = ['📖', '❓', '🧩', '🔤', '🎤', '🔥', '⭐', '❤️', '🔁', '🔍', '🏅', '🎯', '🌱', '🚀', '📚', '🏆', '💯', '🗓️', '👣', '💎']
+const uiIcons = {}
+for (const e of UI_EMOJIS) {
+  const name = emojiToIcon(e)
+  if (name) {
+    writeSvg(name)
+    uiIcons[e] = name
+  }
+}
+writeFileSync(join(genDir, 'ui-icons.json'), JSON.stringify(uiIcons))
+
 const picDir = join(root, 'public/pics')
 rmSync(picDir, { recursive: true, force: true })
 mkdirSync(picDir, { recursive: true })

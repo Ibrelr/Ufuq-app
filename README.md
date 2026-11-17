@@ -4,6 +4,18 @@ A free website for learning **English from Arabic**, or **Arabic from English**.
 
 Built for learners in Syria and anywhere else: it works on cheap Android phones, it can be installed to the home screen, and it keeps working offline once a topic has been opened (PWA).
 
+## Features
+
+- **42 topics, ~800 words and sentences**, A1 to C1, Arabic ⇄ English
+- **Five activities per topic:** Learn (picture cards with audio), Quiz, Match (pictures ↔ words), Spell (letter tiles, also in Arabic), Speak (pronunciation check with the browser's speech recognition, where supported)
+- **Motivation:** XP, a daily goal (50 XP), day streak, 1–3 stars per topic, badges, confetti
+- **Today panel** on the home page: goal ring, streak, continue where you left off, word of the day
+- **My words:** save any card with the heart and practise your own list
+- **Review:** words you get wrong come back until you answer them right twice
+- **Search** every word and sentence in Arabic or English (ignores vowel marks and alef/ta marbuta spelling)
+- **My progress:** XP, streak, words learned, stars, last 7 days, badges, progress per level
+- Works offline after first visit (PWA); progress is stored in the browser for now
+
 ## Getting started
 
 ```bash
@@ -42,9 +54,13 @@ src/
     speech.ts              # recorded audio first, browser speech as fallback
     useSpeak.tsx           # speech + "no voice on this device" message
     progress.tsx           # stars per topic (localStorage for now)
+    stats.tsx              # XP, streak, daily goal, saved words, review list
+    entries.ts             # a word + its topic; word of the day
+    normalize.ts           # Arabic/English text matching for search and speech
+    spell.ts, recognition.ts
     quiz.ts                # builds the 8-question quizzes
   components/              # Layout, WordCard, LearnView, QuizView, Pic, …
-  pages/                   # Home, LevelPage, TopicPage, NotFound
+  pages/                   # Home, Level, Topic, Search, Saved, Review, Progress
 public/
   audio/manifest.json      # list of recorded audio files (empty for now)
   _redirects               # SPA fallback for Netlify / Cloudflare Pages
