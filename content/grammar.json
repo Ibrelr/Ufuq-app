@@ -2369,6 +2369,224 @@
     ]
   },
   {
+    "id": "used-to",
+    "level": "b2",
+    "icon": "🔄",
+    "title": {
+      "en": "used to / be used to / get used to",
+      "ar": "العادة في الماضي والتعوّد"
+    },
+    "rule": {
+      "en": "used to + verb = a past habit that has stopped; be used to + noun or -ing = accustomed to; get used to = become accustomed.",
+      "ar": "نستخدم used to + الفعل لعادة في الماضي لم تعد موجودة: I used to live in Homs. أما be used to + اسم أو فعل مع ing فتعني «معتاد على»: I'm used to the cold. وget used to تعني «يعتاد تدريجياً»: I'm getting used to the food."
+    },
+    "examples": [
+      [
+        "I used to play football every day.",
+        "كنت ألعب كرة القدم كل يوم."
+      ],
+      [
+        "We didn’t use to have a car.",
+        "لم تكن لدينا سيارة في الماضي."
+      ],
+      [
+        "She is used to working at night.",
+        "هي معتادة على العمل ليلاً."
+      ],
+      [
+        "I can’t get used to the weather here.",
+        "لا أستطيع أن أعتاد على الطقس هنا."
+      ],
+      [
+        "Did you use to live in Damascus?",
+        "هل كنت تسكن في دمشق سابقاً؟"
+      ]
+    ],
+    "exercises": [
+      [
+        "When I was a child, I ___ climb trees.",
+        "used to",
+        [
+          "use to",
+          "am used to"
+        ],
+        "عندما كنت طفلاً، كنت أتسلّق الأشجار."
+      ],
+      [
+        "I’m used to ___ up early.",
+        "getting",
+        [
+          "get",
+          "got"
+        ],
+        "أنا معتاد على الاستيقاظ باكراً."
+      ],
+      [
+        "Did you ___ live in Aleppo?",
+        "use to",
+        [
+          "used to",
+          "using to"
+        ],
+        "هل كنت تسكن في حلب سابقاً؟"
+      ],
+      [
+        "It took me months to ___ used to the language.",
+        "get",
+        [
+          "be",
+          "use"
+        ],
+        "استغرقني الأمر أشهراً لأعتاد على اللغة."
+      ],
+      [
+        "She ___ used to driving on the left yet.",
+        "isn’t",
+        [
+          "doesn’t",
+          "didn’t use"
+        ],
+        "لم تعتد بعد على القيادة على اليسار."
+      ],
+      [
+        "We ___ have a garden, but now we live in a flat.",
+        "used to",
+        [
+          "are used to",
+          "use to"
+        ],
+        "كانت لدينا حديقة، لكننا نسكن الآن في شقة."
+      ],
+      [
+        "He’s getting used to ___ alone.",
+        "living",
+        [
+          "live",
+          "lived"
+        ],
+        "بدأ يعتاد على العيش وحيداً."
+      ],
+      [
+        "There ___ be a cinema here.",
+        "used to",
+        [
+          "use to",
+          "was used to"
+        ],
+        "كانت هنا سينما في الماضي."
+      ]
+    ]
+  },
+  {
+    "id": "future-perfect",
+    "level": "b2",
+    "icon": "🔭",
+    "title": {
+      "en": "Future continuous and future perfect",
+      "ar": "المستقبل المستمر والمستقبل التام"
+    },
+    "rule": {
+      "en": "will be + -ing = in progress at a time in the future; will have + past participle = finished before a time in the future (by…).",
+      "ar": "نستخدم will be + الفعل مع ing لحدث سيكون مستمراً في وقت معيّن في المستقبل: This time tomorrow I'll be flying to Istanbul. ونستخدم will have + التصريف الثالث لحدث سيكون قد انتهى قبل وقت معيّن: By June I'll have finished the course."
+    },
+    "examples": [
+      [
+        "This time next week, I’ll be lying on the beach.",
+        "في مثل هذا الوقت الأسبوع القادم، سأكون مستلقياً على الشاطئ."
+      ],
+      [
+        "By 2030, they will have built the new hospital.",
+        "بحلول عام 2030، سيكونون قد بنوا المستشفى الجديد."
+      ],
+      [
+        "Don’t call at eight. We’ll be having dinner.",
+        "لا تتصل في الثامنة. سنكون نتناول العشاء."
+      ],
+      [
+        "She will have graduated by the summer.",
+        "ستكون قد تخرّجت بحلول الصيف."
+      ],
+      [
+        "Will you be using the car tomorrow?",
+        "هل ستستخدم السيارة غداً؟"
+      ]
+    ],
+    "exercises": [
+      [
+        "At ten o’clock tomorrow, I ___ sitting my exam.",
+        "will be",
+        [
+          "will have",
+          "am going"
+        ],
+        "في الساعة العاشرة غداً، سأكون في امتحاني."
+      ],
+      [
+        "By the end of the year, we ___ saved enough money.",
+        "will have",
+        [
+          "will be",
+          "are"
+        ],
+        "بحلول نهاية السنة، سنكون قد ادّخرنا ما يكفي من المال."
+      ],
+      [
+        "Don’t phone at seven. We’ll be ___ dinner.",
+        "having",
+        [
+          "had",
+          "have"
+        ],
+        "لا تتصل في السابعة. سنكون نتناول العشاء."
+      ],
+      [
+        "She will have ___ the report by Friday.",
+        "finished",
+        [
+          "finishing",
+          "finish"
+        ],
+        "ستكون قد أنهت التقرير بحلول يوم الجمعة."
+      ],
+      [
+        "This time next month, they ___ living in Canada.",
+        "will be",
+        [
+          "will have",
+          "have"
+        ],
+        "في مثل هذا الوقت الشهر القادم، سيكونون يعيشون في كندا."
+      ],
+      [
+        "By the time you arrive, I ___ cooked dinner.",
+        "will have",
+        [
+          "will be",
+          "would"
+        ],
+        "عندما تصل، سأكون قد طبخت العشاء."
+      ],
+      [
+        "Will you ___ using your laptop this evening?",
+        "be",
+        [
+          "have",
+          "being"
+        ],
+        "هل ستستخدم حاسوبك هذا المساء؟"
+      ],
+      [
+        "In five years, he ___ become a doctor.",
+        "will have",
+        [
+          "will be",
+          "is"
+        ],
+        "بعد خمس سنوات، سيكون قد أصبح طبيباً."
+      ]
+    ]
+  },
+  {
     "id": "third-conditional",
     "level": "c1",
     "icon": "⏮️",
@@ -2583,6 +2801,442 @@
           "listen to"
         ],
         "ليتهم استمعوا إلى التحذير!"
+      ]
+    ]
+  },
+  {
+    "id": "mixed-conditionals",
+    "level": "c1",
+    "icon": "🔀",
+    "title": {
+      "en": "Mixed conditionals",
+      "ar": "الشرط المختلط"
+    },
+    "rule": {
+      "en": "Mix the times: a past condition with a present result (If I had…, I would be…), or a present condition with a past result (If I were…, I would have…).",
+      "ar": "نجمع بين زمنين مختلفين: شرط في الماضي ونتيجة في الحاضر: If I had studied medicine, I would be a doctor now. أو شرط في الحاضر ونتيجة في الماضي: If I were braver, I would have spoken up."
+    },
+    "examples": [
+      [
+        "If I had taken that job, I would be living in Dubai now.",
+        "لو قبلت تلك الوظيفة، لكنت أعيش في دبي الآن."
+      ],
+      [
+        "If she weren’t so shy, she would have asked for help.",
+        "لو لم تكن خجولة إلى هذا الحد، لطلبت المساعدة."
+      ],
+      [
+        "If we had left earlier, we wouldn’t be stuck in traffic.",
+        "لو غادرنا أبكر، لما كنا عالقين في الزحام."
+      ],
+      [
+        "If he spoke English, he would have understood the doctor.",
+        "لو كان يتكلم الإنجليزية، لفهم الطبيب."
+      ],
+      [
+        "If I hadn’t met you, my life would be very different.",
+        "لو لم ألتقِ بك، لكانت حياتي مختلفة جداً."
+      ]
+    ],
+    "exercises": [
+      [
+        "If I had saved more money, I ___ be able to buy a house now.",
+        "would",
+        [
+          "will",
+          "had"
+        ],
+        "لو ادّخرت مالاً أكثر، لاستطعت شراء بيت الآن."
+      ],
+      [
+        "If she ___ so busy, she would have come to the wedding.",
+        "weren’t",
+        [
+          "hadn’t",
+          "isn’t"
+        ],
+        "لو لم تكن مشغولة جداً، لحضرت العرس."
+      ],
+      [
+        "If they had listened to the forecast, they ___ be so wet now.",
+        "wouldn’t",
+        [
+          "won’t",
+          "hadn’t"
+        ],
+        "لو استمعوا إلى النشرة الجوية، لما كانوا مبلّلين هكذا الآن."
+      ],
+      [
+        "If he ___ more confident, he would have applied for the job.",
+        "were",
+        [
+          "is",
+          "will be"
+        ],
+        "لو كان أكثر ثقة بنفسه، لتقدّم إلى الوظيفة."
+      ],
+      [
+        "If I ___ that film, I wouldn’t be so scared now.",
+        "hadn’t watched",
+        [
+          "didn’t watch",
+          "haven’t watched"
+        ],
+        "لو لم أشاهد ذلك الفيلم، لما كنت خائفاً هكذا الآن."
+      ],
+      [
+        "If you knew him well, you ___ have trusted him.",
+        "wouldn’t",
+        [
+          "won’t",
+          "didn’t"
+        ],
+        "لو كنت تعرفه جيداً، لما وثقت به."
+      ],
+      [
+        "If we ___ the train, we would be home by now.",
+        "had caught",
+        [
+          "caught",
+          "would catch"
+        ],
+        "لو لحقنا بالقطار، لكنا في البيت الآن."
+      ],
+      [
+        "If I spoke French, I ___ the job in Paris.",
+        "would have got",
+        [
+          "will get",
+          "had got"
+        ],
+        "لو كنت أتكلم الفرنسية، لحصلت على الوظيفة في باريس."
+      ]
+    ]
+  },
+  {
+    "id": "inversion",
+    "level": "c1",
+    "icon": "🔃",
+    "title": {
+      "en": "Inversion for emphasis (Never have I…)",
+      "ar": "التقديم للتوكيد (Never have I…)"
+    },
+    "rule": {
+      "en": "After negative or limiting words at the start of a sentence (Never, Rarely, Not only, Hardly, Only then), put the auxiliary before the subject, as in a question.",
+      "ar": "في الأسلوب الرسمي، عندما نبدأ الجملة بكلمة نفي أو تقييد مثل Never وRarely وNot only وHardly، نقدّم الفعل المساعد على الفاعل كما في السؤال: Never have I seen such a beautiful view."
+    },
+    "examples": [
+      [
+        "Never have I seen such a beautiful sunset.",
+        "لم أرَ قطّ غروباً بهذا الجمال."
+      ],
+      [
+        "Rarely do we get the chance to travel.",
+        "نادراً ما تتاح لنا فرصة السفر."
+      ],
+      [
+        "Not only is she clever, but she is also kind.",
+        "ليست ذكية فحسب، بل لطيفة أيضاً."
+      ],
+      [
+        "Hardly had I arrived when the phone rang.",
+        "ما إن وصلت حتى رنّ الهاتف."
+      ],
+      [
+        "Only then did I understand the truth.",
+        "عندها فقط فهمت الحقيقة."
+      ]
+    ],
+    "exercises": [
+      [
+        "Never ___ I heard such nonsense.",
+        "have",
+        [
+          "I have",
+          "has"
+        ],
+        "لم أسمع قطّ مثل هذا الهراء."
+      ],
+      [
+        "Rarely ___ he arrive on time.",
+        "does",
+        [
+          "he does",
+          "is"
+        ],
+        "نادراً ما يصل في الوقت المحدد."
+      ],
+      [
+        "Not only ___ the food delicious, but it was also cheap.",
+        "was",
+        [
+          "it was",
+          "did"
+        ],
+        "لم يكن الطعام لذيذاً فحسب، بل كان رخيصاً أيضاً."
+      ],
+      [
+        "Hardly ___ we sat down when the music started.",
+        "had",
+        [
+          "we had",
+          "have"
+        ],
+        "ما إن جلسنا حتى بدأت الموسيقى."
+      ],
+      [
+        "Only later ___ she realise her mistake.",
+        "did",
+        [
+          "she did",
+          "was"
+        ],
+        "لم تدرك خطأها إلا لاحقاً."
+      ],
+      [
+        "Seldom ___ you find such kindness.",
+        "do",
+        [
+          "you do",
+          "are"
+        ],
+        "نادراً ما تجد مثل هذا اللطف."
+      ],
+      [
+        "Under no circumstances ___ you open this door.",
+        "should",
+        [
+          "you should",
+          "do"
+        ],
+        "لا يجوز لك فتح هذا الباب تحت أي ظرف."
+      ],
+      [
+        "No sooner ___ he left than it began to snow.",
+        "had",
+        [
+          "he had",
+          "did"
+        ],
+        "ما إن غادر حتى بدأت تثلج."
+      ]
+    ]
+  },
+  {
+    "id": "cleft",
+    "level": "c1",
+    "icon": "🎯",
+    "title": {
+      "en": "Cleft sentences (What I need is…)",
+      "ar": "جمل التوكيد (What I need is…)"
+    },
+    "rule": {
+      "en": "Use What … is … or It is/was … who/that … to put the focus on one part of the sentence.",
+      "ar": "نقسم الجملة لتسليط الضوء على جزء معيّن منها: What I need is a holiday = ما أحتاجه هو عطلة. It was Sara who called you = سارة هي التي اتصلت بك."
+    },
+    "examples": [
+      [
+        "What I need is a long holiday.",
+        "ما أحتاجه هو عطلة طويلة."
+      ],
+      [
+        "It was my grandmother who taught me to cook.",
+        "جدتي هي التي علّمتني الطبخ."
+      ],
+      [
+        "What surprised me was his honesty.",
+        "ما فاجأني هو صدقه."
+      ],
+      [
+        "It’s the noise that I can’t stand.",
+        "الضجيج هو ما لا أطيقه."
+      ],
+      [
+        "All I want is some peace and quiet.",
+        "كل ما أريده هو بعض الهدوء والسكينة."
+      ]
+    ],
+    "exercises": [
+      [
+        "___ I really need is more time.",
+        "What",
+        [
+          "That",
+          "Which"
+        ],
+        "ما أحتاجه حقاً هو المزيد من الوقت."
+      ],
+      [
+        "It was Omar ___ found the keys.",
+        "who",
+        [
+          "what",
+          "which"
+        ],
+        "عمر هو الذي وجد المفاتيح."
+      ],
+      [
+        "What annoys me ___ the traffic.",
+        "is",
+        [
+          "are",
+          "it"
+        ],
+        "ما يزعجني هو الزحام."
+      ],
+      [
+        "It’s the cost ___ worries us.",
+        "that",
+        [
+          "what",
+          "who"
+        ],
+        "التكلفة هي ما يقلقنا."
+      ],
+      [
+        "All I want ___ to sleep.",
+        "is",
+        [
+          "are",
+          "it’s"
+        ],
+        "كل ما أريده هو النوم."
+      ],
+      [
+        "___ was in 2015 that we moved to Germany.",
+        "It",
+        [
+          "What",
+          "That"
+        ],
+        "في عام 2015 انتقلنا إلى ألمانيا."
+      ],
+      [
+        "What she said ___ completely true.",
+        "was",
+        [
+          "were",
+          "it"
+        ],
+        "ما قالته كان صحيحاً تماماً."
+      ],
+      [
+        "It wasn’t me ___ broke the window.",
+        "who",
+        [
+          "what",
+          "which"
+        ],
+        "لست أنا من كسر النافذة."
+      ]
+    ]
+  },
+  {
+    "id": "past-deduction",
+    "level": "c1",
+    "icon": "🕵️",
+    "title": {
+      "en": "Deduction about the past (must have, can’t have)",
+      "ar": "الاستنتاج في الماضي (must have, can’t have)"
+    },
+    "rule": {
+      "en": "must have + past participle when you’re sure something happened; can’t have when you’re sure it didn’t; might / may / could have when it’s possible.",
+      "ar": "نستخدم must have + التصريف الثالث عندما نكون متأكدين أن شيئاً حدث، وcan't have عندما نكون متأكدين أنه لم يحدث، وmight / may / could have عندما يكون ذلك ممكناً: She must have missed the bus."
+    },
+    "examples": [
+      [
+        "The streets are wet. It must have rained.",
+        "الشوارع مبلّلة. لا بدّ أنها أمطرت."
+      ],
+      [
+        "He can’t have finished already.",
+        "لا يمكن أن يكون قد انتهى بالفعل."
+      ],
+      [
+        "She might have forgotten our meeting.",
+        "ربما نسيت موعدنا."
+      ],
+      [
+        "They could have taken the wrong road.",
+        "ربما سلكوا الطريق الخطأ."
+      ],
+      [
+        "You must have been exhausted after the journey.",
+        "لا بدّ أنك كنت منهكاً بعد الرحلة."
+      ]
+    ],
+    "exercises": [
+      [
+        "The lights are off. They ___ have gone to bed.",
+        "must",
+        [
+          "can’t",
+          "should"
+        ],
+        "الأضواء مطفأة. لا بدّ أنهم ناموا."
+      ],
+      [
+        "She ___ have seen us. She didn’t wave.",
+        "can’t",
+        [
+          "must",
+          "would"
+        ],
+        "لا يمكن أن تكون قد رأتنا. لم تلوّح لنا."
+      ],
+      [
+        "I’m not sure where he is. He ___ have gone to the shop.",
+        "might",
+        [
+          "must",
+          "can’t"
+        ],
+        "لست متأكداً أين هو. ربما ذهب إلى المتجر."
+      ],
+      [
+        "You must have ___ very worried.",
+        "been",
+        [
+          "be",
+          "being"
+        ],
+        "لا بدّ أنك كنت قلقاً جداً."
+      ],
+      [
+        "He passed the exam easily. He must have ___ hard.",
+        "studied",
+        [
+          "study",
+          "studying"
+        ],
+        "نجح في الامتحان بسهولة. لا بدّ أنه درس بجد."
+      ],
+      [
+        "They can’t have ___ the email. They haven’t replied.",
+        "received",
+        [
+          "receive",
+          "receiving"
+        ],
+        "لا يمكن أن يكونوا قد استلموا الرسالة. لم يردّوا."
+      ],
+      [
+        "The door was open. Someone ___ have left it open.",
+        "must",
+        [
+          "can’t",
+          "shouldn’t"
+        ],
+        "كان الباب مفتوحاً. لا بدّ أن أحداً تركه مفتوحاً."
+      ],
+      [
+        "It ___ have been Ali on the phone. He’s abroad.",
+        "can’t",
+        [
+          "must",
+          "might"
+        ],
+        "لا يمكن أن يكون علي على الهاتف. إنه خارج البلاد."
       ]
     ]
   }

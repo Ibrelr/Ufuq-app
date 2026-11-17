@@ -1984,5 +1984,430 @@
         "العزيمة، ولغتين، وفهماً حقيقياً لمعنى أن تبدأ من جديد."
       ]
     ]
+  },
+  {
+    "id": "salary",
+    "level": "c1",
+    "icon": "💼",
+    "title": {
+      "en": "Negotiating a salary",
+      "ar": "التفاوض على الراتب"
+    },
+    "setting": {
+      "en": "Nadia has been offered a job and discusses the salary.",
+      "ar": "عُرضت على نادية وظيفة وهي تناقش الراتب."
+    },
+    "speakers": [
+      {
+        "id": "m",
+        "name": {
+          "en": "Michael",
+          "ar": "مايكل"
+        },
+        "role": {
+          "en": "HR manager",
+          "ar": "مدير الموارد البشرية"
+        },
+        "gender": "m",
+        "icon": "🧑‍💼"
+      },
+      {
+        "id": "n",
+        "name": {
+          "en": "Nadia",
+          "ar": "نادية"
+        },
+        "role": {
+          "en": "Candidate",
+          "ar": "المرشّحة"
+        },
+        "gender": "f",
+        "icon": "👩‍💼"
+      }
+    ],
+    "lines": [
+      [
+        "m",
+        "We’re delighted to offer you the position. The starting salary is thirty-two thousand a year.",
+        "يسعدنا أن نعرض عليك الوظيفة. الراتب المبدئي اثنان وثلاثون ألفاً في السنة."
+      ],
+      [
+        "n",
+        "Thank you, I’m really pleased. Before I accept, could we discuss the salary?",
+        "شكراً، أنا سعيدة حقاً. قبل أن أقبل، هل يمكننا مناقشة الراتب؟"
+      ],
+      [
+        "m",
+        "Of course. What did you have in mind?",
+        "بالطبع. ما الذي تفكّرين فيه؟"
+      ],
+      [
+        "n",
+        "Given my experience and the responsibilities of the role, I was hoping for thirty-six thousand.",
+        "بالنظر إلى خبرتي ومسؤوليات الوظيفة، كنت آمل في ستة وثلاثين ألفاً."
+      ],
+      [
+        "m",
+        "I’m afraid that’s above our budget. We could go up to thirty-four.",
+        "للأسف، هذا يتجاوز ميزانيتنا. يمكننا الوصول إلى أربعة وثلاثين."
+      ],
+      [
+        "n",
+        "I appreciate that. Would you consider thirty-four with a review after six months?",
+        "أقدّر ذلك. هل تقبلون بأربعة وثلاثين مع مراجعة بعد ستة أشهر؟"
+      ],
+      [
+        "m",
+        "That sounds reasonable. I’ll also add two extra days of annual leave.",
+        "يبدو هذا معقولاً. وسأضيف أيضاً يومين إضافيين للإجازة السنوية."
+      ],
+      [
+        "n",
+        "In that case, I’m happy to accept.",
+        "في هذه الحالة، يسعدني القبول."
+      ],
+      [
+        "m",
+        "Wonderful. I’ll send you the contract this afternoon.",
+        "رائع. سأرسل لك العقد بعد ظهر اليوم."
+      ]
+    ]
+  },
+  {
+    "id": "book-club",
+    "level": "c1",
+    "icon": "📚",
+    "title": {
+      "en": "Discussing a novel",
+      "ar": "نقاش حول رواية"
+    },
+    "setting": {
+      "en": "Two members of a book club share their opinions.",
+      "ar": "عضوان في نادٍ للقراءة يتبادلان آراءهما."
+    },
+    "speakers": [
+      {
+        "id": "d",
+        "name": {
+          "en": "Daniel",
+          "ar": "دانيال"
+        },
+        "role": {
+          "en": "Reader",
+          "ar": "قارئ"
+        },
+        "gender": "m",
+        "icon": "👨‍🦱"
+      },
+      {
+        "id": "s",
+        "name": {
+          "en": "Salma",
+          "ar": "سلمى"
+        },
+        "role": {
+          "en": "Reader",
+          "ar": "قارئة"
+        },
+        "gender": "f",
+        "icon": "🧕"
+      }
+    ],
+    "lines": [
+      [
+        "d",
+        "So, what did you make of the novel?",
+        "إذن، ما رأيك في الرواية؟"
+      ],
+      [
+        "s",
+        "I found it deeply moving, although the ending left me with mixed feelings.",
+        "وجدتها مؤثرة جداً، مع أن النهاية تركت لديّ مشاعر متضاربة."
+      ],
+      [
+        "d",
+        "Really? I thought the ending was the strongest part.",
+        "حقاً؟ ظننت أن النهاية كانت أقوى جزء فيها."
+      ],
+      [
+        "s",
+        "It was powerful, but it felt rushed compared to the rest of the book.",
+        "كانت قوية، لكنها بدت متسرّعة مقارنة ببقية الكتاب."
+      ],
+      [
+        "d",
+        "That’s a fair point. What did you think of the main character?",
+        "هذه نقطة وجيهة. ما رأيك في الشخصية الرئيسية؟"
+      ],
+      [
+        "s",
+        "She was complex and believable. Her struggle to belong really resonated with me.",
+        "كانت معقّدة وواقعية. صراعها من أجل الانتماء لامسني حقاً."
+      ],
+      [
+        "d",
+        "Me too. The author captures that feeling of being between two worlds.",
+        "وأنا أيضاً. ينجح الكاتب في التقاط ذلك الشعور بأنك بين عالمين."
+      ],
+      [
+        "s",
+        "Exactly. I’d definitely recommend it, despite the ending.",
+        "بالضبط. سأنصح بها بالتأكيد، رغم النهاية."
+      ]
+    ]
+  },
+  {
+    "id": "mentoring",
+    "level": "c1",
+    "icon": "🧭",
+    "title": {
+      "en": "A mentoring session",
+      "ar": "جلسة إرشاد"
+    },
+    "setting": {
+      "en": "Tariq talks to his mentor about stress before his exams.",
+      "ar": "طارق يتحدث مع مرشدته عن الضغط قبل امتحاناته."
+    },
+    "speakers": [
+      {
+        "id": "t",
+        "name": {
+          "en": "Tariq",
+          "ar": "طارق"
+        },
+        "role": {
+          "en": "Student",
+          "ar": "طالب"
+        },
+        "gender": "m",
+        "icon": "🧑‍🎓"
+      },
+      {
+        "id": "a",
+        "name": {
+          "en": "Dr Amal",
+          "ar": "الدكتورة أمل"
+        },
+        "role": {
+          "en": "Mentor",
+          "ar": "مرشدة"
+        },
+        "gender": "f",
+        "icon": "🧑‍🏫"
+      }
+    ],
+    "lines": [
+      [
+        "t",
+        "I’ve been feeling overwhelmed lately. I’m working, studying and looking after my family.",
+        "أشعر بالإرهاق مؤخراً. أعمل وأدرس وأعتني بعائلتي."
+      ],
+      [
+        "a",
+        "That’s a lot to juggle. What feels most urgent right now?",
+        "هذا كثير لتوفّق بينه. ما الأكثر إلحاحاً الآن؟"
+      ],
+      [
+        "t",
+        "My final exams. They’re in three weeks, and I’ve hardly started revising.",
+        "امتحاناتي النهائية. ستكون بعد ثلاثة أسابيع، وبالكاد بدأت المراجعة."
+      ],
+      [
+        "a",
+        "Then let’s break it down. Could you set aside one hour every evening?",
+        "إذن لنقسّم الأمر. هل يمكنك أن تخصّص ساعة كل مساء؟"
+      ],
+      [
+        "t",
+        "I think so, if I go to bed a bit later.",
+        "أظن ذلك، إذا نمت متأخراً قليلاً."
+      ],
+      [
+        "a",
+        "Be careful not to sacrifice sleep. Could anyone help you at home?",
+        "احذر من التضحية بالنوم. هل يستطيع أحد مساعدتك في البيت؟"
+      ],
+      [
+        "t",
+        "My brother could probably take the kids to school.",
+        "ربما يستطيع أخي أن يأخذ الأطفال إلى المدرسة."
+      ],
+      [
+        "a",
+        "Excellent. And remember, asking for help is a strength, not a weakness.",
+        "ممتاز. وتذكّر أن طلب المساعدة قوة وليس ضعفاً."
+      ],
+      [
+        "t",
+        "Thank you. I feel calmer already.",
+        "شكراً. أشعر بهدوء أكبر منذ الآن."
+      ]
+    ]
+  },
+  {
+    "id": "ai-jobs",
+    "level": "c1",
+    "icon": "🤖",
+    "title": {
+      "en": "Will AI take our jobs?",
+      "ar": "هل سيأخذ الذكاء الاصطناعي وظائفنا؟"
+    },
+    "setting": {
+      "en": "A podcast host interviews an economist.",
+      "ar": "مقدّمة بودكاست تحاور خبيراً اقتصادياً."
+    },
+    "speakers": [
+      {
+        "id": "l",
+        "name": {
+          "en": "Leila",
+          "ar": "ليلى"
+        },
+        "role": {
+          "en": "Podcast host",
+          "ar": "مقدّمة البودكاست"
+        },
+        "gender": "f",
+        "icon": "👩‍💼"
+      },
+      {
+        "id": "r",
+        "name": {
+          "en": "Robert",
+          "ar": "روبرت"
+        },
+        "role": {
+          "en": "Economist",
+          "ar": "خبير اقتصادي"
+        },
+        "gender": "m",
+        "icon": "👨‍💼"
+      }
+    ],
+    "lines": [
+      [
+        "l",
+        "Many listeners are worried that artificial intelligence will replace their jobs. Should they be?",
+        "كثير من المستمعين قلقون من أن يحلّ الذكاء الاصطناعي محلّ وظائفهم. هل يجب أن يقلقوا؟"
+      ],
+      [
+        "r",
+        "Some concern is justified. Routine tasks are increasingly being automated.",
+        "بعض القلق مبرَّر. المهام الروتينية تُؤتمت بشكل متزايد."
+      ],
+      [
+        "l",
+        "So which jobs are most at risk?",
+        "إذن ما الوظائف الأكثر عرضة للخطر؟"
+      ],
+      [
+        "r",
+        "Mainly those involving repetitive data processing, such as basic accounting.",
+        "بشكل رئيسي تلك التي تتضمّن معالجة متكرّرة للبيانات، مثل المحاسبة الأساسية."
+      ],
+      [
+        "l",
+        "And yet history suggests technology also creates new jobs.",
+        "ومع ذلك، يشير التاريخ إلى أن التكنولوجيا تخلق وظائف جديدة أيضاً."
+      ],
+      [
+        "r",
+        "Absolutely. The challenge is making sure workers can retrain quickly enough.",
+        "بالتأكيد. التحدي هو ضمان أن يتمكّن العمال من إعادة التدرّب بسرعة كافية."
+      ],
+      [
+        "l",
+        "What would you advise young people to study?",
+        "بماذا تنصح الشباب أن يدرسوا؟"
+      ],
+      [
+        "r",
+        "Skills that machines find hard: creativity, empathy, critical thinking and, of course, languages.",
+        "المهارات التي تجدها الآلات صعبة: الإبداع، والتعاطف، والتفكير النقدي، وبالطبع اللغات."
+      ]
+    ]
+  },
+  {
+    "id": "presentation-qa",
+    "level": "c1",
+    "icon": "🎤",
+    "title": {
+      "en": "Questions after a presentation",
+      "ar": "أسئلة بعد عرض تقديمي"
+    },
+    "setting": {
+      "en": "A researcher answers questions from the audience.",
+      "ar": "باحثة تجيب عن أسئلة الحضور."
+    },
+    "speakers": [
+      {
+        "id": "p",
+        "name": {
+          "en": "Paul",
+          "ar": "بول"
+        },
+        "role": {
+          "en": "Audience member",
+          "ar": "أحد الحضور"
+        },
+        "gender": "m",
+        "icon": "👨"
+      },
+      {
+        "id": "h",
+        "name": {
+          "en": "Hana",
+          "ar": "هناء"
+        },
+        "role": {
+          "en": "Researcher",
+          "ar": "باحثة"
+        },
+        "gender": "f",
+        "icon": "👩‍🔬"
+      }
+    ],
+    "lines": [
+      [
+        "p",
+        "Thank you for a fascinating talk. Could you clarify how the project is funded?",
+        "شكراً على هذا العرض الرائع. هل يمكنك توضيح كيفية تمويل المشروع؟"
+      ],
+      [
+        "h",
+        "Certainly. Around half comes from a government grant, and the rest from private donors.",
+        "بالتأكيد. نحو النصف يأتي من منحة حكومية، والباقي من متبرّعين من القطاع الخاص."
+      ],
+      [
+        "p",
+        "Isn’t there a risk that donors might influence the results?",
+        "أليس هناك خطر أن يؤثّر المتبرّعون على النتائج؟"
+      ],
+      [
+        "h",
+        "That’s a valid concern. All our data is reviewed independently and published openly.",
+        "هذا قلق مشروع. تُراجَع جميع بياناتنا بشكل مستقل وتُنشر علناً."
+      ],
+      [
+        "p",
+        "And how do you plan to extend the project to other regions?",
+        "وكيف تخطّطون لتوسيع المشروع إلى مناطق أخرى؟"
+      ],
+      [
+        "h",
+        "We’re partnering with local universities, so that each region can adapt the model to its own needs.",
+        "نحن نتعاون مع جامعات محلية، حتى تتمكّن كل منطقة من تكييف النموذج مع احتياجاتها."
+      ],
+      [
+        "p",
+        "That makes sense. Thank you.",
+        "هذا منطقي. شكراً."
+      ],
+      [
+        "h",
+        "Thank you for the excellent questions.",
+        "شكراً على الأسئلة الممتازة."
+      ]
+    ]
   }
 ]
