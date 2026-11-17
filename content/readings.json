@@ -3,152 +3,890 @@
     "id": "my-family",
     "level": "a2",
     "icon": "🏡",
-    "title": { "en": "My family", "ar": "عائلتي" },
+    "title": {
+      "en": "My family",
+      "ar": "عائلتي"
+    },
     "sentences": [
-      ["My name is Lina and I am twelve years old.", "اسمي لينا وعمري اثنتا عشرة سنة."],
-      ["I live in a small flat with my parents and my two brothers.", "أسكن في شقة صغيرة مع والديّ وأخويّ."],
-      ["My father is a cook and my mother is a nurse.", "أبي طباخ وأمي ممرضة."],
-      ["My older brother, Sami, loves football.", "أخي الأكبر، سامي، يحب كرة القدم."],
-      ["My little brother is only four, and he is very funny.", "أخي الصغير عمره أربع سنوات فقط، وهو مضحك جداً."],
-      ["On Fridays, we visit my grandparents and eat lunch together.", "أيام الجمعة، نزور جدّي وجدّتي ونتناول الغداء معاً."],
-      ["My grandmother makes the best kibbeh in the world!", "جدّتي تصنع أطيب كبّة في العالم!"]
+      [
+        "My name is Lina and I am twelve years old.",
+        "اسمي لينا وعمري اثنتا عشرة سنة."
+      ],
+      [
+        "I live in a small flat with my parents and my two brothers.",
+        "أسكن في شقة صغيرة مع والديّ وأخويّ."
+      ],
+      [
+        "My father is a cook and my mother is a nurse.",
+        "أبي طباخ وأمي ممرضة."
+      ],
+      [
+        "My older brother, Sami, loves football.",
+        "أخي الأكبر، سامي، يحب كرة القدم."
+      ],
+      [
+        "My little brother is only four, and he is very funny.",
+        "أخي الصغير عمره أربع سنوات فقط، وهو مضحك جداً."
+      ],
+      [
+        "On Fridays, we visit my grandparents and eat lunch together.",
+        "أيام الجمعة، نزور جدّي وجدّتي ونتناول الغداء معاً."
+      ],
+      [
+        "My grandmother makes the best kibbeh in the world!",
+        "جدّتي تصنع أطيب كبّة في العالم!"
+      ]
     ],
-    "vocab": [["flat", "شقة"], ["parents", "الوالدان"], ["nurse", "ممرضة"], ["older", "أكبر"], ["funny", "مضحك"], ["grandparents", "الجد والجدة"], ["together", "معاً"]]
+    "vocab": [
+      [
+        "flat",
+        "شقة"
+      ],
+      [
+        "parents",
+        "الوالدان"
+      ],
+      [
+        "nurse",
+        "ممرضة"
+      ],
+      [
+        "older",
+        "أكبر"
+      ],
+      [
+        "funny",
+        "مضحك"
+      ],
+      [
+        "grandparents",
+        "الجد والجدة"
+      ],
+      [
+        "together",
+        "معاً"
+      ]
+    ]
   },
   {
     "id": "school-day",
     "level": "a2",
     "icon": "🏫",
-    "title": { "en": "A day at school", "ar": "يوم في المدرسة" },
+    "title": {
+      "en": "A day at school",
+      "ar": "يوم في المدرسة"
+    },
     "sentences": [
-      ["I wake up at seven o’clock every morning.", "أستيقظ في الساعة السابعة كل صباح."],
-      ["I have breakfast and then I walk to school with my friend Omar.", "أتناول الفطور ثم أمشي إلى المدرسة مع صديقي عمر."],
-      ["School starts at half past eight.", "تبدأ المدرسة في الساعة الثامنة والنصف."],
-      ["My favourite subject is science because we do experiments.", "مادتي المفضلة هي العلوم لأننا نقوم بتجارب."],
-      ["At lunchtime, we eat in the canteen and play in the playground.", "في وقت الغداء، نأكل في المقصف ونلعب في الملعب."],
-      ["After school, I do my homework and help my mum cook dinner.", "بعد المدرسة، أحلّ واجباتي وأساعد أمي في طبخ العشاء."],
-      ["I go to bed at nine o’clock.", "أذهب إلى النوم في الساعة التاسعة."]
+      [
+        "I wake up at seven o’clock every morning.",
+        "أستيقظ في الساعة السابعة كل صباح."
+      ],
+      [
+        "I have breakfast and then I walk to school with my friend Omar.",
+        "أتناول الفطور ثم أمشي إلى المدرسة مع صديقي عمر."
+      ],
+      [
+        "School starts at half past eight.",
+        "تبدأ المدرسة في الساعة الثامنة والنصف."
+      ],
+      [
+        "My favourite subject is science because we do experiments.",
+        "مادتي المفضلة هي العلوم لأننا نقوم بتجارب."
+      ],
+      [
+        "At lunchtime, we eat in the canteen and play in the playground.",
+        "في وقت الغداء، نأكل في المقصف ونلعب في الملعب."
+      ],
+      [
+        "After school, I do my homework and help my mum cook dinner.",
+        "بعد المدرسة، أحلّ واجباتي وأساعد أمي في طبخ العشاء."
+      ],
+      [
+        "I go to bed at nine o’clock.",
+        "أذهب إلى النوم في الساعة التاسعة."
+      ]
     ],
-    "vocab": [["wake up", "يستيقظ"], ["favourite", "مفضّل"], ["subject", "مادة دراسية"], ["experiment", "تجربة"], ["canteen", "مقصف"], ["playground", "ساحة اللعب"], ["homework", "واجب منزلي"]]
+    "vocab": [
+      [
+        "wake up",
+        "يستيقظ"
+      ],
+      [
+        "favourite",
+        "مفضّل"
+      ],
+      [
+        "subject",
+        "مادة دراسية"
+      ],
+      [
+        "experiment",
+        "تجربة"
+      ],
+      [
+        "canteen",
+        "مقصف"
+      ],
+      [
+        "playground",
+        "ساحة اللعب"
+      ],
+      [
+        "homework",
+        "واجب منزلي"
+      ]
+    ]
   },
   {
     "id": "market",
     "level": "a2",
     "icon": "🛒",
-    "title": { "en": "The market", "ar": "السوق" },
+    "title": {
+      "en": "The market",
+      "ar": "السوق"
+    },
     "sentences": [
-      ["Every Saturday, my family goes to the market.", "كل يوم سبت، تذهب عائلتي إلى السوق."],
-      ["The market is big, busy and full of colours.", "السوق كبير ومزدحم ومليء بالألوان."],
-      ["We buy fresh fruit and vegetables from a friendly farmer.", "نشتري الفواكه والخضروات الطازجة من مزارع لطيف."],
-      ["Tomatoes are cheap in summer, but oranges are cheaper in winter.", "البندورة رخيصة في الصيف، لكن البرتقال أرخص في الشتاء."],
-      ["My mother always asks for the price before she buys.", "أمي تسأل دائماً عن السعر قبل أن تشتري."],
-      ["Sometimes I get a small present, like a book or some sweets.", "أحياناً أحصل على هدية صغيرة، مثل كتاب أو بعض السكاكر."]
+      [
+        "Every Saturday, my family goes to the market.",
+        "كل يوم سبت، تذهب عائلتي إلى السوق."
+      ],
+      [
+        "The market is big, busy and full of colours.",
+        "السوق كبير ومزدحم ومليء بالألوان."
+      ],
+      [
+        "We buy fresh fruit and vegetables from a friendly farmer.",
+        "نشتري الفواكه والخضروات الطازجة من مزارع لطيف."
+      ],
+      [
+        "Tomatoes are cheap in summer, but oranges are cheaper in winter.",
+        "البندورة رخيصة في الصيف، لكن البرتقال أرخص في الشتاء."
+      ],
+      [
+        "My mother always asks for the price before she buys.",
+        "أمي تسأل دائماً عن السعر قبل أن تشتري."
+      ],
+      [
+        "Sometimes I get a small present, like a book or some sweets.",
+        "أحياناً أحصل على هدية صغيرة، مثل كتاب أو بعض السكاكر."
+      ]
     ],
-    "vocab": [["busy", "مزدحم"], ["fresh", "طازج"], ["friendly", "لطيف"], ["cheap", "رخيص"], ["price", "سعر"], ["present", "هدية"]]
+    "vocab": [
+      [
+        "busy",
+        "مزدحم"
+      ],
+      [
+        "fresh",
+        "طازج"
+      ],
+      [
+        "friendly",
+        "لطيف"
+      ],
+      [
+        "cheap",
+        "رخيص"
+      ],
+      [
+        "price",
+        "سعر"
+      ],
+      [
+        "present",
+        "هدية"
+      ]
+    ]
   },
   {
     "id": "new-beginning",
     "level": "b1",
     "icon": "🌱",
-    "title": { "en": "A new beginning", "ar": "بداية جديدة" },
+    "title": {
+      "en": "A new beginning",
+      "ar": "بداية جديدة"
+    },
     "sentences": [
-      ["When Nour arrived in her new country, she didn’t speak the language.", "عندما وصلت نور إلى بلدها الجديد، لم تكن تتحدث اللغة."],
-      ["At first, everything felt strange: the food, the weather and even the shops.", "في البداية، كان كل شيء غريباً: الطعام والطقس وحتى المتاجر."],
-      ["She joined a free language course at the local library.", "انضمّت إلى دورة لغة مجانية في المكتبة المحلية."],
-      ["Every evening, she practised new words with her children.", "كل مساء، كانت تتدرّب على كلمات جديدة مع أطفالها."],
-      ["After six months, she could talk to her neighbours and help her son with his homework.", "بعد ستة أشهر، أصبحت تستطيع التحدث مع جيرانها ومساعدة ابنها في واجباته."],
-      ["Now she works part-time in a pharmacy.", "الآن تعمل بدوام جزئي في صيدلية."],
-      ["“Learning a language is like climbing stairs,” she says. “One step at a time.”", "تقول: «تعلّم لغة يشبه صعود الدرج. خطوة بعد خطوة»."]
+      [
+        "When Nour arrived in her new country, she didn’t speak the language.",
+        "عندما وصلت نور إلى بلدها الجديد، لم تكن تتحدث اللغة."
+      ],
+      [
+        "At first, everything felt strange: the food, the weather and even the shops.",
+        "في البداية، كان كل شيء غريباً: الطعام والطقس وحتى المتاجر."
+      ],
+      [
+        "She joined a free language course at the local library.",
+        "انضمّت إلى دورة لغة مجانية في المكتبة المحلية."
+      ],
+      [
+        "Every evening, she practised new words with her children.",
+        "كل مساء، كانت تتدرّب على كلمات جديدة مع أطفالها."
+      ],
+      [
+        "After six months, she could talk to her neighbours and help her son with his homework.",
+        "بعد ستة أشهر، أصبحت تستطيع التحدث مع جيرانها ومساعدة ابنها في واجباته."
+      ],
+      [
+        "Now she works part-time in a pharmacy.",
+        "الآن تعمل بدوام جزئي في صيدلية."
+      ],
+      [
+        "“Learning a language is like climbing stairs,” she says. “One step at a time.”",
+        "تقول: «تعلّم لغة يشبه صعود الدرج. خطوة بعد خطوة»."
+      ]
     ],
-    "vocab": [["arrive", "يصل"], ["strange", "غريب"], ["join", "ينضمّ"], ["practise", "يتدرّب"], ["neighbour", "جار"], ["part-time", "دوام جزئي"], ["step", "خطوة"]]
+    "vocab": [
+      [
+        "arrive",
+        "يصل"
+      ],
+      [
+        "strange",
+        "غريب"
+      ],
+      [
+        "join",
+        "ينضمّ"
+      ],
+      [
+        "practise",
+        "يتدرّب"
+      ],
+      [
+        "neighbour",
+        "جار"
+      ],
+      [
+        "part-time",
+        "دوام جزئي"
+      ],
+      [
+        "step",
+        "خطوة"
+      ]
+    ]
   },
   {
     "id": "healthy-habits",
     "level": "b1",
     "icon": "🥗",
-    "title": { "en": "Healthy habits", "ar": "عادات صحية" },
+    "title": {
+      "en": "Healthy habits",
+      "ar": "عادات صحية"
+    },
     "sentences": [
-      ["Doctors say that small changes can make a big difference to our health.", "يقول الأطباء إن التغييرات الصغيرة يمكن أن تُحدث فرقاً كبيراً في صحتنا."],
-      ["Try to drink at least eight glasses of water a day.", "حاول أن تشرب ثمانية أكواب من الماء على الأقل يومياً."],
-      ["Eat more fruit and vegetables, and less sugar.", "كُل المزيد من الفواكه والخضروات، وقلّل السكر."],
-      ["Walking for thirty minutes every day is good for your heart.", "المشي لمدة ثلاثين دقيقة كل يوم مفيد لقلبك."],
-      ["Sleep is important too: adults need seven to nine hours a night.", "النوم مهم أيضاً: يحتاج البالغون إلى سبع إلى تسع ساعات كل ليلة."],
-      ["Finally, spend time with people you love, because happiness is healthy.", "وأخيراً، اقضِ وقتاً مع من تحب، لأن السعادة مفيدة للصحة."]
+      [
+        "Doctors say that small changes can make a big difference to our health.",
+        "يقول الأطباء إن التغييرات الصغيرة يمكن أن تُحدث فرقاً كبيراً في صحتنا."
+      ],
+      [
+        "Try to drink at least eight glasses of water a day.",
+        "حاول أن تشرب ثمانية أكواب من الماء على الأقل يومياً."
+      ],
+      [
+        "Eat more fruit and vegetables, and less sugar.",
+        "كُل المزيد من الفواكه والخضروات، وقلّل السكر."
+      ],
+      [
+        "Walking for thirty minutes every day is good for your heart.",
+        "المشي لمدة ثلاثين دقيقة كل يوم مفيد لقلبك."
+      ],
+      [
+        "Sleep is important too: adults need seven to nine hours a night.",
+        "النوم مهم أيضاً: يحتاج البالغون إلى سبع إلى تسع ساعات كل ليلة."
+      ],
+      [
+        "Finally, spend time with people you love, because happiness is healthy.",
+        "وأخيراً، اقضِ وقتاً مع من تحب، لأن السعادة مفيدة للصحة."
+      ]
     ],
-    "vocab": [["habit", "عادة"], ["difference", "فرق"], ["at least", "على الأقل"], ["heart", "قلب"], ["adult", "بالغ"], ["happiness", "سعادة"]]
+    "vocab": [
+      [
+        "habit",
+        "عادة"
+      ],
+      [
+        "difference",
+        "فرق"
+      ],
+      [
+        "at least",
+        "على الأقل"
+      ],
+      [
+        "heart",
+        "قلب"
+      ],
+      [
+        "adult",
+        "بالغ"
+      ],
+      [
+        "happiness",
+        "سعادة"
+      ]
+    ]
   },
   {
     "id": "aleppo",
     "level": "b1",
     "icon": "🏰",
-    "title": { "en": "The city of Aleppo", "ar": "مدينة حلب" },
+    "title": {
+      "en": "The city of Aleppo",
+      "ar": "مدينة حلب"
+    },
     "sentences": [
-      ["Aleppo is one of the oldest cities in the world.", "حلب من أقدم المدن في العالم."],
-      ["People have lived there for more than seven thousand years.", "يعيش فيها الناس منذ أكثر من سبعة آلاف عام."],
-      ["In the centre of the city stands a huge castle on a hill.", "في وسط المدينة تقف قلعة ضخمة على تلّة."],
-      ["For centuries, Aleppo was an important stop on the Silk Road.", "لقرون، كانت حلب محطة مهمة على طريق الحرير."],
-      ["Its old markets, or souks, were famous for soap, spices and fabrics.", "كانت أسواقها القديمة مشهورة بالصابون والتوابل والأقمشة."],
-      ["Aleppo soap, made from olive oil and laurel oil, is still sold all over the world.", "صابون حلب، المصنوع من زيت الزيتون وزيت الغار، ما زال يُباع في كل أنحاء العالم."]
+      [
+        "Aleppo is one of the oldest cities in the world.",
+        "حلب من أقدم المدن في العالم."
+      ],
+      [
+        "People have lived there for more than seven thousand years.",
+        "يعيش فيها الناس منذ أكثر من سبعة آلاف عام."
+      ],
+      [
+        "In the centre of the city stands a huge castle on a hill.",
+        "في وسط المدينة تقف قلعة ضخمة على تلّة."
+      ],
+      [
+        "For centuries, Aleppo was an important stop on the Silk Road.",
+        "لقرون، كانت حلب محطة مهمة على طريق الحرير."
+      ],
+      [
+        "Its old markets, or souks, were famous for soap, spices and fabrics.",
+        "كانت أسواقها القديمة مشهورة بالصابون والتوابل والأقمشة."
+      ],
+      [
+        "Aleppo soap, made from olive oil and laurel oil, is still sold all over the world.",
+        "صابون حلب، المصنوع من زيت الزيتون وزيت الغار، ما زال يُباع في كل أنحاء العالم."
+      ]
     ],
-    "vocab": [["oldest", "الأقدم"], ["castle", "قلعة"], ["hill", "تلّة"], ["century", "قرن"], ["spices", "توابل"], ["fabric", "قماش"]]
+    "vocab": [
+      [
+        "oldest",
+        "الأقدم"
+      ],
+      [
+        "castle",
+        "قلعة"
+      ],
+      [
+        "hill",
+        "تلّة"
+      ],
+      [
+        "century",
+        "قرن"
+      ],
+      [
+        "spices",
+        "توابل"
+      ],
+      [
+        "fabric",
+        "قماش"
+      ]
+    ]
   },
   {
     "id": "why-volunteer",
     "level": "b2",
     "icon": "🤲",
-    "title": { "en": "Why volunteering matters", "ar": "لماذا التطوع مهم" },
+    "title": {
+      "en": "Why volunteering matters",
+      "ar": "لماذا التطوع مهم"
+    },
     "sentences": [
-      ["Volunteering is often seen as a way of helping others, but it benefits volunteers too.", "يُنظر إلى التطوع غالباً على أنه وسيلة لمساعدة الآخرين، لكنه يفيد المتطوعين أيضاً."],
-      ["Studies show that people who volunteer regularly feel less stressed and more connected to their community.", "تُظهر الدراسات أن الأشخاص الذين يتطوعون بانتظام يشعرون بتوتر أقل وبارتباط أكبر بمجتمعهم."],
-      ["For newcomers, it can be an excellent way to practise a language and build a network.", "بالنسبة للقادمين الجدد، يمكن أن يكون وسيلة ممتازة لممارسة اللغة وبناء شبكة علاقات."],
-      ["Many employers also value volunteering experience when they look at job applications.", "كما يقدّر كثير من أصحاب العمل خبرة التطوع عندما يطّلعون على طلبات التوظيف."],
-      ["Whether it’s teaching children, cooking for the homeless or planting trees, every contribution counts.", "سواء كان ذلك تعليم الأطفال أو الطبخ للمشرّدين أو زراعة الأشجار، فإن كل مساهمة لها قيمتها."]
+      [
+        "Volunteering is often seen as a way of helping others, but it benefits volunteers too.",
+        "يُنظر إلى التطوع غالباً على أنه وسيلة لمساعدة الآخرين، لكنه يفيد المتطوعين أيضاً."
+      ],
+      [
+        "Studies show that people who volunteer regularly feel less stressed and more connected to their community.",
+        "تُظهر الدراسات أن الأشخاص الذين يتطوعون بانتظام يشعرون بتوتر أقل وبارتباط أكبر بمجتمعهم."
+      ],
+      [
+        "For newcomers, it can be an excellent way to practise a language and build a network.",
+        "بالنسبة للقادمين الجدد، يمكن أن يكون وسيلة ممتازة لممارسة اللغة وبناء شبكة علاقات."
+      ],
+      [
+        "Many employers also value volunteering experience when they look at job applications.",
+        "كما يقدّر كثير من أصحاب العمل خبرة التطوع عندما يطّلعون على طلبات التوظيف."
+      ],
+      [
+        "Whether it’s teaching children, cooking for the homeless or planting trees, every contribution counts.",
+        "سواء كان ذلك تعليم الأطفال أو الطبخ للمشرّدين أو زراعة الأشجار، فإن كل مساهمة لها قيمتها."
+      ]
     ],
-    "vocab": [["benefit", "يفيد"], ["regularly", "بانتظام"], ["stressed", "متوتر"], ["community", "مجتمع"], ["network", "شبكة علاقات"], ["employer", "صاحب عمل"], ["contribution", "مساهمة"]]
+    "vocab": [
+      [
+        "benefit",
+        "يفيد"
+      ],
+      [
+        "regularly",
+        "بانتظام"
+      ],
+      [
+        "stressed",
+        "متوتر"
+      ],
+      [
+        "community",
+        "مجتمع"
+      ],
+      [
+        "network",
+        "شبكة علاقات"
+      ],
+      [
+        "employer",
+        "صاحب عمل"
+      ],
+      [
+        "contribution",
+        "مساهمة"
+      ]
+    ]
   },
   {
     "id": "working-from-home",
     "level": "b2",
     "icon": "💻",
-    "title": { "en": "Working from home", "ar": "العمل من المنزل" },
+    "title": {
+      "en": "Working from home",
+      "ar": "العمل من المنزل"
+    },
     "sentences": [
-      ["Since 2020, millions of people around the world have started working from home.", "منذ عام 2020، بدأ ملايين الأشخاص حول العالم بالعمل من المنزل."],
-      ["Supporters say it saves time and money, as there is no need to commute.", "يقول المؤيدون إنه يوفّر الوقت والمال، إذ لا حاجة إلى التنقّل."],
-      ["It also allows parents to spend more time with their children.", "كما يتيح للآباء قضاء وقت أطول مع أطفالهم."],
-      ["However, critics point out that it can be lonely and make it hard to separate work from private life.", "لكن المنتقدين يشيرون إلى أنه قد يسبب الشعور بالوحدة ويصعّب الفصل بين العمل والحياة الخاصة."],
-      ["Many companies now offer a hybrid model, with some days in the office and some at home.", "تقدّم كثير من الشركات الآن نموذجاً مختلطاً، ببعض الأيام في المكتب وبعضها في المنزل."],
-      ["The key, experts say, is clear communication and a regular routine.", "ويقول الخبراء إن المفتاح هو التواصل الواضح والروتين المنتظم."]
+      [
+        "Since 2020, millions of people around the world have started working from home.",
+        "منذ عام 2020، بدأ ملايين الأشخاص حول العالم بالعمل من المنزل."
+      ],
+      [
+        "Supporters say it saves time and money, as there is no need to commute.",
+        "يقول المؤيدون إنه يوفّر الوقت والمال، إذ لا حاجة إلى التنقّل."
+      ],
+      [
+        "It also allows parents to spend more time with their children.",
+        "كما يتيح للآباء قضاء وقت أطول مع أطفالهم."
+      ],
+      [
+        "However, critics point out that it can be lonely and make it hard to separate work from private life.",
+        "لكن المنتقدين يشيرون إلى أنه قد يسبب الشعور بالوحدة ويصعّب الفصل بين العمل والحياة الخاصة."
+      ],
+      [
+        "Many companies now offer a hybrid model, with some days in the office and some at home.",
+        "تقدّم كثير من الشركات الآن نموذجاً مختلطاً، ببعض الأيام في المكتب وبعضها في المنزل."
+      ],
+      [
+        "The key, experts say, is clear communication and a regular routine.",
+        "ويقول الخبراء إن المفتاح هو التواصل الواضح والروتين المنتظم."
+      ]
     ],
-    "vocab": [["commute", "التنقّل إلى العمل"], ["supporter", "مؤيد"], ["critic", "منتقد"], ["lonely", "وحيد"], ["private life", "الحياة الخاصة"], ["hybrid", "مختلط"], ["routine", "روتين"]]
+    "vocab": [
+      [
+        "commute",
+        "التنقّل إلى العمل"
+      ],
+      [
+        "supporter",
+        "مؤيد"
+      ],
+      [
+        "critic",
+        "منتقد"
+      ],
+      [
+        "lonely",
+        "وحيد"
+      ],
+      [
+        "private life",
+        "الحياة الخاصة"
+      ],
+      [
+        "hybrid",
+        "مختلط"
+      ],
+      [
+        "routine",
+        "روتين"
+      ]
+    ]
   },
   {
     "id": "language-identity",
     "level": "c1",
     "icon": "🗣️",
-    "title": { "en": "Language and identity", "ar": "اللغة والهوية" },
+    "title": {
+      "en": "Language and identity",
+      "ar": "اللغة والهوية"
+    },
     "sentences": [
-      ["For many migrants, learning a new language raises a difficult question: what happens to the old one?", "بالنسبة لكثير من المهاجرين، يطرح تعلّم لغة جديدة سؤالاً صعباً: ماذا يحدث للغة القديمة؟"],
-      ["Research consistently shows that bilingualism is an advantage rather than a burden.", "تُظهر الأبحاث باستمرار أن ثنائية اللغة ميزة وليست عبئاً."],
-      ["Children who maintain their mother tongue often perform better at school and adapt more easily.", "الأطفال الذين يحافظون على لغتهم الأم غالباً ما يحقّقون نتائج أفضل في المدرسة ويتكيّفون بسهولة أكبر."],
-      ["Moreover, language is closely tied to memory, culture and a sense of belonging.", "علاوة على ذلك، ترتبط اللغة ارتباطاً وثيقاً بالذاكرة والثقافة والشعور بالانتماء."],
-      ["Speaking Arabic at home while mastering English at school is not a contradiction; it is a strength.", "التحدث بالعربية في البيت مع إتقان الإنجليزية في المدرسة ليس تناقضاً، بل هو مصدر قوة."],
-      ["Ultimately, each language opens a different window onto the world.", "في نهاية المطاف، تفتح كل لغة نافذة مختلفة على العالم."]
+      [
+        "For many migrants, learning a new language raises a difficult question: what happens to the old one?",
+        "بالنسبة لكثير من المهاجرين، يطرح تعلّم لغة جديدة سؤالاً صعباً: ماذا يحدث للغة القديمة؟"
+      ],
+      [
+        "Research consistently shows that bilingualism is an advantage rather than a burden.",
+        "تُظهر الأبحاث باستمرار أن ثنائية اللغة ميزة وليست عبئاً."
+      ],
+      [
+        "Children who maintain their mother tongue often perform better at school and adapt more easily.",
+        "الأطفال الذين يحافظون على لغتهم الأم غالباً ما يحقّقون نتائج أفضل في المدرسة ويتكيّفون بسهولة أكبر."
+      ],
+      [
+        "Moreover, language is closely tied to memory, culture and a sense of belonging.",
+        "علاوة على ذلك، ترتبط اللغة ارتباطاً وثيقاً بالذاكرة والثقافة والشعور بالانتماء."
+      ],
+      [
+        "Speaking Arabic at home while mastering English at school is not a contradiction; it is a strength.",
+        "التحدث بالعربية في البيت مع إتقان الإنجليزية في المدرسة ليس تناقضاً، بل هو مصدر قوة."
+      ],
+      [
+        "Ultimately, each language opens a different window onto the world.",
+        "في نهاية المطاف، تفتح كل لغة نافذة مختلفة على العالم."
+      ]
     ],
-    "vocab": [["migrant", "مهاجر"], ["bilingualism", "ثنائية اللغة"], ["burden", "عبء"], ["mother tongue", "اللغة الأم"], ["adapt", "يتكيّف"], ["belonging", "انتماء"], ["contradiction", "تناقض"]]
+    "vocab": [
+      [
+        "migrant",
+        "مهاجر"
+      ],
+      [
+        "bilingualism",
+        "ثنائية اللغة"
+      ],
+      [
+        "burden",
+        "عبء"
+      ],
+      [
+        "mother tongue",
+        "اللغة الأم"
+      ],
+      [
+        "adapt",
+        "يتكيّف"
+      ],
+      [
+        "belonging",
+        "انتماء"
+      ],
+      [
+        "contradiction",
+        "تناقض"
+      ]
+    ]
   },
   {
     "id": "water",
     "level": "c1",
     "icon": "💧",
-    "title": { "en": "Water scarcity", "ar": "شحّ المياه" },
+    "title": {
+      "en": "Water scarcity",
+      "ar": "شحّ المياه"
+    },
     "sentences": [
-      ["Water scarcity is one of the most pressing challenges facing the Middle East.", "يُعدّ شحّ المياه من أكثر التحديات إلحاحاً التي تواجه الشرق الأوسط."],
-      ["Rising temperatures and longer droughts are reducing rivers and underground reserves.", "يؤدي ارتفاع درجات الحرارة وطول فترات الجفاف إلى تقلّص الأنهار والمخزون الجوفي."],
-      ["Agriculture, which uses most of the region’s water, is particularly vulnerable.", "الزراعة، التي تستهلك معظم مياه المنطقة، معرّضة للخطر بشكل خاص."],
-      ["Experts recommend modern irrigation methods, such as drip irrigation, which can halve water use.", "يوصي الخبراء بأساليب الري الحديثة، مثل الري بالتنقيط، الذي قد يخفض استهلاك المياه إلى النصف."],
-      ["Equally important is regional cooperation, since rivers do not respect borders.", "ولا يقلّ أهمية عن ذلك التعاون الإقليمي، لأن الأنهار لا تعترف بالحدود."],
-      ["Without urgent action, millions of people could face severe shortages within a generation.", "من دون تحرّك عاجل، قد يواجه ملايين الأشخاص نقصاً حاداً خلال جيل واحد."]
+      [
+        "Water scarcity is one of the most pressing challenges facing the Middle East.",
+        "يُعدّ شحّ المياه من أكثر التحديات إلحاحاً التي تواجه الشرق الأوسط."
+      ],
+      [
+        "Rising temperatures and longer droughts are reducing rivers and underground reserves.",
+        "يؤدي ارتفاع درجات الحرارة وطول فترات الجفاف إلى تقلّص الأنهار والمخزون الجوفي."
+      ],
+      [
+        "Agriculture, which uses most of the region’s water, is particularly vulnerable.",
+        "الزراعة، التي تستهلك معظم مياه المنطقة، معرّضة للخطر بشكل خاص."
+      ],
+      [
+        "Experts recommend modern irrigation methods, such as drip irrigation, which can halve water use.",
+        "يوصي الخبراء بأساليب الري الحديثة، مثل الري بالتنقيط، الذي قد يخفض استهلاك المياه إلى النصف."
+      ],
+      [
+        "Equally important is regional cooperation, since rivers do not respect borders.",
+        "ولا يقلّ أهمية عن ذلك التعاون الإقليمي، لأن الأنهار لا تعترف بالحدود."
+      ],
+      [
+        "Without urgent action, millions of people could face severe shortages within a generation.",
+        "من دون تحرّك عاجل، قد يواجه ملايين الأشخاص نقصاً حاداً خلال جيل واحد."
+      ]
     ],
-    "vocab": [["scarcity", "شحّ"], ["pressing", "ملحّ"], ["drought", "جفاف"], ["vulnerable", "معرّض للخطر"], ["irrigation", "ري"], ["cooperation", "تعاون"], ["shortage", "نقص"]]
+    "vocab": [
+      [
+        "scarcity",
+        "شحّ"
+      ],
+      [
+        "pressing",
+        "ملحّ"
+      ],
+      [
+        "drought",
+        "جفاف"
+      ],
+      [
+        "vulnerable",
+        "معرّض للخطر"
+      ],
+      [
+        "irrigation",
+        "ري"
+      ],
+      [
+        "cooperation",
+        "تعاون"
+      ],
+      [
+        "shortage",
+        "نقص"
+      ]
+    ]
+  },
+  {
+    "id": "my-town",
+    "level": "a2",
+    "icon": "🏙️",
+    "title": {
+      "en": "My town",
+      "ar": "مدينتي"
+    },
+    "sentences": [
+      [
+        "I live in a small town near the mountains.",
+        "أسكن في مدينة صغيرة قرب الجبال."
+      ],
+      [
+        "There is a big park in the centre with a lake.",
+        "في الوسط حديقة كبيرة فيها بحيرة."
+      ],
+      [
+        "Next to the park, there is a library and a swimming pool.",
+        "بجانب الحديقة توجد مكتبة ومسبح."
+      ],
+      [
+        "My school is on the main street, near the post office.",
+        "مدرستي في الشارع الرئيسي، قرب مكتب البريد."
+      ],
+      [
+        "On Fridays, there is a market where people sell fruit and clothes.",
+        "أيام الجمعة، هناك سوق يبيع فيه الناس الفواكه والملابس."
+      ],
+      [
+        "I love my town because the people are friendly.",
+        "أحب مدينتي لأن الناس ودودون."
+      ]
+    ],
+    "vocab": [
+      [
+        "town",
+        "مدينة صغيرة"
+      ],
+      [
+        "mountains",
+        "جبال"
+      ],
+      [
+        "lake",
+        "بحيرة"
+      ],
+      [
+        "library",
+        "مكتبة"
+      ],
+      [
+        "swimming pool",
+        "مسبح"
+      ],
+      [
+        "main street",
+        "الشارع الرئيسي"
+      ]
+    ]
+  },
+  {
+    "id": "eid",
+    "level": "a2",
+    "icon": "🌙",
+    "title": {
+      "en": "Eid in our family",
+      "ar": "العيد في عائلتنا"
+    },
+    "sentences": [
+      [
+        "Eid is my favourite time of the year.",
+        "العيد هو وقتي المفضل في السنة."
+      ],
+      [
+        "In the morning, we wear new clothes and go to the mosque.",
+        "في الصباح، نلبس ملابس جديدة ونذهب إلى المسجد."
+      ],
+      [
+        "Then we visit our grandparents, uncles and aunts.",
+        "ثم نزور أجدادنا وأعمامنا وعماتنا."
+      ],
+      [
+        "Everyone says “Eid Mubarak” and the children get some money.",
+        "الجميع يقول «عيد مبارك» ويحصل الأطفال على بعض المال."
+      ],
+      [
+        "My mother makes maamoul, sweet biscuits with dates and nuts.",
+        "أمي تصنع المعمول، وهو بسكويت حلو بالتمر والمكسرات."
+      ],
+      [
+        "In the evening, we eat a big dinner together.",
+        "في المساء، نتناول عشاءً كبيراً معاً."
+      ]
+    ],
+    "vocab": [
+      [
+        "favourite",
+        "مفضّل"
+      ],
+      [
+        "mosque",
+        "مسجد"
+      ],
+      [
+        "visit",
+        "يزور"
+      ],
+      [
+        "dates",
+        "تمر"
+      ],
+      [
+        "nuts",
+        "مكسرات"
+      ],
+      [
+        "together",
+        "معاً"
+      ]
+    ]
+  },
+  {
+    "id": "olive-harvest",
+    "level": "b1",
+    "icon": "🫒",
+    "title": {
+      "en": "The olive harvest",
+      "ar": "قطاف الزيتون"
+    },
+    "sentences": [
+      [
+        "In Syria, the olive harvest usually begins in October.",
+        "في سوريا، يبدأ قطاف الزيتون عادةً في تشرين الأول."
+      ],
+      [
+        "Whole families work together in the fields for several weeks.",
+        "تعمل عائلات بأكملها معاً في الحقول لعدة أسابيع."
+      ],
+      [
+        "They spread large sheets under the trees and shake the branches.",
+        "يفرشون أقمشة كبيرة تحت الأشجار ويهزّون الأغصان."
+      ],
+      [
+        "Some olives are kept for eating, but most are taken to the press.",
+        "يُحتفظ ببعض الزيتون للأكل، لكن معظمه يُنقل إلى المعصرة."
+      ],
+      [
+        "Fresh olive oil is green, strong and slightly bitter.",
+        "زيت الزيتون الطازج أخضر وقوي ومرّ قليلاً."
+      ],
+      [
+        "For many people, the harvest is not just work but a time to be together.",
+        "بالنسبة لكثير من الناس، القطاف ليس مجرد عمل، بل وقت للاجتماع معاً."
+      ]
+    ],
+    "vocab": [
+      [
+        "harvest",
+        "قطاف"
+      ],
+      [
+        "field",
+        "حقل"
+      ],
+      [
+        "branch",
+        "غصن"
+      ],
+      [
+        "press",
+        "معصرة"
+      ],
+      [
+        "bitter",
+        "مرّ"
+      ],
+      [
+        "several",
+        "عدة"
+      ]
+    ]
+  },
+  {
+    "id": "learning-online",
+    "level": "b2",
+    "icon": "💻",
+    "title": {
+      "en": "Learning online",
+      "ar": "التعلّم عبر الإنترنت"
+    },
+    "sentences": [
+      [
+        "Online learning has opened doors for millions of people who cannot attend a classroom.",
+        "فتح التعلّم عبر الإنترنت الأبواب أمام ملايين الأشخاص الذين لا يستطيعون حضور الصفوف."
+      ],
+      [
+        "All you need is a phone and an internet connection to start studying almost any subject.",
+        "كل ما تحتاجه هاتف واتصال بالإنترنت لتبدأ دراسة أي مادة تقريباً."
+      ],
+      [
+        "However, studying alone requires discipline and good time management.",
+        "لكن الدراسة بمفردك تتطلّب الانضباط وحسن إدارة الوقت."
+      ],
+      [
+        "Experts recommend setting small daily goals and studying at the same time every day.",
+        "ينصح الخبراء بوضع أهداف يومية صغيرة والدراسة في الوقت نفسه كل يوم."
+      ],
+      [
+        "It also helps to find a study partner or join an online community.",
+        "ومن المفيد أيضاً إيجاد شريك للدراسة أو الانضمام إلى مجتمع على الإنترنت."
+      ],
+      [
+        "With patience and regular practice, real progress is possible.",
+        "بالصبر والممارسة المنتظمة، يصبح التقدّم الحقيقي ممكناً."
+      ]
+    ],
+    "vocab": [
+      [
+        "attend",
+        "يحضر"
+      ],
+      [
+        "connection",
+        "اتصال"
+      ],
+      [
+        "discipline",
+        "انضباط"
+      ],
+      [
+        "time management",
+        "إدارة الوقت"
+      ],
+      [
+        "goal",
+        "هدف"
+      ],
+      [
+        "progress",
+        "تقدّم"
+      ]
+    ]
   }
 ]

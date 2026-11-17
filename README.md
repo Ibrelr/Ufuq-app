@@ -6,9 +6,9 @@ Built for learners in Syria and anywhere else: it works on cheap Android phones,
 
 ## Features
 
-- **52 topics, ~900 words and sentences**, A1 to C1, Arabic ⇄ English
-- **16 conversations** (A2–C1) with two voices: Listen (chat bubbles, translation, tap any line), Role play (you speak one part, the app plays the other, with speech check) and Practise
-- **10 reading texts** (A2–C1): tap a sentence to hear it and see its translation, read the whole text aloud, key words
+- **77 topics, ~1 240 words and sentences**, A1 to C1, Arabic ⇄ English
+- **22 conversations** (A2–C1) with two voices: Listen (chat bubbles, translation, tap any line), Role play (you speak one part, the app plays the other, with speech check) and Practise
+- **14 reading texts** (A2–C1): tap a sentence to hear it and see its translation, read the whole text aloud, key words
 - **Sentence exercises** for conversations, texts and sentence topics: put the words in order, fill the gap, choose the meaning, who said it
 - **Activities per topic:** Learn (picture cards with audio), Quiz, Match (pictures ↔ words), Spell (letter tiles, also in Arabic), Build (word order, for sentence topics), Speak (pronunciation check with the browser's speech recognition, where supported)
 - **Motivation:** XP, a daily goal (50 XP), day streak, 1–3 stars per topic, badges, confetti
