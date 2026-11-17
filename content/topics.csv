@@ -1,0 +1,43 @@
+order,id,level,type,icon,name_en,name_ar
+1,greetings,a1,words,👋,Greetings,التحيات
+2,numbers,a1,words,🔢,Numbers,الأرقام
+3,colors,a1,words,🎨,Colours,الألوان
+4,family,a1,words,👨‍👩‍👧,Family,العائلة
+5,body,a1,words,✋,The body,جسم الإنسان
+6,fruits,a1,words,🍎,Fruit,الفواكه
+7,vegetables,a1,words,🥕,Vegetables,الخضروات
+8,food,a1,words,🍞,Food and drink,الطعام والشراب
+9,pets-farm,a1,words,🐄,Pets and farm animals,الحيوانات الأليفة وحيوانات المزرعة
+10,wild-animals,a1,words,🦁,Wild animals,الحيوانات البرية
+11,birds,a1,words,🐦,Birds,الطيور
+12,clothes,a1,words,👕,Clothes,الملابس
+13,school,a1,words,🏫,School,المدرسة
+14,weather,a1,words,🌦️,Weather and seasons,الطقس والفصول
+15,home,a2,words,🏠,House and home,البيت
+16,kitchen,a2,words,🍳,In the kitchen,في المطبخ
+17,sea-insects,a2,words,🐙,Sea animals and insects,حيوانات البحر والحشرات
+18,time,a2,words,📅,Time and calendar,الوقت والتقويم
+19,nature,a2,words,🏞️,Nature,الطبيعة
+20,transport,a2,words,🚌,Transport,المواصلات
+21,city,a2,words,🏙️,In the city,في المدينة
+22,jobs,a2,words,🧑‍🏫,Jobs,المهن
+23,feelings,a2,words,😊,Feelings,المشاعر
+24,verbs,a2,words,🏃,Action words,أفعال مهمة
+25,sports,a2,words,⚽,Sports,الرياضة
+26,music,a2,words,🎵,Music,الموسيقى
+27,toys,a2,words,🧸,Toys and games,الألعاب
+28,crafts,a2,words,🧶,Arts and crafts,الفنون والحِرَف
+29,tools,a2,words,🔨,Tools,الأدوات
+30,technology,a2,words,💻,Technology,التكنولوجيا
+31,doctor,a2,words,🩺,At the doctor,عند الطبيب
+32,daily,b1,phrases,⏰,My day,يومي
+33,meeting,b1,phrases,🤝,Getting to know someone,التعارف
+34,classroom,b1,phrases,✋,In the classroom,في الصف
+35,market,b1,phrases,🛒,At the market,في السوق
+36,travel,b1,phrases,🧭,Travel and directions,السفر والاتجاهات
+37,health,b1,phrases,🏥,Health,الصحة
+38,work,b2,phrases,💼,Work and study,العمل والدراسة
+39,phone,b2,phrases,📞,On the phone,على الهاتف
+40,expressions,b2,phrases,💬,Common expressions,تعابير شائعة
+41,opinions,c1,phrases,🗣️,Opinions and debate,الرأي والنقاش
+42,advanced,c1,words,📚,Advanced vocabulary,مفردات متقدمة

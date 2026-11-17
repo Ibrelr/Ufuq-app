@@ -6,7 +6,7 @@ import { useProgress } from '../lib/progress'
 import { buildQuiz, isListening, starsForScore, type Question } from '../lib/quiz'
 import { useSpeak } from '../lib/useSpeak'
 import { SpeakerIcon, StarIcon } from './Icons'
-import { Pic } from './Pic'
+import { Pic, TopicIcon } from './Pic'
 import { btn, card } from './ui'
 
 export function QuizView({ topic }: { topic: Topic }) {
@@ -111,7 +111,7 @@ function QuestionCard({ topic, question: q, index, total, autoPlay, onAnswered, 
               <SpeakerIcon size={40} />
             </button>
           )}
-          {(q.type === 'native' || q.type === 'pic-text') && <Pic pic={q.item.pic} size="lg" />}
+          {(q.type === 'native' || q.type === 'pic-text') && <Pic item={q.item} size="lg" />}
           {q.type === 'native' && (
             <span lang={native} dir="auto" className="text-[34px] leading-tight font-extrabold">
               {nat(q.item)}
@@ -138,7 +138,7 @@ function QuestionCard({ topic, question: q, index, total, autoPlay, onAnswered, 
                 className={`flex min-h-16 cursor-pointer items-center justify-center gap-2.5 rounded-[18px] border-2 px-4 py-3 text-center text-xl font-extrabold disabled:cursor-default ${cls}`}
               >
                 {picOptions ? (
-                  <Pic pic={o.pic} />
+                  <Pic item={o} />
                 ) : (
                   <span lang={target} dir="auto">
                     {tgt(o)}
@@ -210,7 +210,7 @@ function Result({ topic, score, total, onAgain }: { topic: Topic; score: number;
           </Link>
           {next ? (
             <Link to={`/topic/${next.id}`} className={btn.sun}>
-              {t.nextTopic} <span aria-hidden="true">{next.icon}</span>
+              {t.nextTopic} <TopicIcon icon={next.icon} iconImg={next.iconImg} className="size-7" />
             </Link>
           ) : (
             <Link to="/" className={btn.sun}>

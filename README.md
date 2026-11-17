@@ -26,11 +26,15 @@ Node 20 or newer.
 ## How it is organised
 
 ```
+content/
+  topics.csv               # one row per topic: order, level, type, icon, names
+  words.csv                # one row per word or sentence (the main spreadsheet)
+scripts/
+  build-content.mjs        # CSV → src/content/generated/topics.json + public/pics/*.svg
 src/
   content/
     levels.json            # A1–C1: names and descriptions in both languages
-    topics/NN-<id>.json    # one file per topic; the number sets the order
-    index.ts               # loads every topic file automatically
+    index.ts               # loads the generated topics
   i18n/
     strings.ts             # all interface text, Arabic and English
     LanguageProvider.tsx   # learning direction, html lang/dir (rtl/ltr)
@@ -39,12 +43,15 @@ src/
     useSpeak.tsx           # speech + "no voice on this device" message
     progress.tsx           # stars per topic (localStorage for now)
     quiz.ts                # builds the 8-question quizzes
-  components/              # Layout, WordCard, LearnView, QuizView, …
+  components/              # Layout, WordCard, LearnView, QuizView, Pic, …
   pages/                   # Home, LevelPage, TopicPage, NotFound
 public/
   audio/manifest.json      # list of recorded audio files (empty for now)
   _redirects               # SPA fallback for Netlify / Cloudflare Pages
 ```
+
+`src/content/generated/` and `public/pics/` are generated and not committed.
+`npm run dev` and `npm run build` regenerate them; run `npm run content` by hand after editing the CSV files.
 
 ### Learning direction
 
@@ -52,26 +59,32 @@ public/
 `en2ar`: an English speaker learns Arabic, the interface is English and left-to-right.
 Use logical Tailwind classes (`ms-*`, `ps-*`, `start-*`, `text-start`) so both directions work.
 
-### Adding content
+### Adding content (no coding needed)
 
-Add or edit a file in `src/content/topics/`. Nothing else needs to change.
+All words live in two spreadsheets. Open them in Google Sheets or Excel, edit, and export as **CSV UTF-8** over the old file.
 
-```json
-{
-  "id": "fruits",
-  "level": "a1",
-  "type": "words",
-  "icon": "🍎",
-  "name": { "ar": "الفواكه", "en": "Fruit" },
-  "items": [
-    { "id": "apple", "pic": "🍎", "en": "Apple", "ar": "تفاحة" }
-  ]
-}
-```
+`content/words.csv`
 
-- `type`: `"words"` gives a card grid and picture questions, `"phrases"` gives a list and text questions.
-- `pic`: an emoji, or a hex colour like `"#E5484D"` (shown as a colour circle).
-- `id`: keep it stable; audio files are named after it.
+| topic | id | pic | en | ar |
+|---|---|---|---|---|
+| fruits | | 🍎 | Apple | تفاحة |
+| numbers | | =12 | Twelve | اثنا عشر |
+| colors | | #E5484D | Red | أحمر |
+
+- `topic`: an id from `topics.csv`.
+- `id`: leave empty and it is made from the English word. Fill it in only if two words would get the same id. Audio files are named after it, so don't change it later.
+- `pic`: an emoji (shown as a Fluent Emoji picture), `#RRGGBB` for a colour circle, or `=text` for a text tile (numbers also show Arabic-Indic digits).
+- Sentences with a comma must be in quotes in the CSV (the spreadsheet does this for you).
+
+`content/topics.csv` sets each topic's order, level (`a1`–`c1`), type (`words` or `phrases`), icon and names.
+
+The script stops with a clear message if something is wrong (unknown topic, missing translation, duplicate id) and warns about emojis that have no Fluent picture.
+
+### Pictures
+
+Pictures come from [Microsoft Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (MIT, see `THIRD_PARTY_NOTICES.md`), via `@iconify-json/fluent-emoji-flat`. Only the pictures in use are written to `public/pics/`, and the app caches each one the first time it is shown.
+
+In a quiz, a picture is only used as a question or answer if no other word in the topic has the same picture (days of the week all use 📅, so they are asked in words).
 
 ### Recorded audio (next step)
 
@@ -91,5 +104,6 @@ build command `npm run build`, output folder `dist`. `public/_redirects` sends e
 
 - [ ] Recorded audio for all items (Arabic and English)
 - [ ] PNG app icons (192/512) for older Android launchers
-- [ ] More topics per level
+- [ ] Photos for words that have no emoji (Wikimedia Commons / Pexels, with credits)
+- [ ] Search and saved word lists ("My collections")
 - [ ] Accounts and synced progress (backend)

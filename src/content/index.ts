@@ -1,15 +1,13 @@
 import levelsJson from './levels.json'
+import topicsJson from './generated/topics.json'
 import type { Level, LevelId, Topic } from './types'
 
 export * from './types'
 
 export const LEVELS = levelsJson as Level[]
 
-// Every file in ./topics is picked up automatically. The number prefix sets the order.
-const modules = import.meta.glob<{ default: Topic }>('./topics/*.json', { eager: true })
-export const TOPICS: Topic[] = Object.keys(modules)
-  .sort()
-  .map((key) => modules[key].default)
+// Generated from content/topics.csv and content/words.csv by `npm run content`
+export const TOPICS = topicsJson as Topic[]
 
 export const getLevel = (id: string) => LEVELS.find((l) => l.id === id)
 export const getTopic = (id: string) => TOPICS.find((t) => t.id === id)

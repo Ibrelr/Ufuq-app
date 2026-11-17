@@ -7,8 +7,8 @@
       "en": "Beginner"
     },
     "description": {
-      "ar": "أول الكلمات: تحيات، أرقام، ألوان، فواكه وحيوانات.",
-      "en": "First words: greetings, numbers, colours, fruit and animals."
+      "ar": "أول الكلمات: تحيات، أرقام، ألوان، عائلة، طعام، حيوانات، ملابس ومدرسة.",
+      "en": "First words: greetings, numbers, colours, family, food, animals, clothes and school."
     }
   },
   {
@@ -19,8 +19,8 @@
       "en": "Elementary"
     },
     "description": {
-      "ar": "كلمات الحياة اليومية: البيت، المدرسة، الملابس والطقس.",
-      "en": "Everyday words: home, school, clothes and weather."
+      "ar": "كلمات الحياة اليومية: البيت، المدينة، المهن، الطبيعة، الرياضة، الموسيقى، الأدوات وغيرها.",
+      "en": "Everyday words: home, the city, jobs, nature, sports, music, tools and more."
     }
   },
   {
@@ -31,8 +31,8 @@
       "en": "Intermediate"
     },
     "description": {
-      "ar": "جمل مفيدة: يومي، في السوق، عند الطبيب.",
-      "en": "Useful sentences: my day, at the market, at the doctor."
+      "ar": "جمل مفيدة: يومي، التعارف، الصف، السوق، السفر والصحة.",
+      "en": "Useful sentences: my day, meeting people, the classroom, the market, travel and health."
     }
   },
   {
@@ -43,8 +43,8 @@
       "en": "Upper-intermediate"
     },
     "description": {
-      "ar": "العمل والدراسة وتعابير شائعة.",
-      "en": "Work, study and common expressions."
+      "ar": "العمل والدراسة والمكالمات الهاتفية وتعابير شائعة.",
+      "en": "Work, study, phone calls and common expressions."
     }
   },
   {

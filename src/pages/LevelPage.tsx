@@ -3,6 +3,7 @@ import { getLevel, LEVEL_STYLE, topicsForLevel } from '../content'
 import { useLanguage } from '../i18n/LanguageProvider'
 import { useProgress } from '../lib/progress'
 import { Breadcrumbs } from '../components/Breadcrumbs'
+import { TopicIcon } from '../components/Pic'
 import { Stars } from '../components/Stars'
 import { NotFound } from './NotFound'
 
@@ -29,9 +30,7 @@ export function LevelPage() {
             to={`/topic/${tp.id}`}
             className="flex flex-col items-center gap-1.5 rounded-3xl border-2 border-line bg-surface px-4 py-5.5 text-center text-ink no-underline shadow-[0_4px_0_var(--color-line)] hover:border-primary"
           >
-            <span className="text-[56px] leading-tight" aria-hidden="true">
-              {tp.icon}
-            </span>
+            <TopicIcon icon={tp.icon} iconImg={tp.iconImg} className="size-16" />
             <b className="font-display text-[22px] leading-tight">{name(tp.name)}</b>
             <span className="text-base text-muted" lang={ui === 'ar' ? 'en' : 'ar'}>
               {altName(tp.name)}
